@@ -1,19 +1,14 @@
 ---
 title: Mathe 1
 aliases:
-- Mathematik 1
+  - Mathematik 1
 tags:
-- fb20
-- bachelor
-- pflichtmodul
-- semester-1
-- 9CP
-- klausur
-- robert-haller-dintelmann
-- bachelor-informatik
-- status-vollständig
-description: Grundlagen der Mathematik für Informatiker — Logik, Mengenlehre, algebraische
-  Strukturen, Lineare Algebra und Analysis (Konvergenz).
+  - fb20
+  - bachelor
+  - pflichtmodul
+  - semester-1
+  - 9CP
+description: Grundlagen der Mathematik für Informatiker — Logik, Mengenlehre, algebraische Strukturen, Lineare Algebra und Analysis (Konvergenz).
 ---
 ## Überblick
 

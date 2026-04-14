@@ -1,24 +1,13 @@
 ---
 title: AuPL
 aliases:
-- Aussagen und Prädikatenlogik
+  - Aussagen und Prädikatenlogik
 tags:
-- fb20
-- bachelor
-- pflichtmodul
-- semester-2
-- 5CP
-- klausur
-- bachelor-informatik
-- status-vollständig
-description: ''
+  - fb20
+  - bachelor
+  - pflichtmodul
+  - semester-2
+  - 5CP
+description: ""
 ---
-## Überblick
 
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren

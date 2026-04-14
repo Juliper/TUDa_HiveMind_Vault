@@ -1,24 +1,12 @@
 ---
 title: SPP
 aliases:
-- Systemnahe und parallele Programmierung
+  - Systemnahe und parallele Programmierung
 tags:
-- fb20
-- bachelor
-- pflichtmodul
-- semester-3
-- 5CP
-- klausur
-- bachelor-informatik
-- status-vollständig
-description: ''
+  - fb20
+  - bachelor
+  - pflichtmodul
+  - semester-3
+  - 5CP
+description: ""
 ---
-## Überblick
-
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren

@@ -1,24 +1,13 @@
 ---
 title: RO
 aliases:
-- Rechnerorganisation
+  - Rechnerorganisation
 tags:
-- fb20
-- bachelor
-- pflichtmodul
-- semester-2
-- 5CP
-- klausur
-- bachelor-informatik
-- status-vollständig
-description: ''
+  - fb20
+  - bachelor
+  - pflichtmodul
+  - semester-2
+  - 5CP
+description: ""
 ---
-## Überblick
 
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren

@@ -1,24 +1,13 @@
 ---
 title: BP
 aliases:
-- Bachelor Praktikum
+  - Bachelor Praktikum
 tags:
-- fb20
-- bachelor
-- praktikum
-- semester-5
-- 9CP
-- pflichtmodul
-- bachelor-informatik
-- status-vollständig
-description: ''
+  - fb20
+  - bachelor
+  - semester-5
+  - 9CP
+  - pflichtmodul
+description: ""
 ---
-## Überblick
 
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren

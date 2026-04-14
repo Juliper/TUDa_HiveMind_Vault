@@ -1,24 +1,13 @@
 ---
 title: DT
 aliases:
-- Digitaltechnik
+  - Digitaltechnik
 tags:
-- fb20
-- bachelor
-- pflichtmodul
-- semester-1
-- 5CP
-- klausur
-- bachelor-informatik
-- status-vollständig
-description: ''
+  - fb20
+  - bachelor
+  - pflichtmodul
+  - semester-1
+  - 5CP
+description: ""
 ---
-## Überblick
 
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren
