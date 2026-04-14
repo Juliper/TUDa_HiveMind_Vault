@@ -1,5 +1,5 @@
 ---
-title:
+title: DGS I
 aliases: []
 tags:
   - wahlmodul

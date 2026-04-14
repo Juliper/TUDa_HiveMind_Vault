@@ -1,22 +1,8 @@
 ---
+title:
 aliases: []
 tags:
-- fb20
-- master
-- wahlmodul
-- semester-1
-- 3CP
-- klausur
-- master-informatik
-- status-in-bearbeitung
-description: ''
+  - wahlmodul
+  - 3CP
+description: ""
 ---
-## Überblick
-
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren
