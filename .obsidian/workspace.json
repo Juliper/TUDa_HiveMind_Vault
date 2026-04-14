@@ -11,14 +11,10 @@
             "id": "5821064e4841f187",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FB20/Master/Foundations of Modern Data Systems.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Foundations of Modern Data Systems"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph-Ansicht"
             }
           }
         ]
@@ -196,6 +192,11 @@
   },
   "active": "5821064e4841f187",
   "lastOpenFiles": [
+    "README.md",
+    "README.md.tmp.205785.1776178506979",
+    "README.md.tmp.205785.1776178482981",
+    "FB20/Master/Foundations of Modern Data Systems.md",
+    "_private",
     "FB20/Master/Introduction to Large Language Models.md",
     "FB20/Master/Skalierbare Datenmanagement Systeme.md",
     "FB20/Master/Reinforcement Learning - Von Grundlagen zu den tiefen Ansätzen.md",
@@ -214,14 +215,12 @@
     "Sprachenzentrum/Deutsche Gebärdensprache (DGS) I.md",
     "Sprachenzentrum/Chinesisch I-II.md",
     "FB20/Bachelor/Einführung in den Compilerbau.md",
-    "FB20/Master/Foundations of Modern Data Systems.md",
     "FB20/Master/Data Mining und Maschinelles Lernen.md",
     "FB20/Master/Advanced Data Management Systems.md",
     "Sprachenzentrum/C.md",
     "FB20/Master/Introduction to Quantum Computing.md",
     "FB20/Master/IT-Sicherheit.md",
     "FB20/Master/Ethics for NLP.md",
-    "FB20/Master/Drahtlose Netze zur Krisenbewältigung.md",
     "Sprachenzentrum",
     "FB20/Master",
     "FB20/Bachelor",
