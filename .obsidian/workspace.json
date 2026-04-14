@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FB20/Master/Reinforcement Learning - Von Grundlagen zu den tiefen Ansätzen.md",
+                "file": "FB20/Master/Foundations of Modern Data Systems.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Reinforcement Learning - Von Grundlagen zu den tiefen Ansätzen"
+              "title": "Foundations of Modern Data Systems"
             }
           }
         ]
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 759.5
+    "width": 222.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,8 +196,10 @@
   },
   "active": "5821064e4841f187",
   "lastOpenFiles": [
-    "FB20/Master/Multimodal Artificial Intelligence.md",
     "FB20/Master/Introduction to Large Language Models.md",
+    "FB20/Master/Skalierbare Datenmanagement Systeme.md",
+    "FB20/Master/Reinforcement Learning - Von Grundlagen zu den tiefen Ansätzen.md",
+    "FB20/Master/Multimodal Artificial Intelligence.md",
     "FB20/Master/Human-Computer Interaction.md",
     "FB20/Bachelor/Serious Games Projektseminar.md",
     "FB20/Bachelor/Mathematik 3.md",
@@ -220,8 +222,6 @@
     "FB20/Master/IT-Sicherheit.md",
     "FB20/Master/Ethics for NLP.md",
     "FB20/Master/Drahtlose Netze zur Krisenbewältigung.md",
-    "FB20/Master/UnbenanntReinforcement Learning - Von Grundlagen zu den tiefen Ansätzen 1.md",
-    "FB20/Master/Statistisches Maschinelles Lernen.md",
     "Sprachenzentrum",
     "FB20/Master",
     "FB20/Bachelor",
