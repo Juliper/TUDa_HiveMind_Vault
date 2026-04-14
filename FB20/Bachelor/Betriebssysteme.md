@@ -1,25 +1,17 @@
 ---
-title: Betriebssysteme
 aliases:
-  - "BS"
+- BS
 tags:
-  - fb20
-  - bachelor
-  - pflichtmodul
-  - semester-5
-description: 
-cp: 5
-pruefungsform: Klausur
-modultyp: Pflichtmodul
-wahlbereich: 
-dozent: 
-studiengang: Bachelor Informatik
-semester: 5
-status: vollständig
+- fb20
+- bachelor
+- pflichtmodul
+- semester-5
+- 5CP
+- klausur
+- bachelor-informatik
+- status-vollständig
+description: ''
 ---
-
-# Betriebssysteme
-
 ## Überblick
 
 ## Kerninhalte

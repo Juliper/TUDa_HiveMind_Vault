@@ -1,24 +1,19 @@
 ---
-title: Mathematik 1
 aliases:
-  - "Mathe 1"
+- Mathe 1
 tags:
-  - fb20
-  - bachelor
-  - pflichtmodul
-  - semester-1
-description: Grundlagen der Mathematik für Informatiker — Logik, Mengenlehre, algebraische Strukturen, Lineare Algebra und Analysis (Konvergenz).
-cp: 9
-pruefungsform: Klausur
-modultyp: Pflichtmodul
-wahlbereich: 
-dozent: Robert Haller-Dintelmann
-studiengang: Bachelor Informatik
-semester: 1
-status: vollständig
+- fb20
+- bachelor
+- pflichtmodul
+- semester-1
+- 9CP
+- klausur
+- robert-haller-dintelmann
+- bachelor-informatik
+- status-vollständig
+description: Grundlagen der Mathematik für Informatiker — Logik, Mengenlehre, algebraische
+  Strukturen, Lineare Algebra und Analysis (Konvergenz).
 ---
-# Mathematik 1
-
 ## Überblick
 
 > Mathematik 1 legt die formalen Grundlagen für das Informatikstudium. Die Vorlesung führt in die mathematische Sprache (Logik, Mengen, Beweise) ein, behandelt algebraische Strukturen (Gruppen, Ringe, Körper) mit Anwendung in der Kryptographie, deckt die Lineare Algebra vollständig ab und beginnt die Analysis mit Konvergenz von Folgen.

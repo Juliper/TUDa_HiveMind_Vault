@@ -1,25 +1,17 @@
 ---
-title: Algorithmen und Datenstrukturen
 aliases:
-  - "AuD"
+- AuD
 tags:
-  - fb20
-  - bachelor
-  - pflichtmodul
-  - semester-2
-description: 
-cp: 10
-pruefungsform: Klausur
-modultyp: Pflichtmodul
-wahlbereich: 
-dozent: 
-studiengang: Bachelor Informatik
-semester: 2
-status: vollständig
+- fb20
+- bachelor
+- pflichtmodul
+- semester-2
+- 10CP
+- klausur
+- bachelor-informatik
+- status-vollständig
+description: ''
 ---
-
-# Algorithmen und Datenstrukturen
-
 ## Überblick
 
 ## Kerninhalte

@@ -1,15 +1,14 @@
 ---
-aliases:
-- Mathe 2
+aliases: []
 tags:
 - fb20
-- bachelor
-- pflichtmodul
-- semester-2
-- 9CP
+- master
+- wahlmodul
+- semester-1
+- 3CP
 - klausur
-- bachelor-informatik
-- status-vollständig
+- master-informatik
+- status-in-bearbeitung
 description: ''
 ---
 ## Überblick

@@ -1,25 +1,17 @@
 ---
-title: Digitaltechnik
 aliases:
-  - "DT"
+- DT
 tags:
-  - fb20
-  - bachelor
-  - pflichtmodul
-  - semester-1
-description: 
-cp: 5
-pruefungsform: Klausur
-modultyp: Pflichtmodul
-wahlbereich: 
-dozent: 
-studiengang: Bachelor Informatik
-semester: 1
-status: vollständig
+- fb20
+- bachelor
+- pflichtmodul
+- semester-1
+- 5CP
+- klausur
+- bachelor-informatik
+- status-vollständig
+description: ''
 ---
-
-# Digitaltechnik
-
 ## Überblick
 
 ## Kerninhalte

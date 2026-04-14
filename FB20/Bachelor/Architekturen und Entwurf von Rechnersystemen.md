@@ -1,25 +1,17 @@
 ---
-title: Architekturen und Entwurf von Rechnersystemen
 aliases:
-  - "AER"
+- AER
 tags:
-  - fb20
-  - bachelor
-  - pflichtmodul
-  - semester-3
-description: 
-cp: 5
-pruefungsform: Klausur
-modultyp: Pflichtmodul
-wahlbereich: 
-dozent: 
-studiengang: Bachelor Informatik
-semester: 3
-status: vollständig
+- fb20
+- bachelor
+- pflichtmodul
+- semester-3
+- 5CP
+- klausur
+- bachelor-informatik
+- status-vollständig
+description: ''
 ---
-
-# Architekturen und Entwurf von Rechnersystemen
-
 ## Überblick
 
 ## Kerninhalte

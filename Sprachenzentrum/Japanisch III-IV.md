@@ -1,25 +1,14 @@
 ---
-title: Japanisch III-IV
 aliases:
-  - "Japanisch III/IV"
+- Japanisch III/IV
 tags:
-  - fb20
-  - master
-  - wahlmodul
-  - semester-1
-description: 
-cp: 6
-pruefungsform: Klausur
-modultyp: Wahlmodul
-wahlbereich: 
-dozent: 
-studiengang: Master Informatik
-semester: 1
-status: in-Bearbeitung
+- wahlmodul
+- 6CP
+- klausur
+- semester-1
+- status-in-bearbeitung
+description: ''
 ---
-
-# Japanisch III-IV
-
 ## Überblick
 
 ## Kerninhalte

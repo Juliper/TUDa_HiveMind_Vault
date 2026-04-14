@@ -1,25 +1,17 @@
 ---
-title: Funktionale und objektorientierte Programmierkonzepte
 aliases:
-  - "FoP"
+- FoP
 tags:
-  - fb20
-  - bachelor
-  - pflichtmodul
-  - semester-1
-description: 
-cp: 10
-pruefungsform: Klausur
-modultyp: Pflichtmodul
-wahlbereich: 
-dozent: 
-studiengang: Bachelor Informatik
-semester: 1
-status: vollständig
+- fb20
+- bachelor
+- pflichtmodul
+- semester-1
+- 10CP
+- klausur
+- bachelor-informatik
+- status-vollständig
+description: ''
 ---
-
-# Funktionale und objektorientierte Programmierkonzepte
-
 ## Überblick
 
 ## Kerninhalte

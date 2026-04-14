@@ -1,24 +1,16 @@
 ---
-title: Foundations of Modern Data Systems
 aliases: []
 tags:
-  - fb20
-  - master
-  - pflichtmodul
-  - semester-1
-description: 
-cp: 6
-pruefungsform: Klausur
-modultyp: Pflichtmodul
-wahlbereich: 
-dozent: 
-studiengang: Master Informatik
-semester: 1
-status: in-Bearbeitung
+- fb20
+- master
+- pflichtmodul
+- semester-1
+- 6CP
+- klausur
+- master-informatik
+- status-in-bearbeitung
+description: ''
 ---
-
-# Foundations of Modern Data Systems
-
 ## Überblick
 
 ## Kerninhalte

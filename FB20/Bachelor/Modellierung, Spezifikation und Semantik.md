@@ -1,25 +1,17 @@
 ---
-title: Modellierung, Spezifikation und Semantik
 aliases:
-  - "MoSeS"
+- MoSeS
 tags:
-  - fb20
-  - bachelor
-  - pflichtmodul
-  - semester-3
-description: 
-cp: 5
-pruefungsform: Klausur
-modultyp: Pflichtmodul
-wahlbereich: 
-dozent: 
-studiengang: Bachelor Informatik
-semester: 3
-status: vollständig
+- fb20
+- bachelor
+- pflichtmodul
+- semester-3
+- 5CP
+- klausur
+- bachelor-informatik
+- status-vollständig
+description: ''
 ---
-
-# Modellierung, Spezifikation und Semantik
-
 ## Überblick
 
 ## Kerninhalte

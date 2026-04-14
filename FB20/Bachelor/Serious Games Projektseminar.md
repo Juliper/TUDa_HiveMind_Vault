@@ -1,25 +1,17 @@
 ---
-title: Serious Games Projektseminar
 aliases:
-  - "SG PS"
+- SG PS
 tags:
-  - fb20
-  - bachelor
-  - projekt
-  - semester-6
-description: 
-cp: 9
-pruefungsform: Projekt
-modultyp: Wahlpflichtmodul
-wahlbereich: 
-dozent: 
-studiengang: Bachelor Informatik
-semester: 6
-status: vollständig
+- fb20
+- bachelor
+- projekt
+- semester-6
+- 9CP
+- wahlpflichtmodul
+- bachelor-informatik
+- status-vollständig
+description: ''
 ---
-
-# Serious Games Projektseminar
-
 ## Überblick
 
 ## Kerninhalte

@@ -1,25 +1,17 @@
 ---
-title: Deep Learning für Natural Language Processing
 aliases:
-  - "DL4NLP"
+- DL4NLP
 tags:
-  - fb20
-  - bachelor
-  - wahlpflichtmodul
-  - semester-6
-description: 
-cp: 6
-pruefungsform: Klausur
-modultyp: Wahlpflichtmodul
-wahlbereich: 
-dozent: 
-studiengang: Bachelor Informatik
-semester: 6
-status: vollständig
+- fb20
+- bachelor
+- wahlpflichtmodul
+- semester-6
+- 6CP
+- klausur
+- bachelor-informatik
+- status-vollständig
+description: ''
 ---
-
-# Deep Learning für Natural Language Processing
-
 ## Überblick
 
 ## Kerninhalte

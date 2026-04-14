@@ -1,25 +1,18 @@
 ---
-title: Bachelorarbeit Informatik
 aliases:
-  - "BA"
+- BA
 tags:
-  - fb20
-  - bachelor
-  - abschluss
-  - semester-8
-description: 
-cp: 12
-pruefungsform: Abschlussarbeit
-modultyp: Pflichtmodul
-wahlbereich: 
-dozent: 
-studiengang: Bachelor Informatik
-semester: 8
-status: vollständig
+- fb20
+- bachelor
+- abschluss
+- semester-8
+- 12CP
+- abschlussarbeit
+- pflichtmodul
+- bachelor-informatik
+- status-vollständig
+description: ''
 ---
-
-# Bachelorarbeit Informatik
-
 ## Überblick
 
 ## Kerninhalte

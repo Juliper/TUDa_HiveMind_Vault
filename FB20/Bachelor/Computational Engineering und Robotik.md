@@ -1,25 +1,17 @@
 ---
-title: Computational Engineering und Robotik
 aliases:
-  - "CER"
+- CER
 tags:
-  - fb20
-  - bachelor
-  - wahlpflichtmodul
-  - semester-4
-description: 
-cp: 5
-pruefungsform: Klausur
-modultyp: Wahlpflichtmodul
-wahlbereich: 
-dozent: 
-studiengang: Bachelor Informatik
-semester: 4
-status: vollständig
+- fb20
+- bachelor
+- wahlpflichtmodul
+- semester-4
+- 5CP
+- klausur
+- bachelor-informatik
+- status-vollständig
+description: ''
 ---
-
-# Computational Engineering und Robotik
-
 ## Überblick
 
 ## Kerninhalte
