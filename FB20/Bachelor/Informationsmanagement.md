@@ -1,6 +1,7 @@
 ---
+title: IM
 aliases:
-- IM
+- Informationsmanagement
 tags:
 - fb20
 - bachelor

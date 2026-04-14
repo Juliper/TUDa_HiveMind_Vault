@@ -1,6 +1,7 @@
 ---
+title: Mathe 2
 aliases:
-- Mathe 2
+- Mathematik 2
 tags:
 - fb20
 - bachelor

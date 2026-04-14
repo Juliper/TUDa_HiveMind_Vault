@@ -1,6 +1,7 @@
 ---
+title: SE
 aliases:
-- SE
+- Software Engineering
 tags:
 - fb20
 - bachelor

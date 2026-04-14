@@ -1,6 +1,7 @@
 ---
+title: FMISE
 aliases:
-- FMISE
+- Formale Methoden im Softwareentwurf
 tags:
 - fb20
 - bachelor

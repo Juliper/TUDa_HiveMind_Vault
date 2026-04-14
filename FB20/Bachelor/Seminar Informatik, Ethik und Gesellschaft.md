@@ -1,6 +1,7 @@
 ---
+title: SIEG
 aliases:
-- SIEG
+- Seminar Informatik, Ethik und Gesellschaft
 tags:
 - fb20
 - bachelor

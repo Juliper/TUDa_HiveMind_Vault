@@ -1,6 +1,7 @@
 ---
+title: MoSeS
 aliases:
-- MoSeS
+- Modellierung, Spezifikation und Semantik
 tags:
 - fb20
 - bachelor

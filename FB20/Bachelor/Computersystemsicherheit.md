@@ -1,6 +1,7 @@
 ---
+title: CSS
 aliases:
-- CSS
+- Computersystemsicherheit
 tags:
 - fb20
 - bachelor

@@ -1,6 +1,7 @@
 ---
+title: Japanisch III/IV
 aliases:
-- Japanisch III/IV
+- Japanisch III-IV
 tags:
 - wahlmodul
 - 6CP

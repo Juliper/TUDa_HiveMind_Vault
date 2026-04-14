@@ -1,10 +1,11 @@
 ---
+title: QC
 aliases:
-  - QC
+- Introduction to Quantum Computing
 tags:
-  - fb20
-  - status-leer
-description: ""
+- fb20
+- status-leer
+description: ''
 ---
 https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1999
 ## Überblick

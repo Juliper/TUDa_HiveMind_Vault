@@ -1,6 +1,7 @@
 ---
+title: RO
 aliases:
-- RO
+- Rechnerorganisation
 tags:
 - fb20
 - bachelor

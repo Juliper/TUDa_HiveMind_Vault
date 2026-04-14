@@ -1,10 +1,11 @@
 ---
+title: MAI
 aliases:
-  - MAI
+- Multimodal Artificial Intelligence
 tags:
-  - fb20
-  - status-leer
-description: ""
+- fb20
+- status-leer
+description: ''
 ---
 https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1974
 ## Überblick

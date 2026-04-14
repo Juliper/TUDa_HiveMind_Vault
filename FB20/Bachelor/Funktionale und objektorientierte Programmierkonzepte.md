@@ -1,6 +1,7 @@
 ---
+title: FoP
 aliases:
-- FoP
+- Funktionale und objektorientierte Programmierkonzepte
 tags:
 - fb20
 - bachelor

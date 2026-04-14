@@ -1,10 +1,11 @@
 ---
+title: RL
 aliases:
-  - RL
+- Reinforcement Learning - Von Grundlagen zu den tiefen Ansätzen
 tags:
-  - fb20
-  - status-leer
-description: ""
+- fb20
+- status-leer
+description: ''
 ---
 https://moodle.tu-darmstadt.de/course/view.php?id=46418
 

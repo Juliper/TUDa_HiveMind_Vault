@@ -1,6 +1,7 @@
 ---
+title: SG PS
 aliases:
-- SG PS
+- Serious Games Projektseminar
 tags:
 - fb20
 - bachelor

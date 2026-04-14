@@ -1,6 +1,7 @@
 ---
+title: BS
 aliases:
-- BS
+- Betriebssysteme
 tags:
 - fb20
 - bachelor

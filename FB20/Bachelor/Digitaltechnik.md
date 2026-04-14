@@ -1,6 +1,7 @@
 ---
+title: DT
 aliases:
-- DT
+- Digitaltechnik
 tags:
 - fb20
 - bachelor

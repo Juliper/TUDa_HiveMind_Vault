@@ -1,6 +1,7 @@
 ---
+title: BA
 aliases:
-- BA
+- Bachelorarbeit Informatik
 tags:
 - fb20
 - bachelor

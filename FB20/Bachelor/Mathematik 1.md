@@ -1,6 +1,7 @@
 ---
+title: Mathe 1
 aliases:
-- Mathe 1
+- Mathematik 1
 tags:
 - fb20
 - bachelor

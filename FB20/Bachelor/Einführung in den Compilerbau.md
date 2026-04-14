@@ -1,6 +1,7 @@
 ---
+title: EiC
 aliases:
-- EiC
+- Einführung in den Compilerbau
 tags:
 - fb20
 - bachelor

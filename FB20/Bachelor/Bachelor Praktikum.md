@@ -1,6 +1,7 @@
 ---
+title: BP
 aliases:
-- BP
+- Bachelor Praktikum
 tags:
 - fb20
 - bachelor

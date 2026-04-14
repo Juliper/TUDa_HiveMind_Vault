@@ -1,16 +1,17 @@
 ---
+title: LLM
 aliases:
-  - LLM
+- Introduction to Large Language Models
 tags:
-  - fb20
-  - master
-  - wahlpflichtmodul
-  - semester-1
-  - 6CP
-  - klausur
-  - master-informatik
-  - status-in-bearbeitung
-description: ""
+- fb20
+- master
+- wahlpflichtmodul
+- semester-1
+- 6CP
+- klausur
+- master-informatik
+- status-in-bearbeitung
+description: ''
 ---
 ## Überblick
 

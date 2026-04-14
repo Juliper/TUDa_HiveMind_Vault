@@ -1,6 +1,7 @@
 ---
+title: ADMS
 aliases:
-- ADMS
+- Advanced Data Management Systems
 tags:
 - 6CP
 - FB20

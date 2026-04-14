@@ -1,6 +1,7 @@
 ---
+title: SPP
 aliases:
-- SPP
+- Systemnahe und parallele Programmierung
 tags:
 - fb20
 - bachelor

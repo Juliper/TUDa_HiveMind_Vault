@@ -1,6 +1,7 @@
 ---
+title: CNuvS
 aliases:
-- CNuvS
+- Computer Netzwerke und verteilte Systeme
 tags:
 - fb20
 - bachelor

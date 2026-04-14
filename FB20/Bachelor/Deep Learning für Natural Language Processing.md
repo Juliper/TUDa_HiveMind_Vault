@@ -1,6 +1,7 @@
 ---
+title: DL4NLP
 aliases:
-- DL4NLP
+- Deep Learning für Natural Language Processing
 tags:
 - fb20
 - bachelor

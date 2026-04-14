@@ -1,6 +1,7 @@
 ---
+title: VC
 aliases:
-- VC
+- Visual Computing
 tags:
 - fb20
 - bachelor

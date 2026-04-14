@@ -1,6 +1,7 @@
 ---
+title: AuPL
 aliases:
-- AuPL
+- Aussagen und Prädikatenlogik
 tags:
 - fb20
 - bachelor

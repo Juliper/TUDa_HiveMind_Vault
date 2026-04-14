@@ -1,6 +1,7 @@
 ---
+title: DMML
 aliases:
-- DMML
+- Data Mining und Maschinelles Lernen
 tags:
 - FB20
 - 6CP

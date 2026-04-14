@@ -1,10 +1,11 @@
 ---
+title: E4NLP
 aliases:
-  - E4NLP
+- Ethics for NLP
 tags:
-  - fb20
-  - status-leer
-description: ""
+- fb20
+- status-leer
+description: ''
 ---
 https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1964
 ## Überblick

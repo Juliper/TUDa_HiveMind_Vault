@@ -1,6 +1,7 @@
 ---
+title: Mathe 3
 aliases:
-- Mathe 3
+- Mathematik 3
 tags:
 - fb20
 - bachelor

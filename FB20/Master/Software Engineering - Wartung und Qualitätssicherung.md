@@ -1,6 +1,7 @@
 ---
+title: SEWQ
 aliases:
-- SEWQ
+- Software Engineering - Wartung und Qualitätssicherung
 tags:
 - fb20
 - bachelor

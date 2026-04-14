@@ -1,6 +1,7 @@
 ---
+title: EiKI
 aliases:
-- EiKI
+- Einführung in KI
 tags:
 - fb20
 - bachelor

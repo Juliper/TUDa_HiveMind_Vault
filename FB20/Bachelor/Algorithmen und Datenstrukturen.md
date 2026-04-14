@@ -1,6 +1,7 @@
 ---
+title: AuD
 aliases:
-- AuD
+- Algorithmen und Datenstrukturen
 tags:
 - fb20
 - bachelor

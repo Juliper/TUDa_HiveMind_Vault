@@ -1,6 +1,7 @@
 ---
+title: AfE
 aliases:
-- AfE
+- Automaten, formale Sprachen und Entscheidbarkeit
 tags:
 - fb20
 - bachelor

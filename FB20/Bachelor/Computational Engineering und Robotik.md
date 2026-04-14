@@ -1,6 +1,7 @@
 ---
+title: CER
 aliases:
-- CER
+- Computational Engineering und Robotik
 tags:
 - fb20
 - bachelor

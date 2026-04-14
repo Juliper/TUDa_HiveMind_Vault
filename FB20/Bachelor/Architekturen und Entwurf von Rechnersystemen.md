@@ -1,6 +1,7 @@
 ---
+title: AER
 aliases:
-- AER
+- Architekturen und Entwurf von Rechnersystemen
 tags:
 - fb20
 - bachelor
