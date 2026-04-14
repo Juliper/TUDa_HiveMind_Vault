@@ -1,14 +1,13 @@
 ---
 title: Mitmachen
 ---
-
 Du willst beitragen? Nice! Hier erfährst du wie.
 
 ## Zugang bekommen
 
 **Option 1 — Collaborator werden:** Meld dich einfach bei mir (siehe Kontakt unten) — ich füge dich als Collaborator hinzu und du kannst direkt pushen.
 
-**Option 2 — Fork & Pull Request:** Forke das Repository, mach deine Änderungen und stelle eine PR. Kein Kontakt nötig.
+**Option 2 — Fork & Pull Request:** Forke das Repository, mach deine Änderungen und stelle eine PR.
 
 ## Setup
 
@@ -29,11 +28,8 @@ Du willst beitragen? Nice! Hier erfährst du wie.
    - Links in der Sidebar findest du den Git-Reiter
    - Dort kannst du deine Änderungen committen und pushen
 
-## Webseite
-
-Alle Änderungen werden automatisch auf der Webseite veröffentlicht — [Quartz](https://juliper.github.io/TuDa_HiveMind_Quartz/).
-
-Wenn du bei der technischen Seite (Hosting, Quartz-Config, etc.) mithelfen willst, schau gerne im [Haupt-Repository](https://github.com/Juliper/TuDa_HiveMind_Quartz) vorbei.
+4. **Webseite** 
+   * Alle Änderungen werden nach einen kleinen Verzögerung auf der Webseite veröffentlicht — [Quartz](https://juliper.github.io/TUDa_HiveMind_Quartz/).
 
 ## Kontakt
 

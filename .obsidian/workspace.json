@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FB20/Bachelor/Algorithmen und Datenstrukturen.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorithmen und Datenstrukturen"
+              "title": "README"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "5821064e4841f187",
   "lastOpenFiles": [
-    "FB20/Bachelor/index.md",
     "FB20/Bachelor/Algorithmen und Datenstrukturen.md",
+    "FB20/Bachelor/index.md",
     "FB20/Master/IT-Sicherheit.md",
     "FB20/Master/Introduction to Quantum Computing.md",
     "FB20/Master/Introduction to Large Language Models.md",
