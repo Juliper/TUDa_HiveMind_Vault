@@ -1,5 +1,5 @@
 ---
-title:
+title: English for CS I
 aliases: []
 tags:
   - wahlmodul

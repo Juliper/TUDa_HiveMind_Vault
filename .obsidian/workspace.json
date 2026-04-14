@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sprachenzentrum/Japanisch III-IV.md",
+                "file": "Sprachenzentrum/English for Computer Science I.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Japanisch III-IV"
+              "title": "English for Computer Science I"
             }
           }
         ]
@@ -196,10 +196,10 @@
   },
   "active": "5821064e4841f187",
   "lastOpenFiles": [
+    "Sprachenzentrum/Japanisch III-IV.md",
     "Sprachenzentrum/Japanisch I-II.md",
     "Sprachenzentrum/English for Computer Science I.md",
     "Sprachenzentrum/Deutsche Gebärdensprache I.md",
-    "Sprachenzentrum/Japanisch III-IV.md",
     "Sprachenzentrum/Chinesisch I-II.md",
     "FB20/Bachelor/Algorithmen und Datenstrukturen.md",
     "FB20/Bachelor/Visual Computing.md",
