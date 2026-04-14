@@ -5,33 +5,41 @@ tags:
 description: Übersicht aller Bachelor-Module im Studiengang Informatik an der TU Darmstadt.
 ---
 
-## Module
-
-- [[Algorithmen und Datenstrukturen]]
-- [[Architekturen und Entwurf von Rechnersystemen]]
-- [[Aussagen und Prädikatenlogik]]
-- [[Automaten, formale Sprachen und Entscheidbarkeit]]
-- [[Betriebssysteme]]
-- [[Computational Engineering und Robotik]]
-- [[Computer Netzwerke und verteilte Systeme]]
-- [[Computersystemsicherheit]]
-- [[Deep Learning für Natural Language Processing]]
-- [[Digitaltechnik]]
-- [[Einführung in den Compilerbau]]
-- [[Einführung in KI]]
-- [[Formale Methoden im Softwareentwurf]]
-- [[Funktionale und objektorientierte Programmierkonzepte]]
-- [[Informationsmanagement]]
+# Module
+## 1. Semester
+* [[Funktionale und objektorientierte Programmierkonzepte]]
+* [[Digitaltechnik]]
 - [[Mathematik 1]]
-- [[Mathematik 2]]
-- [[Mathematik 3]]
-- [[Modellierung, Spezifikation und Semantik]]
+- [[Automaten, formale Sprachen und Entscheidbarkeit]]
+
+## 2. Semester
+- [[Algorithmen und Datenstrukturen]]
 - [[Rechnerorganisation]]
-- [[Seminar Informatik, Ethik und Gesellschaft]]
-- [[Serious Games Projektseminar]]
-- [[Software Engineering]]
-- [[Software Engineering - Wartung und Qualitätssicherung]]
-- [[Systemnahe und parallele Programmierung]]
-- [[Visual Computing]]
-- [[Bachelor Praktikum]]
-- [[Bachelorarbeit Informatik]]
+- [[Mathematik 2]]
+- [[Aussagen und Prädikatenlogik]]
+
+## 3. Semester
+* [[Software Engineering]]
+* [[Computersystemsicherheit]]
+* [[Einführung in KI]]
+* [[Probalistische Methode der Informatik]]
+- [[Modellierung, Spezifikation und Semantik]]
+
+## 4. Semester
+- [[Informationsmanagement]]
+- [[Computer Netzwerke und verteilte Systeme]]
+
+## 5. Semester
+* [[Systemnahe und parallele Programmierung]]
+* [[Informatik und Gesellschaft]]
+* [[Einführung in wissenschaftliches Arbeiten]]
+
+## Wahlbereich
+* [[Deep Learning für Natural Language Processing]]
+* [[Visual Computing]]
+* [[Computational Engineering und Robotik]]
+* [[Formale Methoden im Softwareentwurf]]
+* [[Einführung in den Compilerbau]]
+* [[Architekturen und Entwurf von Rechnersystemen]]
+* [[Betriebssysteme]]
+* [[Mathematik 3]]
