@@ -1,3 +1,3 @@
 ---
-title: Willkommen im FB20
+title: FB20
 ---
