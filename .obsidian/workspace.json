@@ -11,14 +11,14 @@
             "id": "5821064e4841f187",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "FB20/Bachelor/index.md",
-                "mode": "source",
-                "source": false
+                "aFile": "_templates/Modul Template.md",
+                "bFile": "_templates/Modul Template.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "diff",
+              "title": "Diff: Modul Template  (Working Tree)"
             }
           }
         ]
@@ -196,10 +196,15 @@
   },
   "active": "5821064e4841f187",
   "lastOpenFiles": [
+    "_templates/Notiz Template.md",
+    "_templates/Modul Template.md",
+    "Sprachenzentrum/Deutsche Gebärdensprache I.md",
+    "index.md",
+    "README.md",
+    "FB20/Bachelor/index.md",
     "Sprachenzentrum/English for Computer Science I.md",
     "Sprachenzentrum/Japanisch III-IV.md",
     "Sprachenzentrum/Japanisch I-II.md",
-    "Sprachenzentrum/Deutsche Gebärdensprache I.md",
     "Sprachenzentrum/Chinesisch I-II.md",
     "FB20/Bachelor/Algorithmen und Datenstrukturen.md",
     "FB20/Bachelor/Visual Computing.md",
@@ -213,15 +218,10 @@
     "FB20/Bachelor/Mathematik 2.md",
     "FB20/Bachelor/Mathematik 1.md",
     "FB20/Bachelor/Informationsmanagement.md",
-    "FB20/Bachelor/index.md",
     "FB20/Bachelor/Funktionale und objektorientierte Programmierkonzepte.md",
     "FB20/Bachelor/Formale Methoden im Softwareentwurf.md",
     "FB20/Bachelor/Einführung in KI.md",
     "FB20/Bachelor/Einführung in den Compilerbau.md",
-    "FB20/Bachelor/Digitaltechnik.md",
-    "FB20/Bachelor/Deep Learning für Natural Language Processing.md",
-    "FB20/Bachelor/Computersystemsicherheit.md",
-    "FB20/Bachelor/Computer Netzwerke und verteilte Systeme.md",
     "FB20/Master/index.md.tmp.205785.1776179412471",
     "FB20/Bachelor/index.md.tmp.205785.1776179411332",
     "README.md.tmp.205785.1776178506979",
