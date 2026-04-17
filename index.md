@@ -12,3 +12,16 @@ Das Ziel ist es, das kollektive Wissen unseres Studiengangs an einem Ort zu bün
 ## Wie, Wo, Was?
 
 Um die vorhandenen Notizen zu erkunden benutze entweder die Navigationsleiste am linken Rand oder den Graphview in der oberen rechten Ecke.
+
+```
+       _____
+      /     \
+      vvvvvvv  /|__/|
+         I   /O,O   |
+         I /_____   |      /|/|
+        J|/^ ^ ^ \  |    /00  |    _//|
+         |^ ^ ^ ^ |W|   |/^^\ |   /oo |
+          \m___m__|_|    \m_m_|   \mm_|
+
+							--- Duke Lee
+```
