@@ -1,21 +1,10 @@
 ---
 title: ITS
 aliases:
-- IT-Sicherheit
+  - IT-Sicherheit
 tags:
-- fb20
-- status-leer
-description: ''
+  - fb20
+description: ""
 ---
-https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1994
-## Überblick
-
-
-
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren
+## 1. Vorlesung
+[[Major Cyberattacks]]

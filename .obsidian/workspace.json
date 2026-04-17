@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7c0c3d5e61a36b03",
+        "id": "1860b801560cc67d",
         "type": "tabs",
         "children": [
           {
-            "id": "5821064e4841f187",
+            "id": "ebdfd9ec8cdcedd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Notiz Template 1.md",
+                "file": "1_FB20/Master/IT-Sicherheit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notiz Template 1"
+              "title": "IT-Sicherheit"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 293.5
   },
   "right": {
     "id": "5b6fa33b0984f5e3",
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 229.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +194,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5821064e4841f187",
+  "active": "ebdfd9ec8cdcedd3",
   "lastOpenFiles": [
+    "index.md",
+    "README.md",
+    "1_FB20/Master/IT-Sicherheit.md",
+    "Topics/Major Cyberattacks.md",
+    "Notes/NFS Buffer Overflow.md",
+    "Topics/Major Cyberattacks.md.tmp.29492.1776424071582",
+    "Notes/XZ Utils Attack.md",
+    "Notes/WannaCry.md",
+    "Notes/NotPetya.md",
+    "Notes/Notiz Template 1.md",
+    "_templates/Notiz Template.md",
+    "_templates/Modul Template.md",
+    "Notize.md",
+    "().md",
+    "Notes.md",
+    "Notes/XZ Utils Attack.md.tmp.29492.1776423323076",
+    "Notes/WannaCry.md.tmp.29492.1776423312632",
+    "Notes/NotPetya.md.tmp.29492.1776423304502",
+    "Notes/NFS Buffer Overflow.md.tmp.29492.1776423295215",
+    "Notes/NFS Buffer Overflow.md.tmp.29492.1776423291735",
+    "2_Sprachenzentrum/index.md",
+    "1_FB20/index.md",
+    "Notes/NFS Buffer Overflow.md.tmp.29492.1776423037274",
+    "Notes/XZ Utils Attack.md.tmp.29492.1776423019399",
+    "Notes/WannaCry.md.tmp.29492.1776423002621",
+    "Notes/NotPetya.md.tmp.29492.1776422992419",
+    "CLAUDE.md",
     "1_FB20/Master/Foundations of Modern Data Systems.md",
     "1_FB20/Master/Ethics for NLP.md",
     "1_FB20/Master/Human-Computer Interaction.md",
@@ -204,33 +231,6 @@
     "1_FB20/Master/Advanced Data Management Systems.md",
     "1_FB20/Master/Software Engineering - Wartung und Qualitätssicherung.md",
     "1_FB20/Master/Statistisches Maschinelles Lernen.md",
-    "1_FB20/Master/Skalierbare Datenmanagement Systeme.md",
-    "1_FB20/Master/Reinforcement Learning - Von Grundlagen zu den tiefen Ansätzen.md",
-    "1_FB20/Master/Multimodal Artificial Intelligence.md",
-    "1_FB20/Master/IT-Sicherheit.md",
-    "1_FB20/Master/Introduction to Quantum Computing.md",
-    "1_FB20/Master/Introduction to Large Language Models.md",
-    "1_FB20/Master/index.md",
-    "Notes/Notiz Template 1.md",
-    "_templates/Notiz Template.md",
-    "Topics",
-    "Notes",
-    "_templates/Modul Template.md",
-    "2_Sprachenzentrum/Deutsche Gebärdensprache I.md",
-    "index.md",
-    "README.md",
-    "1_FB20/Bachelor/index.md",
-    "2_Sprachenzentrum/English for Computer Science I.md",
-    "2_Sprachenzentrum/Japanisch III-IV.md",
-    "2_Sprachenzentrum/Japanisch I-II.md",
-    "2_Sprachenzentrum/Chinesisch I-II.md",
-    "FB20/Master/index.md.tmp.205785.1776179412471",
-    "FB20/Bachelor/index.md.tmp.205785.1776179411332",
-    "README.md.tmp.205785.1776178506979",
-    "README.md.tmp.205785.1776178482981",
-    "_private",
-    "2_Sprachenzentrum",
-    "1_FB20/Master",
-    "1_FB20/Bachelor"
+    "1_FB20/Master/Skalierbare Datenmanagement Systeme.md"
   ]
 }
