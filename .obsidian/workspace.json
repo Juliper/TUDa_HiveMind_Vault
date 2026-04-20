@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Maschine Learning.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maschine Learning"
+              "title": "README"
             }
           }
         ]
@@ -197,6 +197,7 @@
   "active": "ebdfd9ec8cdcedd3",
   "lastOpenFiles": [
     "index.md",
+    "2_Sprachenzentrum/Chinesisch I-II.md",
     "Notes/Maschine Learning.md",
     "_templates/Notiz Template.md",
     "Notes/Multilayer Perceptron.md",
@@ -224,7 +225,6 @@
     "Topics/Major Cyberattacks.md.tmp.29492.1776424071582",
     "Notes/XZ Utils Attack.md",
     "Notes/WannaCry.md",
-    "Notes/NotPetya.md",
     "Notes/XZ Utils Attack.md.tmp.29492.1776423323076",
     "Notes/WannaCry.md.tmp.29492.1776423312632",
     "Notes/NotPetya.md.tmp.29492.1776423304502",

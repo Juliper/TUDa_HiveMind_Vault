@@ -9,6 +9,7 @@ Du willst beitragen? Nice! Hier erfährst du wie.
 
 **Option 2 — Fork & Pull Request:** Forke das Repository, mach deine Änderungen und stelle eine PR.
 
+---
 ## Setup
 
 1. **Repository clonen**
@@ -30,16 +31,31 @@ Du willst beitragen? Nice! Hier erfährst du wie.
 
 4. **Webseite** 
    * Alle Änderungen werden nach einen kleinen Verzögerung auf der Webseite veröffentlicht — [Quartz](https://juliper.github.io/TUDa_HiveMind_Quartz/).
+
+---
 ## Struktur
+Die Grundidee von HiveMind ist es, die Grenzen zwischen Modulen aufzureißen und so intermodulares Lernen zu ermöglichen, mit dem Ziel, tief verwurzeltes Verständnis von Themen zu fördern.
+
 Die Grundidee von Hive Mind ist es die grenzen zwischen Modulen aufzureisen und somit intermodul Lernen zu ermoeglichen um tief verwurzeltes Verstaendnis von Themen zu foerdern.
 
-Daher hat das Projekt aktuell folgende Struktur:
+Der Vault ist dabei hierarchisch aufgebaut, von grob nach fein:
+```
+Fachbereich (z.B. Informatik, Mathematik)
+└── Studiengang (z.B. B.Sc. Informatik)
+    └── Modul-Notiz (z.B. Mathe 1)
+        └── Atomic Notes (einzelne Konzepte)
+```
 
-Alles beginnt bei einer atomic note, welche versucht moeglichst kurz ein Konzept zu erklaeren. Die Notize kann beliebig andere Notizen oder Themen (diese werden noch spaeter erklaert) verweisen. Die Atomic Notes leben wie bei einem Zettelkasten wahrlos im Notes Ordner. Die Notizen selbst werden ueber eigene Tags und MOC organisiert. Eine [Beispiel Notiz](Notiz Template) liegt im Tmeplate Ordner.
+### Atomic Notes (`/Notes`)
+Alles beginnt bei einer **Atomic Note** — eine kurze, präzise Erklärung eines einzelnen Konzepts. Sie kann beliebig auf andere Notizen oder Topics verweisen. Atomic Notes leben wie in einem Zettelkasten frei im `Notes`-Ordner und werden über Tags und MOCs organisiert. Ein Beispiel-Template findest du im `Templates`-Ordner.
 
-Diese Atomic Notes werden (optional) ueber MoCs im Topics Ordner organisert. Atomic Notes mit dem selben Themenschwerpunkt werden dort zusammengefuehrt fue das einfach verstaendniss. Eine Beispiel ist auch wider in tempaltes zu finden.
+### Topics / MOCs (`/Topics`)
+Atomic Notes mit demselben Themenschwerpunkt werden optional in **Maps of Content (MOCs)** im `Topics`-Ordner zusammengeführt. Das erleichtert den Überblick und gruppiert verwandte Konzepte. Ein Beispiel-Template liegt ebenfalls in `Templates`.
 
-Am Ende steht dann die eigentliche Notiz zu einer Vorlesung. In dieser werden entweder auf bereits vorhandene Topics oder Atomic notes verlinkt oder es werden neue angelegt und auf diese verlinkt. Dadruch sparen wir uns eine menge arbeite, da wenn jemand schon tolle notizen fier Reihen erstellt hat und diese in MAthe 1 und Mathe 2 relevant sind, kann mein einfach auf die bestehende notiz verlinken und verringert sommit redudnaz
+### Modul-Notizen
+Am Ende steht die eigentliche Notiz zu einer Vorlesung oder einem Modul. Sie verlinkt auf bereits vorhandene Topics oder Atomic Notes — oder legt neue an und verweist auf diese. Das reduziert Redundanz: Hat jemand z.B. tolle Notizen zu Reihen erstellt, können diese sowohl in Mathe 1 als auch Mathe 2 einfach verlinkt werden, statt alles doppelt zu schreiben.
+
+---
 ## Kontakt
 
 - **Discord:** [Juliper](https://discord.com/users/266008516324491275)
