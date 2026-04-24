@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "2_Sprachenzentrum/Chinesisch I-II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Chinesisch I-II"
             }
           }
         ]
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,6 +197,7 @@
   },
   "active": "ebdfd9ec8cdcedd3",
   "lastOpenFiles": [
+    "README.md",
     "index.md",
     "2_Sprachenzentrum/Chinesisch I-II.md",
     "Notes/Maschine Learning.md",
@@ -207,7 +209,6 @@
     "Notes/Reinforcement Learning.md",
     "Notes/Perzeptron.md.tmp.88668.1776433457025",
     "Notes/Unbenannt.md",
-    "README.md",
     "Notes/NFS Buffer Overflow.md",
     "1_FB20/Bachelor/index.md",
     "1_FB20/index.md",
