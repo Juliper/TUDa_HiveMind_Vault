@@ -1,0 +1,29 @@
+diff --git a/.gitignore b/.gitignore
+index 000000..000000 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,0 +1,24 @@
++<<<<<<< HEAD
++# OS-Dateien
++.DS_Store
++Thumbs.db
++._*
++
++# Obsidian – gerätespezifisch (IMMER ignorieren)
++.obsidian/workspace.json
++.obsidian/workspace-mobile.json
++.obsidian/cache
++.obsidian/updates.json
++
++# Plugin-Caches
++.obsidian/plugins/*/cache/
++.obsidian/plugins/*/.cache/
++.obsidian/plugins/*/node_modules/
++
++# Obsidian Papierkorb
++.trash/
++=======
++**/.obsidian/workspace.json
++**/.obsidian/graph.json
++**/.obsidian/appearance.json
++>>>>>>> origin/main
