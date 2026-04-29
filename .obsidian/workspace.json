@@ -15,13 +15,42 @@
               "state": {
                 "file": "2_Sprachenzentrum/Chinesisch I-II.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Chinesisch I-II"
             }
+          },
+          {
+            "id": "3c0dbd466bd9f1b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2_Sprachenzentrum/Chinesisch I-II.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Chinesisch I-II"
+            }
+          },
+          {
+            "id": "63dbd4523f88daa1",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore  (Working Tree)"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 293.5
   },
   "right": {
     "id": "5b6fa33b0984f5e3",
@@ -181,7 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 420.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,11 +223,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ebdfd9ec8cdcedd3",
+  "active": "63dbd4523f88daa1",
   "lastOpenFiles": [
+    "2_Sprachenzentrum/Chinesisch I-II.md",
+    "conflict-files-obsidian-git.md",
     "README.md",
     "index.md",
-    "2_Sprachenzentrum/Chinesisch I-II.md",
     "Notes/Maschine Learning.md",
     "_templates/Notiz Template.md",
     "Notes/Multilayer Perceptron.md",
@@ -225,7 +254,6 @@
     "Topics/Major Cyberattacks.md",
     "Topics/Major Cyberattacks.md.tmp.29492.1776424071582",
     "Notes/XZ Utils Attack.md",
-    "Notes/WannaCry.md",
     "Notes/XZ Utils Attack.md.tmp.29492.1776423323076",
     "Notes/WannaCry.md.tmp.29492.1776423312632",
     "Notes/NotPetya.md.tmp.29492.1776423304502",
