@@ -1,0 +1,18 @@
+# OS-Dateien
+.DS_Store
+Thumbs.db
+._*
+
+# Obsidian – gerätespezifisch (IMMER ignorieren)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/updates.json
+
+# Plugin-Caches
+.obsidian/plugins/*/cache/
+.obsidian/plugins/*/.cache/
+.obsidian/plugins/*/node_modules/
+
+# Obsidian Papierkorb
+.trash/
