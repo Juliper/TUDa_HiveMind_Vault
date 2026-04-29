@@ -6,7 +6,6 @@ tags:
   - 3CP
 description: ""
 ---
-<<<<<<< HEAD
 ## TODO
 * Auslaute, Anlaute
 * yan -> yen
@@ -73,7 +72,6 @@ Chinesisch
 └── Pinghua (平话 Pínghuà)
 ```
 
->>>>>>> origin/main
 Besteht aus:
 ```
 Lautumschrift = Pinyin (拼音 Pīnyīn)
