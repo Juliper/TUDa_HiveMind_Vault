@@ -56,6 +56,17 @@ Atomic Notes mit demselben Themenschwerpunkt werden optional in **Maps of Conten
 Am Ende steht die eigentliche Notiz zu einer Vorlesung oder einem Modul. Sie verlinkt auf bereits vorhandene Topics oder Atomic Notes — oder legt neue an und verweist auf diese. Das reduziert Redundanz: Hat jemand z.B. tolle Notizen zu Reihen erstellt, können diese sowohl in Mathe 1 als auch Mathe 2 einfach verlinkt werden, statt alles doppelt zu schreiben.
 
 ---
+## TODO / Roadmap
+
+Offene Verbesserungspunkte für die Vault-Struktur — Beiträge willkommen:
+
+- [ ] **`Notes/` strukturieren bevor es unhandhabbar wird** — Subfolders nach grobem Themengebiet (`Notes/cybersecurity/`, `Notes/ml/`, `Notes/math/` …) oder strenge Tag-Disziplin etablieren. Bei 200+ Notes wird flach chaotisch.
+- [ ] **Kriterium für Topics vs. Atomic Notes schärfen** — Vorschlag: MOC = nur Übersicht/Listen, keine eigenständige Erklärung. Sobald eine Note erklärenden Text hat, ist sie eine Atomic Note (auch wenn sie verlinkt).
+- [ ] **Modul-Template um topische Sektion erweitern** — Aktuell organisieren manche Modul-Notizen chronologisch ("Vorlesung 1, 2, ..."). Eine zusätzliche topische Übersicht ("Konzepte nach Thema") macht den HiveMind-Mehrwert sichtbar: welche Konzepte tauchen modulübergreifend auf.
+- [ ] **Frontmatter-Validierung automatisieren** — Pre-Commit-Hook oder GitHub Action, die `title`, `tags` und `description` als Pflichtfelder enforced. Verhindert "leere Felder"-Drift bei mehreren Mitwirkenden und sichert Quartz-Features (Hover-Preview, Suche).
+- [ ] **Konventionen-Dokument anlegen** — kurze `CONTRIBUTING.md` mit Naming-Regeln, Tag-Vokabular (englisch, lowercase, Bindestriche) und wann `draft: true` statt published.
+
+---
 ## Kontakt
 
 - **Discord:** [Juliper](https://discord.com/users/266008516324491275)
