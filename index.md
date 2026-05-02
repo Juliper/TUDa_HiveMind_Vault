@@ -1,5 +1,7 @@
 ---
-title: Willkommen bei Hive Mind
+title: Wilkommen bei Hive Mind
+socialDescription: Die Wissensdatenbank von und für Studierende
+socialImage: /_assets/tuda_logo_RGB.svg
 ---
 
 Hive Mind dient als zentrale Wissensdatenbank für unsere Vorlesungsnotizen. 
