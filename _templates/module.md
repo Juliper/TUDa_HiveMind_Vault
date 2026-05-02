@@ -3,7 +3,7 @@ title:
 aliases: []
 tags:
 description: ""
-draft: true
+draft: false
 ---
 ## Frontmatter
 * title := Der Titel der auf Quartz angezeigt wird (wenn leer dann Dateiname)
