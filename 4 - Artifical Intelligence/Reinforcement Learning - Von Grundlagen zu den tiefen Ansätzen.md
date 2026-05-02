@@ -1,5 +1,5 @@
 ---
-title: RL - Reinforcement Learning: From Foundations to Deep Approaches
+title: RL
 aliases:
   - Reinforcement Learning - Von Grundlagen zu den tiefen Ansätzen
   - RL TUDa
