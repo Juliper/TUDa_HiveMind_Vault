@@ -9,6 +9,9 @@ description: ""
 ## TODO
 * Auslaute, Anlaute
 * yan -> yen
+* zi, ci, si -> i nicht aussprechen
+* yu -> ü
+* buch seite 10ü
 ## Phrasen:
 wǒ hěn gāo
 wǒ yǒu gǒu = Ich habe einen Hund
