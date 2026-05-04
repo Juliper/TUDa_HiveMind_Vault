@@ -8,6 +8,10 @@ tags:
   - master
 description: "IT Security lecture, TU Darmstadt - FB20 Master"
 ---
+## Notes
+ * Lecture 2 Sec-Lab-1-Hint
+* DNS Zones Sec-Lab-2-Hint
+* RR Lecture 4 -relevant für lecture und exam
 
 ## Lecture 1
 [[Major Cyberattacks]]
@@ -47,3 +51,8 @@ description: "IT Security lecture, TU Darmstadt - FB20 Master"
 - [[IP Addressing]]: IPv4/IPv6, classful (outdated) and CIDR notation, IANA/RIRs, private ranges
 - [[Network Address Translation]]: Static, Dynamic, PAT, NAT64; benefits and limitations
 - [[NAT Slipstreaming]]: attack bypassing NAT via JavaScript and ALG abuse; v1 (single victim) and v2 (any internal device via H.323)
+
+## Lecture 4 - DNS Security
+
+### DNS Fundamentals
+- [[Domain Name System]]: globally distributed hierarchical database; client-server over UDP/53; FQDN; domain/subdomain/zone distinction; root servers (13 logical, 600+ physical); authoritative nameservers vs. resolvers; Resource Records (A, AAAA, CNAME, MX, NS, SOA, TXT); zone files ($TTL, $ORIGIN, SOA fields, wildcards); DNSSEC record types (DNSKEY, DS, RRSIG)
