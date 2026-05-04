@@ -8,6 +8,7 @@ tags:
   - reinforcement-learning
   - machine-learning
 description: "Module notes for the TU Darmstadt RL lecture by G. Chalvatzaki (Summer Term 2026). Covers MDPs, value functions, Bellman equations, and dynamic programming."
+draft: true
 ---
 
 https://moodle.tu-darmstadt.de/course/view.php?id=46418
@@ -254,3 +255,8 @@ At convergence: $\pi^* \leftrightarrow V^*$.
 - But the state space often grows **exponentially** with the number of state variables - **curse of dimensionality**;
 - Classical DP is practical up to a few million states;
 - **Asynchronous DP** can handle larger problems and is suited for parallel computation.
+
+
+---
+
+## Lecture 4

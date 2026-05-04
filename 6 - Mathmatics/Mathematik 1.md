@@ -9,6 +9,7 @@ tags:
   - semester-1
   - 9CP
 description: Grundlagen der Mathematik für Informatiker — Logik, Mengenlehre, algebraische Strukturen, Lineare Algebra und Analysis (Konvergenz).
+draft: true
 ---
 ## Überblick
 

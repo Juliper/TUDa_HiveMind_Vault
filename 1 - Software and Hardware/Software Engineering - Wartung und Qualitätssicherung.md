@@ -12,13 +12,5 @@ tags:
 - bachelor-informatik
 - status-vollständig
 description: ''
+draft: true
 ---
-## Überblick
-
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren
