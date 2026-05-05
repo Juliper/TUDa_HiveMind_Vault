@@ -3,84 +3,32 @@ title:
 aliases: []
 tags:
   - wahlmodul
-  - 3CP
+  - 6CP
 description: ""
-draft: true
+draft: false
 ---
-## TODO
-* Auslaute, Anlaute
-* yan -> yen
-* zi, ci, si -> i nicht aussprechen
-* yu -> ü
-* buch seite 10ü
-## Phrasen:
-wǒ hěn gāo
-wǒ yǒu gǒu = Ich habe einen Hund
-wǒ kàn shū = Ich lese ein Buch
-wǒ hē kāfēi = Ich trinke einen Kaffee
-tā àihào kànshū = Ich lese gerne ein Buch
-wǒ pǎo le = Ich bin weggelaufen
-wǒ bǎo le = Ich bin satt
-tài hǎo le！= Sehr gut
-dài lài le = Hab mitgebracht
-wǒ kāi mén = Tür geöffnet
-wǒ hěn máng = ich bin beschäftigt
-wǒ wèn nǐ = ich frage dich
-wǒ bìng le = Ich bin krank
-wǒ dìng shū = Ich habe ein Buch bestellt
+# Syllabus
 
+| Moodle       | [Link](https://moodle.tu-darmstadt.de/course/view.php?id=47565) |
+| ------------ | --------------------------------------------------------------- |
+| Dozent       | M. A. Jingping Wang-Karabowicz                                  |
+| Prüfungsform | Zwischenklausur + Abschlussklausur + Mündliche Teilnahme        |
 
+> [!NOTE] Hinweis
+> Da der Kurs zwei Termine pro Woche hat, sind insgesamt vier Fehltage erlaubt. Ansonsten gilt Anwesenheitspflicht.
 
+---
+# TODO
+* Hausaufgabe in Moodle abgeben bis 24Uhr 5.5.26
 
-## Vokabeln
-* Mund
-* Oben
-* Unten
-* Mitte
-* Mensch
-* Groß
-* Himmer
+---
 
-pinyin
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Map_of_sinitic_languages_full-de.svg/1920px-Map_of_sinitic_languages_full-de.svg.png">
-```
-Chinesisch
-│
-├── Mandarin (官话 Guānhuà)
-├── Wu (吴方言 Wú fāngyán)
-├── Kantonesisch (粤语 Yuèyǔ)
-├── Min (闽方言 Mǐn fāngyán)
-├── Jin (晋语 Jīnyǔ)
-├── Xiang (湘方言 Xiāng fāngyán)
-├── Hakka (客家话 Kèjiā huà)
-├── Gan (赣方言 Gàn fāngyán)
-├── Hui (徽方言 Huī fāngyán)
-└── Pinghua (平话 Pínghuà)
-```
-
-=======
-pinyin
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Map_of_sinitic_languages_full-de.svg/1920px-Map_of_sinitic_languages_full-de.svg.png">
-```
-Chinesisch
-│
-├── Mandarin (官话 Guānhuà)
-├── Wu (吴方言 Wú fāngyán)
-├── Kantonesisch (粤语 Yuèyǔ)
-├── Min (闽方言 Mǐn fāngyán)
-├── Jin (晋语 Jīnyǔ)
-├── Xiang (湘方言 Xiāng fāngyán)
-├── Hakka (客家话 Kèjiā huà)
-├── Gan (赣方言 Gàn fāngyán)
-├── Hui (徽方言 Huī fāngyán)
-└── Pinghua (平话 Pínghuà)
-```
-
-Besteht aus:
-```
-Lautumschrift = Pinyin (拼音 Pīnyīn)
-Zeichensystem = Hànzì (汉字)
-```
+# Basics
+* [[Chinesische Sprachen]]
+* [[拼音 Pīnyīn (Lautumschrift)]]
+* [[汉字 Hànzì (Zeichensystem)]]
+* [[Chinesische Zahlen]]
+* [[Chinesische Phrasen]]
 
 
 ## Lautumschrift
