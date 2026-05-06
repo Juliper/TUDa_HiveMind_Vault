@@ -1,14 +1,9 @@
 ---
 title: Honeypot
 aliases:
-  - Honeypots
 tags:
-  - cybersecurity
-  - network-security
-  - threat-intelligence
-description: "Decoy system designed to lure adversaries into exposing themselves by attacking it."
+description: Decoy system designed to lure adversaries into exposing themselves by attacking it.
 ---
-
 A **Honeypot** is a decoy system whose purpose is to lure adversaries to expose themselves by attacking it.
 
 ## Properties
@@ -44,12 +39,11 @@ A **Honeypot** is a decoy system whose purpose is to lure adversaries to expose 
 
 ## AI-Powered Honeypots
 
-A major issue for traditional honeypots is lack of realism. Tools like Cowrie cannot properly emulate complex commands (e.g. `wget`).
+A major issue for traditional honeypots is lack of realism.
 
 GenAI/LLMs enable honeypots with maximally realistic behavior at relatively low cost:
 
 - LLMs are great at pattern matching and reusing context: adversary sends a command, the LLM generates the appropriate response
-- Example research: shelLM (Sladic et al., 2024) uses LLMs as shell-based honeypots
 
 ## Related Concepts
 

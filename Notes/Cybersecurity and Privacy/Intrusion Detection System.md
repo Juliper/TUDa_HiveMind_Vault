@@ -1,14 +1,8 @@
 ---
 title: Intrusion Detection System
 aliases:
-  - IDS
-  - IPS
-  - Intrusion Prevention System
-  - NGFW
 tags:
-  - cybersecurity
-  - network-security
-description: "Systems that monitor (IDS) or actively block (IPS) malicious network traffic; combined with firewalls in NGFWs."
+description: Systems that monitor (IDS) or actively block (IPS) malicious network traffic; combined with firewalls in NGFWs.
 ---
 
 ## Intrusion Detection System (IDS)
@@ -35,16 +29,6 @@ An **IPS** actively analyzes network traffic in real-time and takes preventative
 | Action | Detect and alert | Block and alert |
 | Latency | None | Some |
 | Risk on failure | Misses attacks | Drops legitimate traffic |
-
-## Next Generation Firewall (NGFW)
-
-Modern firewall solutions can offer all-in-one functionality, integrating:
-
-- [[Firewall|Stateful firewall]]
-- IDS
-- IPS
-
-This collapses the traditional layered architecture (firewall + IDS + IPS) into a single appliance.
 
 ## Related Concepts
 

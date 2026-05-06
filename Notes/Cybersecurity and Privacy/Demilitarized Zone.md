@@ -3,9 +3,7 @@ title: Demilitarized Zone
 aliases:
   - DMZ
 tags:
-  - cybersecurity
-  - network-security
-description: "Subnetwork that protects an organization's intranet from untrusted external networks."
+description: Subnetwork that protects an organization's intranet from untrusted external networks.
 ---
 
 A **Demilitarized Zone (DMZ)** is a subnetwork that protects an organization's intranet from untrusted external networks.
@@ -20,26 +18,12 @@ A **Demilitarized Zone (DMZ)** is a subnetwork that protects an organization's i
 - One firewall with multiple network interfaces
 - Handles all traffic (Internet, DMZ, internal)
 - Single point of failure
-
-```
-Enterprise LAN -- WAF/Firewall -- Internet
-                       |
-                      DMZ
-```
-
 ### Dual Firewall Architecture
 
 - Two firewalls create an isolated DMZ segment between them
 - DMZ network hosts client-facing services exposed to the Internet
 - Multi-layered defense for internal networks
 - Enhanced traffic monitoring
-
-```
-Enterprise LAN -- Firewall -- DMZ -- WAF/Firewall -- Internet
-                              ^
-                     Web/Mail/Proxy Servers
-```
-
 ## Advantages
 
 - Multi-layered access control

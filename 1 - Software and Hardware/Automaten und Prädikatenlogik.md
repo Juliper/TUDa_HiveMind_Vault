@@ -1,26 +1,22 @@
 ---
 title: AuPL
 aliases:
-  - Automaten und Programmierlogik
-  - Automaten und formale Sprachen
 tags:
   - 5CP
   - fb20
   - bachelor
   - pflichtmodul
   - semester-3
-description: "Automatentheorie und formale Logik — formale Sprachen, endliche Automaten, Kellerautomaten, Turingmaschinen, Aussagenlogik, Prädikatenlogik, Beweiskalküle."
+description: Automatentheorie und formale Logik - formale Sprachen, endliche Automaten, Kellerautomaten, Turingmaschinen, Aussagenlogik, Prädikatenlogik, Beweiskalküle.
 draft: false
 ---
 
 # Syllabus
 
-| Moodle       | —                                 |
-| ------------ | --------------------------------- |
-| Dozent       | Prof. Dr. U. Kohlenbach           |
-| Vorlesung    | —                                 |
-| Übung        | —                                 |
-| Prüfungsform | Klausur                           |
+| Moodle       | -                       |
+| ------------ | ----------------------- |
+| Dozent       | Prof. Dr. U. Kohlenbach |
+| Prüfungsform | Klausur                 |
 
 # Teil I — Automatentheorie und formale Sprachen
 

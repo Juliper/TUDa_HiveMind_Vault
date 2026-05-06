@@ -1,19 +1,9 @@
 ---
 title: Firewall
 aliases:
-  - Packet Filter
-  - Stateful Firewall
-  - Stateless Firewall
-  - Proxy Firewall
-  - WAF
-  - Next Generation Firewall
-  - NGFW
 tags:
-  - cybersecurity
-  - network-security
-description: "System of hardware/software components that restricts access between two networks based on rules."
+description: System of hardware/software components that restricts access between two networks based on rules.
 ---
-
 A **firewall** is a system of hardware and/or software components designed to restrict access between two networks. It is part of the [[Digital Perimeter Security|defense perimeter]] designed to protect resources.
 
 ## What Firewalls Can Do
@@ -33,10 +23,8 @@ A **firewall** is a system of hardware and/or software components designed to re
 ### Packet Filtering Firewalls
 
 - Rely primarily on TCP/IP packet features and headers
-- Apply a strict, ordered set of rules
-- Each packet is evaluated individually
+- Apply a strict, ordered set of rules sequentially per packet until a match applies
 - Rules consist of match conditions (Interface, Src/Dst IP, Proto, Src/Dst Port, ...) and an action (Accept, Drop)
-- Rules are evaluated sequentially per packet until a match applies
 
 #### Stateful Firewall
 
@@ -52,18 +40,6 @@ Filters ingress and outgoing traffic based on **active connections (sessions)**.
 | Fewer rules needed | Expensive |
 | More secure | |
 | Smaller tables | |
-
-Rule example for an SMTP-only setup:
-
-| Rule | Interface | Src IP | Dst IP | Proto | Src Port | Dst Port | State | Action |
-|---|---|---|---|---|---|---|---|---|
-| 1 | * | * | * | TCP | * | * | Established | Accept |
-| 2 | eth0 | Internet | mailserver | TCP | >1023 | 25 | New | Accept |
-| 3 | lan | PC | Internet | TCP | >1023 | 25 | New | Accept |
-| 4 | * | * | * | * | * | * | * | Drop |
-
-> Note: putting the most-frequent match (Established) at the top reduces evaluation cost. The notation `>1023` denotes ephemeral ports (clients pick a high random source port).
-
 #### Stateless Firewall
 
 Filters ingress and egress traffic on a **per-packet basis**.
@@ -79,7 +55,7 @@ Filters ingress and egress traffic on a **per-packet basis**.
 | | Less secure / more porous |
 | | Larger tables |
 
-UDP is harder to handle: it has no ACK flag and no connection state, so stateless rules for UDP are inherently more permissive.
+UDP is harder to handle: it has no ACK flag and no connection state.
 
 ### Proxy Firewall
 

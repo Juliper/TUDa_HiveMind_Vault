@@ -1,14 +1,7 @@
 ---
 title: IP Addressing
 aliases:
-  - IP Address
-  - IPv4
-  - IPv6
-  - CIDR
-  - Classless Inter-Domain Routing
 tags:
-  - networking
-  - cybersecurity
 description: "Addressing on the Internet: IPv4, IPv6, classful and CIDR notation, and address allocation."
 ---
 
@@ -16,15 +9,11 @@ description: "Addressing on the Internet: IPv4, IPv6, classful and CIDR notation
 
 ## IPv4
 
-Formalized in [RFC 791](https://www.rfc-editor.org/rfc/rfc791). 32-bit addresses divided into four 8-bit octets `X.X.X.X`.
-
 - Total address space: $2^{32}$ = **4,294,967,296** addresses
 - Not enough for the modern Internet
 - IPv4 addresses have been officially exhausted; they are now scarce and expensive
 
 ## IPv6
-
-Introduced in [RFC 2460](https://www.rfc-editor.org/rfc/rfc2460), updated by [RFC 8200](https://www.rfc-editor.org/rfc/rfc8200), to address IPv4 scarcity.
 
 - 128-bit addresses, written as 8 groups of hexadecimals
 - Total address space: $3.4 \times 10^{38}$ addresses
@@ -45,8 +34,6 @@ Before 1993, IPv4 addresses were divided into five fixed classes:
 Problems:
 
 - Predefined block sizes wasted addresses (limited flexibility)
-- Inefficient allocation
-- Fast address depletion
 - Routing tables grew rapidly, almost outgrowing routing capacity in the 1990s
 
 ## CIDR Notation
@@ -73,12 +60,6 @@ Reserved for private use; not routed on the public Internet:
 - `192.168.0.0/16`
 
 These ranges are typically used together with [[Network Address Translation]].
-
-## Address Allocation Hierarchy
-
-- **IANA** (Internet Assigned Numbers Authority): global coordination and distribution of IP addresses
-- **RIRs** (Regional Internet Registries): regional NGOs that manage IP resources in their geographic sphere
-  - LACNIC (Latin America), ARIN (North America), RIPE NCC (Eurasia/Middle East), AFRINIC (Africa), APNIC (Asia/Pacific)
 
 ## Related Concepts
 

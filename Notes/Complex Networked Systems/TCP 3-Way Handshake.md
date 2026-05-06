@@ -1,14 +1,9 @@
 ---
 title: TCP 3-Way Handshake
 aliases:
-  - TCP Handshake
-  - Three-Way Handshake
 tags:
-  - networking
-  - tcp
-description: "Three-step method to establish a reliable, full-duplex TCP connection between client and server."
+description: Three-step method to establish a reliable, full-duplex TCP connection between client and server.
 ---
-
 The **TCP 3-Way Handshake** is the three-step method used to establish a reliable, full-duplex TCP connection between a client and a server before data transmission.
 
 ## Steps
@@ -22,16 +17,11 @@ Server replies with a packet containing both SYN and ACK flags. `seq=n`, `ack=m+
 **Step 3: ACK (Acknowledgment)**
 Client receives the SYN-ACK and sends back a packet with the ACK flag (`ack=n+1`) to confirm. The connection is now established.
 
-```
-Client                          Server
-  |                                |
-  | -----SYN (seq=m)-------------> |
-  |                                |
-  | <----SYN+ACK (seq=n, ack=m+1)- |
-  |                                |
-  | -----ACK (ack=n+1)-----------> |
-  |                                |
-  |          (established)         |
+```mermaid
+sequenceDiagram
+    Client->>Server: SYN (seq=m)
+    Server-->>Client: SYN+ACK (seq=n, ack=m+1)
+    Client->>Server: ACK (ack=n+1)
 ```
 
 All subsequent packets contain the ACK flag, acknowledging the previously received packet.

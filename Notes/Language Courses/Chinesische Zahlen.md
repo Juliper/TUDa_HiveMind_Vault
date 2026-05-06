@@ -1,8 +1,6 @@
 ---
-title: Chinesische Zahlen
+title:
 aliases:
-  - Chinese Numbers
-  - Zahlen auf Chinesisch
 tags:
 description: Chinesische Zahlen von 0 bis 99 - Grundzahlen, Zählprinzip und Handzeichen.
 draft: false
