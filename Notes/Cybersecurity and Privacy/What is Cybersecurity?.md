@@ -1,19 +1,12 @@
 ---
-title: What is Cybersecurity?
+title:
 aliases:
-  - Cybersecurity Definition
-  - Why is Security Hard
 tags:
-  - cybersecurity
-  - fundamentals
-description: "Definition of cybersecurity and why it is hard."
+description:
 ---
 
 > [!NOTE] Definition
 > It is the practice of protecting systems, networks, programs, devices, and data from unauthorized access, use, disclosure, disruption, modification, or destruction.
-
-**Alt. definition:** The act of achieving a goal in the presence of an adversary.
-
 ## Why is Security Hard?
 
 1. It is impossible to preemptively model every attack
@@ -24,13 +17,13 @@ description: "Definition of cybersecurity and why it is hard."
 
 ## Vocabulary
 
-| Term | Definition |
-|---|---|
-| **Vulnerability** | A flaw, weakness, or unintended behavior in a system that an attacker can exploit |
-| **Threat** | An entity that intentionally attempts to compromise confidentiality, integrity, authenticity, or availability |
-| **Exploit** | Code, data, or sequence of commands that takes advantage of a vulnerability to cause unintended behavior |
-| **Risk** | The potential for loss or harm resulting from the exploitation of a vulnerability |
-| **Attack Vector** | The path or means by which an attacker gains access to a target system |
+| Term               | Definition                                                                                                            |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| **Vulnerability**  | Weaknessr in a system that an attacker can exploit                                                                    |
+| **Threat**         | An entity that intentionally attempts to compromise confidentiality, integrity, authenticity, or availability         |
+| **Exploit**        | Code, data, or sequence of commands that takes advantage of a vulnerability to cause unintended behavior              |
+| **Risk**           | The potential for loss or harm resulting from the exploitation of a vulnerability                                     |
+| **Attack Vector**  | The path or means by which an attacker gains access to a target system                                                |
 | **Attack Surface** | The aggregate of all vectors, interfaces, and entry points of a system - the total exposure available to an adversary |
 
 ## Related Concepts

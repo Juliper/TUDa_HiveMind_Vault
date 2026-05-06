@@ -19,7 +19,6 @@ draft: false
 
 ---
 # TODO
-* Hausaufgabe in Moodle abgeben bis 24Uhr 5.5.26
 
 ---
 
@@ -31,6 +30,4 @@ draft: false
 * [[Chinesische Phrasen]]
 
 
-## Lautumschrift
-Silbe besteht meistens aus Anlaut + Auslaut + Ton. Anlaut kann auch fehlen.
-https://studycli.org/de/pinyin-chart/
+

@@ -1,11 +1,7 @@
 ---
 title: Defense in Depth
 aliases:
-  - DiD
-  - Layered Security
 tags:
-  - cybersecurity
-  - fundamentals
 description: "Layered security strategy: if one layer fails, the others remain in place."
 ---
 

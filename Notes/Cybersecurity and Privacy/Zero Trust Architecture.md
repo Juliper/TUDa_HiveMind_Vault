@@ -1,12 +1,7 @@
 ---
 title: Zero Trust Architecture
 aliases:
-  - ZTA
-  - Zero Trust
 tags:
-  - cybersecurity
-  - fundamentals
-  - network-security
 description: "Security model: trust nothing by default, verify everything explicitly."
 ---
 
@@ -14,7 +9,7 @@ description: "Security model: trust nothing by default, verify everything explic
 
 **Goal:** Eliminate implicit trust. Always assume the system has already been compromised.
 
-## Core Principles (NIST SP 800-207)
+## Core Principles
 
 - All data sources and computing services are considered **resources**
 - All communications must be secured **regardless of network location**
@@ -27,17 +22,10 @@ description: "Security model: trust nothing by default, verify everything explic
 **Control Plane:**
 
 - **PDP (Policy Decision Point):** centralized authorization engine that evaluates access requests against defined policies and makes allow/deny decisions
-- **Policy Engine + Administrator** define the policies
 
 **Data Plane:**
 
 - **PEP (Policy Enforcement Point):** intercepts access requests and enforces the PDP decisions (allow/block)
-
-```
-Subject -> [Untrusted] -> PEP -> [Trusted] -> Enterprise Resource
-                          ^
-                         PDP (Control Plane)
-```
 
 ## Challenges of ZTA Migration
 

@@ -6,37 +6,39 @@ aliases:
 tags:
   - fb20
   - master
-description: "IT Security lecture, TU Darmstadt - FB20 Master"
-draft: true
+description:
+draft: false
 ---
+# Syllabus
+
+| Moodle       | [Link](https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1994) |
+| ------------ | ------------------------------------------------------------------------- |
+| Dozent       | Donika Mirdita                                                            |
+| Prüfungsform | Klausur + Sec-Lab (Bonus)                                                 |
+
 ## Notes
  * Lecture 2 Sec-Lab-1-Hint
 * DNS Zones Sec-Lab-2-Hint
-* RR Lecture 4 -relevant für lecture und exam
-
-## Lecture 1
-[[Major Cyberattacks]]
-
+* RR Lecture 4 - relevant für lecture und exam
 ## Lecture 2 - Security Fundamentals
 
 ### Security Basics
-- [[What is Cybersecurity?]]: definition, why security is hard, vocabulary (vulnerability, threat, exploit, risk, attack vector/surface)
-- [[CIA Triad]]: Confidentiality, Integrity, Authenticity, Availability, Non-Repudiation, plus trade-offs
-
+- [[What is Cybersecurity?]]
+- [[CIA Triad]]
+- TODO - Add "Kerckhoffs' principle"
 ### Building Secure Systems
-- [[Secure by Design]]: principles - least privilege, fail secure, compartmentalization, separation of duties, Kerckhoffs' principle
-- [[Defense in Depth]]: layered defense (application, network, host, data, physical)
-- [[Zero Trust Architecture]]: "trust nothing by default"; PDP/PEP; ZTA migration challenges
-
+- [[Secure by Design]]
+- [[Zero Trust Architecture]]
+- TODO - Maybe add "Scenario: BuildHub"?
 ### Threat Modelling and Intelligence
-- [[Threat Modelling]]: the four driving questions; STRIDE framework; PASTA (7 phases)
-- [[Cyber Threat Intelligence]]: raw data -> information -> intelligence
-- [[Indicator of Compromise]]: IoC types; Pyramid of Pain
-- [[MITRE ATT&CK]]: Tactics, Techniques, Procedures (TTPs); ATT&CK matrix
+- [[Threat Modelling]]
+- [[Cyber Threat Intelligence]]
+- [[Indicator of Compromise]]
+- [[MITRE ATT&CK]]
 
 ### Threat Actors and Vulnerability Management
-- [[Advanced Persistent Threat]]: APT groups; attack phases; case study APT29/SolarWinds
-- [[Vulnerability Management]]: CVE, CWE, CVSS; patch strategies; case study CrowdStrike 2024
+- [[Advanced Persistent Threat]]
+- [[Vulnerability Management]]
 
 ## Lecture 3 - Network Security
 

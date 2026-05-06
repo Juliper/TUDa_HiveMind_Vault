@@ -1,13 +1,8 @@
 ---
 title: Threat Modelling
 aliases:
-  - Threat Modeling
-  - STRIDE
-  - PASTA
 tags:
-  - cybersecurity
-  - fundamentals
-description: "Structured process to identify, quantify, and address security risks."
+description: Structured process to identify, quantify, and address security risks.
 ---
 
 **Threat Modelling** is a structured process to identify, quantify, and address security risks in a system. It can be applied to software, architectures, processes, and data.
@@ -38,53 +33,29 @@ description: "Structured process to identify, quantify, and address security ris
 
 **PASTA** (Process for Attack Simulation and Threat Analysis) is a risk-centric threat model focused on the most relevant risks to a protected asset.
 
-```
 1. Define Objectives
-      v
+	- Identify business and process objectives
+	- Identify critical services
+	- Define regulatory and compliance objectives
 2. Define Technical Scope
-      v
+	- Define the attack surface
+	- Define the system architecture
+	- Identify all infrastructure components (codebase, databases, external APIs, PKI, OS)
 3. Application Decomposition & Analysis
-      v
+	- Define system components and trust boundaries
+	- Define use-cases, user roles, and permissions
+	- Define data-flow boundaries
 4. Threat Analysis
-      v
+	*  Like 3.
 5. Weakness & Vulnerability Analysis
-      v
+	- Define attack scenarios
+	- Identify vulnerability sources
+	- Run code reviews and vulnerability scans
 6. Attacks Modeling & Simulation
-      v
+	- Identify attack vectors and simulate attacks
 7. Risk Analysis & Management
-```
-
-### Phases in Detail
-
-**1. Define Objectives**
-
-- Identify business and process objectives
-- Identify critical services
-- Define regulatory and compliance objectives
-
-**2. Define Technical Scope**
-
-- Define the attack surface
-- Define the system architecture
-- Identify all infrastructure components (codebase, databases, external APIs, PKI, OS)
-
-**3-4. Decomposition and Threat Analysis**
-
-- Define system components and trust boundaries
-- Define use-cases, user roles, and permissions
-- Define data-flow boundaries
-
-**5-6. Vulnerability and Attack Analysis**
-
-- Define attack scenarios
-- Identify vulnerability sources
-- Run code reviews and vulnerability scans
-- Identify attack vectors and simulate attacks
-
-**7. Risk Analysis and Management**
-
-- Calculate the risk
-- Identify mitigations based on the risk assessment
+	- Calculate the risk
+	- Identify mitigations based on the risk assessment
 
 ## Related Concepts
 

@@ -1,10 +1,7 @@
 ---
-title: CIA Triad
+title:
 aliases:
-  - Confidentiality Integrity Availability
 tags:
-  - cybersecurity
-  - fundamentals
 description: "The five security goals: Confidentiality, Integrity, Authenticity, Availability, Non-Repudiation."
 ---
 
