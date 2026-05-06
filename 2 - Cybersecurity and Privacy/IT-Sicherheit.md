@@ -49,6 +49,7 @@ draft: false
 - [[NAT Slipstreaming]]
 
 ## Lecture 4 - DNS Security
+TODO - Finish lecture
 
 ### DNS Fundamentals
 - [[Domain Name System]]

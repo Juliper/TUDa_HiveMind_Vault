@@ -2,5 +2,6 @@
   "obsidian-git",
   "terminal",
   "templater-obsidian",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "mermaid-tools"
 ]
