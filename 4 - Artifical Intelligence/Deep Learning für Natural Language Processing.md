@@ -5,10 +5,9 @@ aliases:
 tags:
   - fb20
   - bachelor
-  - wahlpflichtmodul
   - semester-6
   - 6CP
 description: ""
-draft: true
+draft: false
 ---
 

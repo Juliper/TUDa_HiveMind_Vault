@@ -6,6 +6,6 @@ tags:
   - wahlmodul
   - 6CP
 description: ""
-draft: true
+draft: false
 ---
 

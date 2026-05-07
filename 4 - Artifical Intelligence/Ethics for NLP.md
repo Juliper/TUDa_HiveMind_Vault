@@ -1,22 +1,10 @@
 ---
 title: E4NLP
 aliases:
-- Ethics for NLP
+  - Ethics for NLP
 tags:
-- fb20
-- status-leer
-description: ''
-draft: true
+  - fb20
+description: ""
+draft: false
 ---
 https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1964
-## Überblick
-
-> Kurze Beschreibung des Moduls, was gelernt wird und welche Vorkenntnisse hilfreich sind.
-
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren

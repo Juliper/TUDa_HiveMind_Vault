@@ -1,16 +1,13 @@
 ---
 title: SEWQ
 aliases:
-- Software Engineering - Wartung und Qualitätssicherung
+  - Software Engineering - Wartung und Qualitätssicherung
 tags:
-- fb20
-- bachelor
-- wahlpflichtmodul
-- semester-6
-- 6CP
-- klausur
-- bachelor-informatik
-- status-vollständig
-description: ''
-draft: true
+  - fb20
+  - bachelor
+  - wahlpflichtmodul
+  - semester-6
+  - 6CP
+description: ""
+draft: false
 ---

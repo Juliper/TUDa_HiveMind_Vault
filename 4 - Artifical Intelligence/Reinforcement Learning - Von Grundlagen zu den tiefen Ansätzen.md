@@ -7,8 +7,8 @@ tags:
   - fb20
   - reinforcement-learning
   - machine-learning
-description: "Module notes for the TU Darmstadt RL lecture by G. Chalvatzaki (Summer Term 2026). Covers MDPs, value functions, Bellman equations, and dynamic programming."
-draft: true
+description:
+draft: false
 ---
 
 https://moodle.tu-darmstadt.de/course/view.php?id=46418

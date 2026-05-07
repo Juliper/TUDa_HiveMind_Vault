@@ -1,32 +1,15 @@
 ---
 title: FOMO
 aliases:
-- Foundations of Modern Data Systems
+  - Foundations of Modern Data Systems
 tags:
-- fb20
-- master
-- pflichtmodul
-- semester-1
-- 6CP
-- klausur
-- master-informatik
-- status-in-bearbeitung
-description: ''
-draft: true
+  - fb20
+  - master
+  - semester-1
+  - 6CP
+description: ""
+draft: false
 ---
-## Überblick
-
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren
-
-
-Backlog:
-
 # Vorlesung 7: GPUs
 
 ### 1. Motivation & Trend
@@ -72,8 +55,6 @@ Es gibt auch OpenCL als GPU API
 - **Grid**: Gesamtheit aller Threads
 - **Block**: Gruppe von Threads auf einem SM
 - **Warp**: **32 Threads**, kleinste physische Scheduling-Einheit (SM kann mehre ausfuhren)
-
-> ⚠️ Warps sind **nicht explizit programmiert**, aber extrem wichtig!
 
 ---
 ### 6. Thread-Indizierung (Logisches Modell)
@@ -177,7 +158,6 @@ Rechnung:
 2. **Effizientere Rechenleistung**
     - **Spezialisierung** (Accelerators)
 
-👉 **Klausur-Merksatz:**
 > Spezialisierte Hardware schließt die Lücke zwischen Datenwachstum und Rechenleistung durch höhere Energieeffizienz.
 
 ---
@@ -199,14 +179,14 @@ Beispiele:
 |FPGA / CGRA|mittel|sehr gut|
 |ASIC|gering|**extrem gut (~100×)**|
 
-👉 **Trade-off:**
+**Trade-off:**
 - **Mehr Spezialisierung → mehr Effizienz**
 - **Mehr Flexibilität → weniger Effizienz**
 
 ---
 
 ### 4. Integration von Accelerators (sehr wichtig!)
-#### 1️⃣ In-Data-Path
+#### 1. In-Data-Path
 - Accelerator arbeitet **während Daten fließen**
 - Kaum Datenkopien
 - Beispiel:
@@ -214,7 +194,7 @@ Beispiele:
     - Computational Storage
 - **Schwierige Integration**
 
-#### 2️⃣ On-the-Side
+#### 2. On-the-Side
 - CPU besitzt Daten
 - Accelerator bekommt Kopien
 - Einfach zu integrieren
@@ -222,15 +202,12 @@ Beispiele:
 - Beispiel:
     - GPUs, TPUs
 
-#### 3️⃣ Co-Processor
+#### 3. Co-Processor
 - Accelerator arbeitet direkt auf CPU-Daten
 - Sehr niedrige Latenz
 - System stark spezialisiert
 - Beispiel:
     - NPUs, Vector Units in CPUs
-
-👉 **Typische Klausurfrage:**
-> Welches Integrationsmodell minimiert Datenbewegung? → _In-Data-Path_
 
 ---
 
@@ -260,7 +237,6 @@ Beispiele:
     - Matrix-Multiplikation
     - CNNs / DNNs
 
-👉 **Merksatz:**
 > Spezialisierte Hardware kann Rechenmodelle nutzen, die auf CPUs/GPUs ineffizient sind.
 
 ---
@@ -299,7 +275,6 @@ Gernell simple chip struktur -> Effiziente silicon nutzung und gute skalierbarke
 	- Systolic array mit VLIW
 	- Mehr effizienz weil weniger chipflache fur instruciton kram und nur compute
 
-👉 **Positionierung:**  
 CPU ← GPU ← FPGA / CGRA ← ASIC
 
 ---
@@ -331,8 +306,6 @@ CPU ← GPU ← FPGA / CGRA ← ASIC
     - z. B. < 8 Bit
     - Multiplikationen werden drastisch billiger
 
-👉 **Beispiel:** Regex Matching mit >1 B Zeichen/Zyklus
-
 ---
 
 ### 11. Regeln & Grenzen von Spezialisierung
@@ -362,20 +335,6 @@ CPU ← GPU ← FPGA / CGRA ← ASIC
 - Wer konfiguriert & verwaltet die Hardware?
 
 ---
-
-### 🎯 Klausur-Takeaways (kompakt)
-
-✔ Spezialisierung = Effizienz vs. Flexibilität  
-✔ Integration (In-Data-Path / Side / Co-Processor) beherrschen  
-✔ TPU als **Beispiel-ASIC** erklären können  
-✔ FPGA vs. CGRA vs. ASIC vergleichen  
-✔ Warum Software-Integration kritisch ist
-
-**CGRA = Coarse-Grained Reconfigurable Array**
-NIC = Network Interface Cards
-Single Core Performance bleibt gleich → mehr parallelismus oder mehr specialisierte hardware
-
-
 # Vorlesung 9: Networking
 
 ### 1. Überblick & Lernziele
@@ -385,9 +344,6 @@ Die Vorlesung behandelt:
 - Vor- und Nachteile von **OS-basierter Netzwerkanbindung**
 - **User-Space Networking** und **DPDK**
 - **Remote Direct Memory Access (RDMA)**
-
-Zentrales Thema:  
-👉 **Netzwerke werden schneller, CPUs nicht → Software-Overhead wird zum Bottleneck**
 
 ---
 ### 2. Netzwerk-Stack (Schichtenmodell)
@@ -402,8 +358,8 @@ Klassische, modulare Architektur:
 |Data Link (Ethernet)|Lokale Übertragung|
 |Physical|Bits & Signale|
 
-👉 Vorteil: Modularität  
-👉 Nachteil: **Overhead durch viele Schichten**
+Vorteil: Modularität  
+Nachteil: **Overhead durch viele Schichten**
 
 ---
 
@@ -420,7 +376,7 @@ Klassische, modulare Architektur:
     - Scheduling        
     - Sicherheit & Isolation
 
-👉 **Aber:** hoher Overhead durch Kernel-Beteiligung
+**Aber:** hoher Overhead durch Kernel-Beteiligung
 
 ---
 
@@ -441,7 +397,7 @@ Klassische, modulare Architektur:
     - Entweder Blocking thread bis receive → Viele threads fur viele connections
     - Oder Non-Blocking → EIn thread kummert sich um mehrere
 
-👉 **Viele Kopien + viele Kontextwechsel**
+**Viele Kopien + viele Kontextwechsel**
 
 ---
 
@@ -454,13 +410,13 @@ Klassische, modulare Architektur:
 - Kleinste Ethernet-Frames:
     - **~150 Mio. Pakete/Sekunde bei 100 Gbps**
 
-👉 **OS + CPU können pro Paket kaum noch Arbeit leisten**
+**OS + CPU können pro Paket kaum noch Arbeit leisten**
 
 **Faustzahl:**
 - DRAM-Zugriff: 60–100 ns
 - Zeit zwischen Paketen bei 100 Gbps: **~6.7 ns**
 
-➡️ **Schon ein Cache Miss ist zu teuer**
+**Schon ein Cache Miss ist zu teuer**
 
 10Gbps; Ethernet Frame Size 84 bytes; 67ns zwischen packets (14.88 Mpps);
 L1$ = 1 ns, L2$ = 5 ns, LLC$ = 30 - 40 ns, DRAM = 60 - 100 ns
@@ -484,8 +440,8 @@ Warum OS-Netzwerk teuer ist:
 - Scheduling
 - Interrupts
 
-👉 Bei 10 Gbps: ~15 Mio. System Calls / Sekunde  
-👉 Bei 100 Gbps: praktisch **nicht skalierbar**
+Bei 10 Gbps: ~15 Mio. System Calls / Sekunde  
+Bei 100 Gbps: praktisch **nicht skalierbar**
 
 ---
 
@@ -535,7 +491,7 @@ Data Plane Development Kit (DPDK)
 - ~**80 Mpps pro Core**    
 - ~**33 CPU-Zyklen pro Paket**
 
-👉 DPDK baut den Linux-Netzwerkstack praktisch **neu in User Space**
+DPDK baut den Linux-Netzwerkstack praktisch **neu in User Space**
 
 Data Plane Development Kit
 - Von Intel um zu zeigen wie schnell ihre CPUs sind
@@ -553,7 +509,7 @@ Frage:
 > Können wir Netzwerkzugriffe so schnell machen wie lokale Speicherzugriffe?
 
 Antwort:  
-👉 **RDMA (Remote Direct Memory Access)**
+**RDMA (Remote Direct Memory Access)**
 
 ---
 
@@ -584,7 +540,7 @@ Antwort:
     - Batching
     - Ordering
 
-⚠️ Wichtig:
+Wichtig:
 > RDMA darf **nur auf vorregistrierte Speicherbereiche** zugreifen
 - Aber was wenn mehrere clients auf selbe speicher schreiben?
 - RDMA kopiert daten nur in NIC und nicht wie bei socket base die daten als copy in client side
@@ -599,7 +555,7 @@ Antwort:
 - **WRITE:** Client schreibt direkt in Remote-Speicher
 - Remote CPU / OS **nicht beteiligt**
 
-👉 Enormer Performance-Gewinn
+Enormer Performance-Gewinn
 
 ---
 
@@ -620,7 +576,7 @@ Antwort:
     - Initiale Konfiguration
     - Completion-Notification
 
-➡️ **RNIC = Netzwerk + Endhost**
+**RNIC = Netzwerk + Endhost**
 
 ---
 
@@ -635,7 +591,7 @@ Vergleich TCP vs. RDMA:
 - CPU-Auslastung:
     - RDMA: **~0 % im Datentransfer**
 
-👉 Besonders stark bei **kleinen Nachrichten**
+Besonders stark bei **kleinen Nachrichten**
 
 ---
 
@@ -673,7 +629,7 @@ Nicht geeignet:
 ○ How many concurrent socket connections can you support in your server?
 ○ How many memory buffers an RNIC can remember? 
 
-👉 Sehr leistungsfähig, aber **komplex & fragil**
+Sehr leistungsfähig, aber **komplex & fragil**
 
 ---
 
@@ -701,7 +657,7 @@ Nicht geeignet:
 - **OpEx statt CapEx**
 - Skalierung ohne große Vorabinvestitionen
 
-👉 **Klausur-Merksatz:**
+**Klausur-Merksatz:**
 > Die Cloud senkt Einstiegskosten und verbessert Ressourcenauslastung durch Sharing.
 
 ---
@@ -727,7 +683,7 @@ Nicht geeignet:
 - Vendor Lock-in
 - Cloud-Services können teuer werden
 
-👉 **Prüfungsargument:**
+👉**Prüfungsargument:**
 > Cloud ist nicht automatisch billiger – es hängt vom Nutzungsprofil ab.
 
 ---
@@ -1205,408 +1161,5 @@ Noch weniger overhead als container
 ✔ Memory-Virtualisierung & EPT  
 ✔ Performance-Kosten von Virtualisierung  
 ✔ Isolation vs Effizienz Trade-off
-
----
-
-### 🎯 Gesamtfazit für die Klausur
-
-Diese Vorlesung wird **sehr gerne abgefragt**, besonders:
-- **Warum Hardware-Unterstützung nötig war**
-- **Warum Container schneller, aber unsicherer sind**
-- **EPT & TLB Misses**
-- **Vergleich VM / Container / Wasm**
-
----
-
-
-
-
-
-
-
-
-
----
-# Fragensammlung
-
-### **Frage 1 – CPU vs. GPU (Grundlagen)**
-
-**Nenne zwei zentrale Unterschiede zwischen CPU- und GPU-Architekturen** und erkläre kurz, **warum GPUs für Throughput-Workloads besser geeignet sind**.
-
----
-### **Frage 2 – CUDA Execution Model**
-
-Erkläre die Begriffe:
-- **Grid**
-- **Block**
-- **Warp**
-
-👉 Welche dieser Einheiten ist die **kleinste physisch geschedulte Einheit** auf der GPU?
-
----
-### **Frage 3 – Thread-Indexierung**
-
-Gegeben ist ein CUDA-Kernel mit:
-- `blockDim.x = 256`
-- `blockIdx.x = 3`
-- `threadIdx.x = 7`
-
-**Welchen globalen Index (`idx`) berechnet der Thread?**  
-Formel angeben und Ergebnis berechnen.
-
----
-
-### **Frage 4 – Branch Divergence**
-
-**Was ist Branch Divergence?**  
-Warum führt sie zu **Performanceverlust** auf der GPU?
-
----
-### **Frage 5 – Warps & Latency Hiding**
-
-Erkläre kurz:
-- **Was bedeutet „Latency Hiding“?**
-- **Warum braucht eine GPU viele Warps pro SM, um hohe Performance zu erreichen?**
-
----
-### **Frage 6 – Memory Access & Stride**
-
-Zwei Varianten eines Kernels:
-- **Variante A:** Stride = 1
-- **Variante B:** Stride = Grid Size
-
-👉 **Welche Variante ist in der Regel schneller und warum?**  
-(Bezug auf Memory Coalescing!)
-
----
-### **Frage 7 – Datenübertragung CPU ↔ GPU**
-
-Warum ist es **problematisch**, für kleine oder sehr kurze Berechnungen eine GPU zu nutzen?  
-Nenne **zwei Gründe**.
-
----
-### **Frage 8 – Motivation & Trends**
-
-Erkläre kurz den **Data / Compute Gap**.  
-Welche **zwei grundsätzlichen Strategien** werden eingesetzt, um ihn zu schließen?
-
----
-### **Frage 9 – CPU vs. GPU**
-
-Nenne **drei Unterschiede** zwischen CPU- und GPU-Architekturen  
-und erkläre, **für welche Art von Workloads GPUs besser geeignet sind**.
-
----
-### **Frage 10 – CUDA Execution Model**
-
-Erkläre die Begriffe:
-- **Kernel**
-- **Grid**
-- **Block**
-- **Warp**
-
-👉 Welche Einheit ist die **kleinste physisch geschedulte Einheit**?
-
----
-### **Frage 11 – Warps, Branch Divergence & Scheduling**
-
-a) Was ist **Branch Divergence**?  
-b) Warum führt sie zu Performanceverlust?  
-c) Wie helfen **Volta+ GPUs** dabei, die Auswirkungen zu reduzieren?
-
----
-### **Frage 12 – Memory Access auf GPUs**
-
-a) Was bedeutet **Memory Coalescing**?  
-b) Warum ist es entscheidend für GPU-Performance?  
-c) Warum kann **Stride = grid size** in bestimmten Fällen schneller sein als **Stride = 1**?
-
----
-### **Frage 13 – Latency Hiding**
-
-Erkläre das Konzept des **Latency Hiding** auf GPUs.  
-Warum sind **viele Warps pro SM** notwendig?
-
----
-### **Frage 14 – Accelerator Integration**
-
-Nenne und erkläre die **drei Integrationsoptionen** für Accelerators:
-- In-Data-Path
-- On-the-Side
-- Co-Processor
-
-👉 Welche minimiert **Datenbewegung**?
-
----
-### **Frage 15 – Spezialisierung & Effizienz**
-
-Warum sind **ASICs** deutlich energieeffizienter als CPUs/GPUs?  
-Welcher **grundsätzliche Trade-off** steht dahinter?
-
----
-### **Frage 16 – TPU**
-
-a) Für welchen Workload wurde die **Google TPU** entwickelt?  
-b) Warum ist sie so viel effizienter als GPUs?  
-c) Wie wird sie programmiert?
-
----
-### **Frage 17 – FPGA vs. CGRA vs. ASIC**
-
-Vergleiche **FPGA, CGRA und ASIC** hinsichtlich:
-- Flexibilität
-- Energieeffizienz
-- Programmierbarkeit
-
-👉 Wann wäre ein **ASIC** die beste Wahl?
-
----
-### **Frage 18 – FPGA Programmiermodell**
-
-Beschreibe den Weg **von Code zur Schaltung** bei einem FPGA  
-(Schritte + wichtigste Eigenschaften).
-
----
-### **Frage 19 – Regeln & Grenzen**
-
-Nenne **zwei Situationen**, in denen sich **Spezialisierung NICHT lohnt**,  
-und erkläre warum.
-
----
-### **Frage 20 – Grundlagen**
-
-Erkläre kurz das **Schichtenmodell des Netzwerks**.  
-Warum wird dieses Modell in der Praxis zum **Performance-Problem**?
-
----
-### **Frage 21 – Socket-basiertes Networking**
-
-a) Nenne **zwei Vorteile** der klassischen Socket-API.  
-b) Nenne **drei Hauptquellen von Overhead** beim OS-basierten Networking.
-
----
-### **Frage 22 – Send/Receive Path**
-
-Beschreibe vereinfacht den **Send-Pfad eines TCP-Pakets** von der Anwendung bis zur NIC.  
-Nenne **mindestens vier Schritte**.
-
----
-### **Frage 23 – CPU-Bottleneck**
-
-Warum wird die **CPU zum Bottleneck**, obwohl Netzwerke immer schneller werden?  
-Beziehe dich auf **Bandbreite, Paketgröße und CPU-Latenzen**.
-
----
-### **Frage 24 – Blocking vs. Non-Blocking I/O**
-
-Erkläre den Unterschied zwischen:
-- **Blocking I/O**
-- **Non-Blocking I/O (select/poll)**
-
-👉 Welche Variante skaliert besser bei vielen Verbindungen – und warum?
-
----
-### **Frage 25 – User-Space Networking**
-
-a) Was ist die Grundidee von **User-Space Networking**?  
-b) Welche **OS-Funktionen werden aus dem Fast Path entfernt**?
-
----
-### **Frage 26 – DPDK**
-
-a) Was ist **DPDK** und wofür wird es eingesetzt?  
-b) Nenne **vier zentrale Design-Ideen** von DPDK.
-
----
-### **Frage 27 – Polling vs. Interrupts**
-
-Warum setzt DPDK auf **Polling statt Interrupts**?  
-Nenne **zwei Gründe**.
-
----
-### **Frage 28 – RDMA Grundlagen**
-
-a) Was ist **RDMA**?  
-b) Worin unterscheidet sich RDMA **grundlegend von Sockets**?
-
----
-### **Frage 29 – RDMA Communication Model**
-
-Erkläre den Unterschied zwischen:
-- **Two-sided Communication**
-- **One-sided Communication**
-
-👉 Warum ist **One-sided RDMA** besonders performant?
-
----
-### **Frage 30 – RDMA Architektur**
-
-Welche Rolle spielen:
-- **RNIC**
-- **DMA**
-- **Registrierte Speicherbereiche**
-
-in einem RDMA-System?
-
----
-### **Frage 31 – Einsatz & Grenzen von RDMA**
-
-a) Nenne **zwei typische Einsatzgebiete** von RDMA.  
-b) Nenne **zwei Herausforderungen oder Nachteile** von RDMA.
-
----
-### **Frage 32 – Cloud Motivation**
-
-a) Erkläre den Unterschied zwischen **CapEx** und **OpEx**.  
-b) Warum hat die Cloud den Wechsel von CapEx zu OpEx ermöglicht?  
-c) Warum ist die Cloud **nicht immer** die günstigere Option?
-
----
-### **Frage 33 – Hyperscaler**
-
-Was sind **Hyperscaler**?  
-Nenne **zwei Merkmale**, die sie von klassischen IT-Anbietern unterscheiden.
-
----
-### **Frage 34 – Cloud Service Modelle**
-
-Erkläre kurz:
-- **IaaS**    
-- **PaaS**
-- **SaaS**
-- **FaaS**
-
-👉 Ordne jeweils **ein konkretes Beispiel** zu.
-
----
-### **Frage 35 – Storage in der Cloud**
-
-Vergleiche:
-- **Local Disk**
-- **Block Storage (z. B. EBS)**
-- **Object Storage (z. B. S3)**
-
-hinsichtlich:
-- Performance
-- Fehlertoleranz
-- Typischer Einsatz
-
----
-### **Frage 36 – Cloud Application Architectures**
-
-a) Was ist eine **3-Tier / N-Tier Architektur**?  
-b) Nenne **zwei Vorteile** und **einen Nachteil** dieser Architektur.
-
----
-### **Frage 37 – Microservices**
-
-a) Warum setzen moderne Cloud-Anwendungen auf **Microservices**?  
-b) Nenne **zwei Vorteile** und **zwei Nachteile** von Microservice-Architekturen.
-
----
-### **Frage 38 – Kommunikation in Cloud-Systemen**
-
-Vergleiche **RPC**, **REST** und **Message Queues** hinsichtlich:
-- Latenz
-- Kopplung
-- Typischer Einsatz
-
----
-### **Frage 39 – Tail Latency**
-
-a) Was ist **Tail Latency**?  
-b) Warum ist **p99-Latenz** in Cloud-Systemen oft wichtiger als der Durchschnitt?
-
----
-### **Frage 40 – Scale-Up vs. Scale-Out**
-
-a) Erkläre den Unterschied zwischen **Scale-Up** und **Scale-Out**.  
-b) Warum dominiert **Scale-Out** in der Cloud?
-
----
-### **Frage 41 – Virtualisierung Grundlagen**
-
-a) Was ist Virtualisierung?  
-b) Warum ist Virtualisierung **zentrale Voraussetzung** für Cloud Computing?
-
----
-### **Frage 42 – Virtual Machines**
-
-Erkläre die Begriffe:
-- **Host**
-- **Guest**
-- **VMM / Hypervisor**
-
-👉 Nenne **zwei zentrale Eigenschaften** von VMs, die für die Cloud wichtig sind.
-
----
-### **Frage 43 – Virtualisierungsanforderungen**
-
-Nenne und erkläre die **drei Anforderungen an Virtualisierung** nach  
-**Popek & Goldberg**.
-
----
-### **Frage 44 – Virtualisierungsansätze**
-
-Vergleiche kurz:
-- **Trap-and-Emulate**
-- **Binary Translation**
-- **Para-Virtualisierung**
-- **Hardware-unterstützte Virtualisierung**
-
-👉 Welcher Ansatz wird **heute hauptsächlich** verwendet – und warum?
-
----
-### **Frage 45 – Memory Virtualization**
-
-a) Warum ist Speicher-Virtualisierung schwierig?  
-b) Was sind **Shadow Page Tables** und warum sind sie teuer?  
-c) Wie lösen **Extended Page Tables (EPT)** dieses Problem?
-
----
-### **Frage 46 – TLB & Performance**
-
-Warum sind **TLB Misses** in virtualisierten Systemen besonders teuer?
-
----
-### **Frage 47 – I/O Virtualization**
-
-a) Warum ist I/O-Virtualisierung schwierig?  
-b) Was ist **SR-IOV** und warum ist es performant?
-
----
-### **Frage 48 – Container**
-
-a) Was ist ein Container?  
-b) Vergleiche **Container** und **VMs** hinsichtlich:
-- Isolation
-- Performance
-- Startup-Zeit
-
----
-### **Frage 49 – Docker**
-
-Erkläre die Begriffe:
-- **Image**    
-- **Container**
-- **Registry**
-- **Dockerfile**
-
----
-### **Frage 50 – WebAssembly**
-
-a) Was ist **WebAssembly (Wasm)**?  
-b) Nenne **zwei Vorteile** gegenüber VMs oder Containern.  
-c) Warum ist Wasm **stärker eingeschränkt**?
-
----
-### **Frage 51 – Gesamtvergleich**
-
-Ordne **VMs, Container und WebAssembly** nach:
-- Flexibilität
-- Isolation
-- Performance
-
-👉 Begründe kurz.
 
 ---

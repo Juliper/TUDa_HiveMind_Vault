@@ -1,33 +1,15 @@
 ---
 title: SDMS
 aliases:
-- Skalierbare Datenmanagement Systeme
+  - Skalierbare Datenmanagement Systeme
 tags:
-- fb20
-- master
-- pflichtmodul
-- semester-1
-- 6CP
-- klausur
-- master-informatik
-- status-in-bearbeitung
-description: ''
-draft: true
+  - fb20
+  - master
+  - semester-1
+  - 6CP
+description: ""
+draft: false
 ---
-## Überblick
-
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren
-
-
-Backlog:
-
-Übung 6 wiederholen
 ## Storage Management
 #### Database Files
 * Wie die eigentlichen Tabellen auf Festplatte abgelegt werden

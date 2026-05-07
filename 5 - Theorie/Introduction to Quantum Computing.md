@@ -1,22 +1,11 @@
 ---
 title: QC
 aliases:
-- Introduction to Quantum Computing
+  - Introduction to Quantum Computing
 tags:
-- fb20
-- status-leer
-description: ''
+  - fb20
+description: ""
 draft: true
 ---
 https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1999
-## Überblick
 
-> Kurze Beschreibung des Moduls, was gelernt wird und welche Vorkenntnisse hilfreich sind.
-
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren

@@ -9,22 +9,8 @@ tags:
   - semester-1
   - 9CP
 description: Grundlagen der Mathematik für Informatiker — Logik, Mengenlehre, algebraische Strukturen, Lineare Algebra und Analysis (Konvergenz).
-draft: true
+draft: false
 ---
-## Überblick
-
-> Mathematik 1 legt die formalen Grundlagen für das Informatikstudium. Die Vorlesung führt in die mathematische Sprache (Logik, Mengen, Beweise) ein, behandelt algebraische Strukturen (Gruppen, Ringe, Körper) mit Anwendung in der Kryptographie, deckt die Lineare Algebra vollständig ab und beginnt die Analysis mit Konvergenz von Folgen.
->
-> **Vorkenntnisse:** Schulwissen Mathematik (Gymnasium). Keine Programmierkenntnisse nötig.
-
-## Kerninhalte
-
-- **Grundbegriffe:** Aussagen & Logik (inkl. logische Vollständigkeit/NOR), Mengen & Mengenoperationen, Supremum/Infimum, Relationen (Ordnung, Äquivalenz), Abbildungen (injektiv/surjektiv/bijektiv, Bilder/Urbilder), Beweismethoden, Intervalle in ℝ
-- **Algebraische Strukturen:** Modulare Arithmetik, lineare Kongruenzgleichungen, Euklidischer Algorithmus, RSA-Verschlüsselung, Gruppen (direktes Produkt, Kern, Injektivität), Ringe & Körper, komplexe Zahlen (Polarform, $n$-te Einheitswurzeln), Körperhomomorphismen
-- **Lineare Algebra:** Vektorräume, Normen & Skalarprodukt, ONB & Orthogonalprojektion, Basen & Dimension, lineare Abbildungen (Kern/Bild, Faktorraum), Matrizen & Basiswechsel, LGS (Gauß), Determinanten, Eigenwerttheorie, orthogonale Matrizen, Geometrie (Kreuzprodukt, Hesse-Normalform)
-- **Universelle Algebra:** Signaturen, Σ-Algebren, Homomorphismen, Terminduktion *(kurzer Ausblick)*
-- **Analysis I:** Reelle Zahlen & Vollständigkeitsaxiom, Betrag & Dreiecksungleichung, Folgen & Konvergenz (ε-n₀-Technik), Konvergenzkriterien, Häufungswerte & Teilfolgen, Sandwich-Theorem, Grenzwerte rationaler Folgen, Landau-Notation, rekursive Folgen
-
 ## Zusammenfassung
 
 ### 1. Grundbegriffe

@@ -9,6 +9,6 @@ tags:
   - semester-1
   - 10CP
 description: ""
-draft: true
+draft: false
 ---
 

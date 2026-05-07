@@ -1,22 +1,10 @@
 ---
 title: MAI
 aliases:
-- Multimodal Artificial Intelligence
+  - Multimodal Artificial Intelligence
 tags:
-- fb20
-- status-leer
-description: ''
-draft: true
+  - fb20
+description: ""
+draft: false
 ---
 https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1974
-## Überblick
-
-> Kurze Beschreibung des Moduls, was gelernt wird und welche Vorkenntnisse hilfreich sind.
-
-## Kerninhalte
-
-## Zusammenfassung
-
-## Prüfungsvorbereitung
-
-## Altklausuren
