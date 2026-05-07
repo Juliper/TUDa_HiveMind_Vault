@@ -6,7 +6,7 @@ aliases:
 tags:
   - fb20
   - master
-description:
+description: Ausgewählte Konzepte der IT-Sicherheit (Kryptographie; Sicherheitsmodelle; Authentifikation; Zugriffskontrolle; Sicherheit in Netzen; Trusted Computing; Security Engineering; Privatsphäre und Datenschutz; Web- und Browser-Sicherheit; Informationssicherheitsmanagement, IT-Forensik, Cloud Computing)
 draft: false
 ---
 # Syllabus
