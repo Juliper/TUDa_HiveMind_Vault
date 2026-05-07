@@ -17,7 +17,7 @@ draft: false
 | Prüfungsform | Klausur + Sec-Lab (Bonus)                                                 |
 
 ## Notes
-* Sec-Lab-1-Hint: Lecture 2 is reelvant
+* Sec-Lab-1-Hint: Lecture 2 is relevant
 * Sec-Lab-2-Hint: DNS Zones are relevant
 ## Lecture 2 - Security Fundamentals
 

@@ -1,5 +1,6 @@
 {
   "showUnsupportedFiles": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "Notes"
+  "newFileFolderPath": "Notes",
+  "promptDelete": false
 }
