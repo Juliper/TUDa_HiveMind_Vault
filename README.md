@@ -5,9 +5,9 @@ Du willst beitragen? Nice! Hier erfährst du wie.
 
 ## Zugang bekommen
 
-**Option 1 — Collaborator werden:** Meld dich einfach bei mir (siehe Kontakt unten) — ich füge dich als Collaborator hinzu und du kannst direkt pushen.
+**Option 1 - Collaborator werden:** Meld dich einfach bei mir (siehe Kontakt unten) - ich füge dich als Collaborator hinzu und du kannst direkt pushen.
 
-**Option 2 — Fork & Pull Request:** Forke das Repository, mach deine Änderungen und stelle eine PR.
+**Option 2 - Fork & Pull Request:** Forke das Repository, mach deine Änderungen und stelle eine PR.
 
 ---
 ## Setup
@@ -30,41 +30,27 @@ Du willst beitragen? Nice! Hier erfährst du wie.
    - Dort kannst du deine Änderungen committen und pushen
 
 4. **Webseite** 
-   * Alle Änderungen werden nach einen kleinen Verzögerung auf der Webseite veröffentlicht — [Quartz](https://juliper.github.io/TUDa_HiveMind_Quartz/).
+   * Alle Änderungen werden nach einen kleinen Verzögerung auf der Webseite veröffentlicht - [Quartz](https://juliper.github.io/TUDa_HiveMind_Quartz/).
 
 ---
 ## Struktur
 Die Grundidee von HiveMind ist es, die Grenzen zwischen Modulen aufzureißen und so intermodulares Lernen zu ermöglichen, mit dem Ziel, tief verwurzeltes Verständnis von Themen zu fördern.
 
-Die Grundidee von Hive Mind ist es die grenzen zwischen Modulen aufzureisen und somit intermodul Lernen zu ermoeglichen um tief verwurzeltes Verstaendnis von Themen zu foerdern.
-
-Der Vault ist dabei hierarchisch aufgebaut, von grob nach fein:
-```
-Fachbereich (z.B. Informatik, Mathematik)
-└── Studiengang (z.B. B.Sc. Informatik)
-    └── Modul-Notiz (z.B. Mathe 1)
-        └── Atomic Notes (einzelne Konzepte)
-```
-
+Der Vault ist dabei hierarchisch aufgebaut. Die Ordnerstruktur wird verwendet um `Notes` und `Module` nach Themenschwerpunkte zu organisieren. Die Zuordnung nach CP, Pflicht oder Wahlbereich usw. geschieht über Frontmatter-Tags.
 ### Atomic Notes (`/Notes`)
-Alles beginnt bei einer **Atomic Note** — eine kurze, präzise Erklärung eines einzelnen Konzepts. Sie kann beliebig auf andere Notizen oder Topics verweisen. Atomic Notes leben wie in einem Zettelkasten frei im `Notes`-Ordner und werden über Tags und MOCs organisiert. Ein Beispiel-Template findest du im `Templates`-Ordner.
-
-### Topics / MOCs (`/Topics`)
-Atomic Notes mit demselben Themenschwerpunkt werden optional in **Maps of Content (MOCs)** im `Topics`-Ordner zusammengeführt. Das erleichtert den Überblick und gruppiert verwandte Konzepte. Ein Beispiel-Template liegt ebenfalls in `Templates`.
-
+Alles beginnt bei einer **Atomic Note** - eine kurze, präzise Erklärung eines einzelnen Konzepts. Sie kann beliebig auf andere Notizen verweisen. Atomic Notes leben wie in einem Zettelkasten frei im `Notes`-Ordner.
 ### Modul-Notizen
-Am Ende steht die eigentliche Notiz zu einer Vorlesung oder einem Modul. Sie verlinkt auf bereits vorhandene Topics oder Atomic Notes — oder legt neue an und verweist auf diese. Das reduziert Redundanz: Hat jemand z.B. tolle Notizen zu Reihen erstellt, können diese sowohl in Mathe 1 als auch Mathe 2 einfach verlinkt werden, statt alles doppelt zu schreiben.
+Am Ende steht die eigentliche Notiz zu einer Vorlesung oder einem Modul. Sie verlinkt auf bereits vorhandene Atomic Notes oder legt neue an und verweist auf diese. Das reduziert Redundanz: Hat jemand z.B. tolle Notizen zu Reihen erstellt, können diese sowohl in Mathe 1 als auch Mathe 2 einfach verlinkt werden, statt alles doppelt zu schreiben.
 
 ---
 ## TODO / Roadmap
 
-Offene Verbesserungspunkte für die Vault-Struktur — Beiträge willkommen:
+Offene Verbesserungspunkte für die Vault-Struktur (Ergänzungen sind wilkommen):
 
-- [ ] **`Notes/` strukturieren bevor es unhandhabbar wird** — Subfolders nach grobem Themengebiet (`Notes/cybersecurity/`, `Notes/ml/`, `Notes/math/` …) oder strenge Tag-Disziplin etablieren. Bei 200+ Notes wird flach chaotisch.
-- [ ] **Kriterium für Topics vs. Atomic Notes schärfen** — Vorschlag: MOC = nur Übersicht/Listen, keine eigenständige Erklärung. Sobald eine Note erklärenden Text hat, ist sie eine Atomic Note (auch wenn sie verlinkt).
-- [ ] **Modul-Template um topische Sektion erweitern** — Aktuell organisieren manche Modul-Notizen chronologisch ("Vorlesung 1, 2, ..."). Eine zusätzliche topische Übersicht ("Konzepte nach Thema") macht den HiveMind-Mehrwert sichtbar: welche Konzepte tauchen modulübergreifend auf.
-- [ ] **Frontmatter-Validierung automatisieren** — Pre-Commit-Hook oder GitHub Action, die `title`, `tags` und `description` als Pflichtfelder enforced. Verhindert "leere Felder"-Drift bei mehreren Mitwirkenden und sichert Quartz-Features (Hover-Preview, Suche).
-- [ ] **Konventionen-Dokument anlegen** — kurze `CONTRIBUTING.md` mit Naming-Regeln, Tag-Vokabular (englisch, lowercase, Bindestriche) und wann `draft: true` statt published.
+- [ ] **Aktuelle Ordnerstruktur überdenken** - Die Struktur sollte skalierbar und leicht zu maintainen sein. Ich bin unsicher ob dies auf die aktuelle Struktur zutrifft
+- [ ] **Modul/Notiz-Templates verbessern** - Um das Beitragen zu diesem Projekt einfacher zu machen, sollten die templates ermöglichen gut formatierte Notizen zu erstellen. Alle Besonderheiten von github/obsidian flavored markdown sollten gezeigt werden. Auch Erweiterungen wie Mermaid sollten erklärt werden.
+- [ ] **Frontmatter-Validierung automatisieren** - Pre-Commit-Hook oder GitHub Action, die `title`, `tags` und `description` als Pflichtfelder enforced.
+- [ ] **Konventionen-Dokument anlegen** - kurze `CONTRIBUTING.md` mit Naming-Regeln, Tag-Vokabular (englisch, lowercase, Bindestriche) und wann `draft: true` statt published. Könnte auch mit Templates zusammengeführt werden.
 
 ---
 ## Kontakt
