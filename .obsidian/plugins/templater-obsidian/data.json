@@ -16,15 +16,7 @@
   "folder_templates": [
     {
       "folder": "Notes",
-      "template": "_templates/Notiz Template.md"
-    },
-    {
-      "folder": "1_FB20",
-      "template": "_templates/Modul Template.md"
-    },
-    {
-      "folder": "2_Sprachenzentrum",
-      "template": "_templates/Modul Template.md"
+      "template": "_templates/note.md"
     }
   ],
   "enable_file_templates": false,

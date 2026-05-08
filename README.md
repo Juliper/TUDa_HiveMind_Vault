@@ -30,7 +30,7 @@ Du willst beitragen? Nice! Hier erfährst du wie.
    - Dort kannst du deine Änderungen committen und pushen
 
 4. **Webseite** 
-   * Alle Änderungen werden nach einen kleinen Verzögerung auf der Webseite veröffentlicht - [Quartz](https://juliper.github.io/TUDa_HiveMind_Quartz/).
+   * Alle Änderungen werden nach einer kleinen Verzögerung auf der Webseite veröffentlicht - [Quartz](https://juliper.github.io/TUDa_HiveMind_Quartz/).
 
 ---
 ## Struktur
@@ -51,6 +51,7 @@ Offene Verbesserungspunkte für die Vault-Struktur (Ergänzungen sind wilkommen)
 - [ ] **Modul/Notiz-Templates verbessern** - Um das Beitragen zu diesem Projekt einfacher zu machen, sollten die templates ermöglichen gut formatierte Notizen zu erstellen. Alle Besonderheiten von github/obsidian flavored markdown sollten gezeigt werden. Auch Erweiterungen wie Mermaid sollten erklärt werden.
 - [ ] **Frontmatter-Validierung automatisieren** - Pre-Commit-Hook oder GitHub Action, die `title`, `tags` und `description` als Pflichtfelder enforced.
 - [ ] **Konventionen-Dokument anlegen** - kurze `CONTRIBUTING.md` mit Naming-Regeln, Tag-Vokabular (englisch, lowercase, Bindestriche) und wann `draft: true` statt published. Könnte auch mit Templates zusammengeführt werden.
+- [ ] **Dashboard** - Simples Dashboard anlegen auf root Ebene und Github so konfigurieren, dass bei commits/pushes Änderungen am Dashboard ignoriert werden, damit die privaten daten nicht auf Github landen.
 
 ---
 ## Kontakt

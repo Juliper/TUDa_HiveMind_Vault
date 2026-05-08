@@ -3,6 +3,9 @@
 Thumbs.db
 ._*
 
+# Privat/Local Data
+_privat/
+
 # Obsidian – gerätespezifisch (IMMER ignorieren)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json

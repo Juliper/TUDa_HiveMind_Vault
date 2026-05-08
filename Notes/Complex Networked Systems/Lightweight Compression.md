@@ -4,7 +4,7 @@ aliases:
   - Alternative Name
 tags:
   - topic-tag
-description: "One-sentence summary of the concept."
+description: One-sentence summary of the concept.
 draft: false
 ---
 
