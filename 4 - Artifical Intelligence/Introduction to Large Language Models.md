@@ -9,6 +9,286 @@ tags:
 description: ""
 draft: false
 ---
+[https://frankniujc.github.io/teaching/intro2llm/](https://frankniujc.github.io/teaching/intro2llm/)
+
+ES GIBT AUFZEICHNUNGEN
+
+---
+
+# Klausurfragen
+
+Wissensfragen
+
+- Was ist ein Morpheme mit Beispiel
+- Was sind zwei Ansätze von parameter-efficient fine-tuning
+- Vergleiche F1 mit Accuracy
+- Hauptunterschied zwischen decoder self-attention und encoder self-attention
+- Instrinsic vs extrinsic evalution
+- Beste Architectur in diesem Anwendungsszenario
+- Warum ist Tokinize schwer bei diese Anwendung
+- N-Gram Problemlösung mit OOV
+- Was ist Instruction Tuning und wie macht man das
+- Bestandteile von HMM
+- Unterschied information need and a query
+- word embeddings vs. one-hot encoding
+- RNNs vs. Transformer
+- CNN und ngram modeling / How does a 1D CNN process textual input
+- Wie wird BERT in IR integriert
+- mono-stage vs. a duo-stage ranking
+- Imagine you are designing a re-ranking system for a legal document retrieval task. Discuss two specific challenges that you expect compared to general web search, and two approaches how you might adapt neural re-ranking models to this domain.
+- HNSW erklären
+
+Rechenfragen
+
+- Tokinazition
+- Tf, IDF, TF-IDF
+- Inverted Index
+- HMM / Viterbi
+- Precision/Recall/Accuracy/F1
+- ranked evaluation metrics (MRR, AP, nDCG@X)
+- Byte-Pair Encoding
+
+# IR – Neural IR
+
+## Simple Neural Techniques
+
+### CNN
+
+Sliding window aproach
+
+Es ist nicht feasable für jede wort kombination ein embedding zu lernen, daher werden CNNs benutzt um dynamisch 2-gram embeddings zu erstellen
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/d91acd54-a7c0-4102-a8dc-9620efc19aa9/image.png)
+
+### RNN
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/eafbcb3e-87a1-46ae-a9ec-637af32ebc50/image.png)
+
+### Encoder - Decoder Architecture
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/f0af8123-a7c9-4260-bf21-ae3dbab1ba25/image.png)
+
+Attention
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/03592aa2-dcd0-4440-bda9-72e01f0ffce0/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/5c5ba1dc-cc9c-4489-87d5-eb29e14d4d62/image.png)
+
+## Transformer Architecture
+
+### Bidirectional Encoder Representations from Transformers (BERT)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/7b23427a-6657-440f-8693-c8779f5f15b7/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/511d7e77-c185-4520-a029-37e02352f64c/image.png)
+
+# IR – Dense Retrieval
+
+## Dense Retrival
+
+### Neural Re-Ranking
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/a09bec0b-84b2-4999-9335-a0c147672050/image.png)
+
+### Dense Retrieval (with Re-Ranking)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/3cfc7e88-1591-49a3-a0b1-0c2589c76f8c/image.png)
+
+Reranking kann auch weggelassen werden falls dense retrival gut genug
+
+## Training
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/66bde0af-4257-4b88-b0d9-4fca036f8417/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/5aa6019f-1711-4de4-bcfe-b64d70ca8e9d/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/820ea5eb-761f-4825-bbae-2e6430e87fe5/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/e8e07571-b891-4fe5-82c1-0f6b73c961d0/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/301f65df-c317-40bf-b50c-7d87ac279201/image.png)
+
+## BERTDOT Model
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/d5b80491-b203-4168-8270-e1540f504a80/image.png)
+
+## Indexing Techniques
+
+### Flat Index
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/31cd6bfb-f62d-4ac7-9f84-feb46633c8e9/image.png)
+
+### Inverted File Index (IVF)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/b23f4b08-fd62-4376-8d30-f66d0f311742/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/4bc2c517-8006-491d-9c4e-724d0d139aca/image.png)
+
+### Product Quantization
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/1b873f48-1f9e-4ce4-9856-d5137d33cdc6/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/7a39ce3d-edeb-48e0-99c0-be1302b8847d/image.png)
+
+### Graph Indices
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/7ff2088c-d7df-4755-baf5-30a657b83ae2/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/98763598-4cdf-4c64-ad04-94c4f62a4743/image.png)
+
+## Knowledge Destillation ****
+
+## DistilBERT
+
+Kleineres Bert Modell aber trotzdedm effizient durch Training mit knowledge distillation
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/5e4c9cf2-3006-494c-8dcc-86ef8f32e97a/image.png)
+
+# IR - Neural Re-Ranking
+
+## Neural Re-Ranking
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/d41b2ac8-0510-46a5-914d-3a41c8ba32b8/image.png)
+
+Training wie bei Dense Retrival
+
+Wichtig: Training Loss ist nur am Anfang relevant und hat später weniger ausagekraft. Dannach eher MME oder so beachten
+
+### Cosine similarity
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/73d48cc9-cab8-48aa-b84d-f598f820fa59/image.png)
+
+### Basic MatchPyramid approach
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/8c214e20-d126-42a8-b7bf-e6e20d9f979f/image.png)
+
+1. Encoding Layer := Wörter werden mit Vektoren ersetzt
+    
+2. Match Matrix
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/29622a93-b586-4f9d-9137-c1c5f22fdf07/image.png)
+    
+3. CNN Layer := 2D-CNN hinzufügen
+    
+
+## BERT Re-Ranking
+
+### BERT_CAT
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/895235b3-c9fc-4a0e-a857-463ff2dda7c8/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/f475da39-d163-40f7-9e86-749a79c1e678/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/91b324f7-1e85-4719-899e-78075e6fab74/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/631d1a49-bc55-40bd-a025-1dcfc4979a85/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/f58ac6ae-15bf-452c-b0c4-81e233cd6767/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/ef07e693-7e9b-40b1-b570-a942509dd4e7/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/d54ae6a5-103a-4b21-aec2-4ded790463d9/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/034fd148-6540-49ae-89fb-22ee7282e285/image.png)
+
+# LLMs Grundlagen
+
+LLMs weisen Sätzen eine Wahrscheinlichekeit, dass Sie in einem Text auftreten zu. Mögliche Benutzungsstenarien:
+
+- Spracherkennung/Rechtschreibung := Erhaltene Sätze werden korrigiert wenn sie sehr unwahrscheinlich sind und zu einem neuen Satz verwandelt der wahrscheinlicher ist
+- Sprach-Gererierung
+
+### N-Gram Models
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/58c28419-09aa-44d9-8441-a92862d1079b/image.png)
+
+Das Problem ist, dass viele Sätze selten bis garnicht vorkommen und man über viele Wahrscheinlichkeiten nur schlecht aussagen treffen kann
+
+Lösung: Wie limitieren den Kontext nur auf die k-Tokens davor und nicht alles (markov assumption)
+
+Zudem werden Wahrschienlichkeiten immer kleiner und sind daher anfällig für underflow → Lösung ist log
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/2d18e0da-8245-44a8-9649-c4667fc6aabe/image.png)
+
+### Evaluation
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/3eb0352d-66db-4bfa-9df8-813dfaeb64ae/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/c7cdbe20-be57-4c53-8c98-6bfeb1714ebc/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/693aeb93-3767-45d0-900d-2e04512b260f/image.png)
+
+### Generation with N-Gram Models
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/2736a67c-d152-4cd7-9590-5a794ca103dd/image.png)
+
+### Out-Of-Vocabulary Problem
+
+- UNK token verwenden für unbekannte Worte
+- Smoothing := Einfach Wahrscheinlichkeiten hinzudichten
+    - - 1 überall aber muss ausgeglichen werden
+    - - k nicht 1 sonder fraktion adden
+- Backoff := wenn n-gram nicht existiert dann in n-1 aufteilen und suchen usw. bis gefunden
+- Interpolation := verschiedene n-gram gewichtet addieren
+- Subword-tokenization := BytePairEncoding/WordPiece/SentencePiece
+
+WordPiece
+
+Merged nicht einfach die häufigste Kombination sondern merged die Tokens deren Kombination sehr wahrscheinlich vorkommt (also mehr oder weniger umgekehrt)
+
+SentencePiece
+
+Sieht Leerzeichen auch als Tokens (bei BPE und WordPiece nicht so)
+
+# Neural LLM
+
+## Basic Neural Language Models
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/40db501a-d640-48fe-aec7-4a076e3d8dda/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/77c2ab53-29fb-4adb-beab-818059a41a60/image.png)
+
+## RNN and Transformer LM
+
+### RNN
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/582bcdc8-ea42-46d0-8c61-06322bd446b2/image.png)
+
+- Beliebige input länge
+- Forget long inputs
+- Vanishing/Exploding Gradients
+- Schwer zu parallelisieren
+
+### Transformer
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/099db68c-690f-4ec0-bfea-a809b0a26170/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/242aa1c9-4428-4a72-bdfa-e38e60dd0261/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/175d244a-d41f-402c-92e5-db10fb91c840/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/8c673a48-24b0-433d-b3c3-ee63dc37a85a/image.png)
+
+Lösung attention mask
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1da51d07-7f68-4603-95ee-36c2b0f54d24/a0949391-5249-4470-8906-b97c9ebdf566/image.png)
+
+# LLM Adaptation
+
+LLMs werden mit Aufgaben traniert, welche nicht der letzendlichen Nutzeranwendungen entsprechen.
+
+### Tuning
+
+- Whole model tuning := ALLE Parameter des Models werden trainiert
+- Head-tuning := Nur eine bestimmte Schicht des Models wird trainiert
+
+### Parameter-efficient Fine-tuning
+
+- Adapters := Füge eine Adapterschicht hinzu, welche nur trainiert wird. (Speichereffizienter als whole-model aber trotzdem aufwändig zu berechnen weil ganzer pass nötig)
+- Selective := Wählt bestimmte Komponenten des bestehenden Models zum trainieren aus (BitFit nimmt zum Beispiel nur Bias)
+
+### Prompting
+
 Backlog:
 
 * SkipGram, CBOW, Glove

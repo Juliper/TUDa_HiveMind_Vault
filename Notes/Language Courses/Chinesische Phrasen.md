@@ -6,50 +6,50 @@ aliases:
 tags:
   - chinesisch
   - sprache
-description: "Grundlegende chinesische Alltagsphrasen aus China Entdecken Lektion 1 — Begrüßung, Höflichkeit, Verabschiedung und Vorstellung."
+description: Grundlegende chinesische Alltagsphrasen - Begrüßung, Höflichkeit, Verabschiedung und Vorstellung.
 draft: false
 ---
+## Klassenzimmer
 
-## Begrüßung
+| Hànzì | Pīnyīn     | Deutsch         |
+| ----- | ---------- | --------------- |
+| 老师好   | lǎoshī hǎo | Hallo Lehrer/in |
+| 那一頁   | nǎ yī yè   | Welche Seite?   |
 
-| Hànzì | Pīnyīn | Deutsch |
-|---|---|---|
-| 你好 | nǐ hǎo | Hallo |
-| 你好吗？ | nǐ hǎo ma? | Wie geht es dir? |
-| 我很好 | wǒ hěn hǎo | Mir geht es gut |
-| 你们好 | nǐmen hǎo | Hallo (an mehrere Personen) |
-| 大家好 | dàjiā hǎo | Hallo zusammen |
-| 老师好 | lǎoshī hǎo | Hallo Lehrer/in |
+
+## Begrüßung / Verabschiedung
+
+| Hànzì | Pīnyīn     | Deutsch                     |
+| ----- | ---------- | --------------------------- |
+| 你好    | nǐ hǎo     | Hallo                       |
+| 你好吗？  | nǐ hǎo ma? | Wie geht es dir?            |
+| 我很好   | wǒ hěn hǎo | Mir geht es gut             |
+| 你们好   | nǐmen hǎo  | Hallo (an mehrere Personen) |
+| 大家好   | dàjiā hǎo  | Hallo zusammen              |
+| 老师好   | lǎoshī hǎo | Hallo Lehrer/in             |
+| 再见    | zàijiàn    | Auf Wiedersehen             |
 
 ## Höflichkeit
 
-| Hànzì | Pīnyīn | Deutsch |
-|---|---|---|
-| 谢谢 | xièxie | Danke |
-| 不客气 | bú kèqi | Bitte (Antwort auf Danke) / Gern geschehen |
-| 请 | qǐng | Bitte (Aufforderung) |
-| 对不起 | duìbuqǐ | Entschuldigung (formell) |
-| 不好意思 | bù hǎoyìsi | Entschuldigung (informell) |
-| 没关系 | méi guānxi | Kein Problem / Macht nichts |
-| 没事 | méi shì | Kein Problem (umgangssprachlich) |
+| Hànzì | Pīnyīn     | Deutsch                                    |
+| ----- | ---------- | ------------------------------------------ |
+| 谢谢    | xièxie     | Danke                                      |
+| 不客气   | bú kèqi    | Bitte (Antwort auf Danke) / Gern geschehen |
+| 对不起   | duìbuqǐ    | Entschuldigung (formell)                   |
+| 没关系   | méi guānxi | Kein Problem / Macht nichts                |
+| 请问    | qǐngwèn    | dürfte ich fragen                          |
 
-## Verabschiedung
 
-| Hànzì | Pīnyīn | Deutsch |
-|---|---|---|
-| 再见 | zàijiàn | Auf Wiedersehen |
-| 明天见 | míngtiān jiàn | Bis morgen |
-| 拜拜 | báibái | Tschüss (informell) |
 
 ## Vorstellung
 
-| Hànzì | Pīnyīn | Deutsch |
-|---|---|---|
-| 你叫什么名字？ | nǐ jiào shénme míngzi? | Wie heißt du? |
-| 我叫… | wǒ jiào… | Ich heiße… |
-| 你是哪国人？ | nǐ shì nǎ guó rén? | Woher kommst du? / Welche Nationalität hast du? |
-| 我是德国人 | wǒ shì Déguó rén | Ich bin Deutsche/r |
-| 认识你很高兴 | rènshi nǐ hěn gāoxìng | Freut mich, dich kennenzulernen |
+| Hànzì   | Pīnyīn                 | Deutsch                                         |
+| ------- | ---------------------- | ----------------------------------------------- |
+| 你叫什么名字？ | nǐ jiào shénme míngzi? | Wie heißt du?                                   |
+| 我叫…     | wǒ jiào…               | Ich heiße…                                      |
+| 你是哪国人？  | nǐ shì nǎ guó rén?     | Woher kommst du? / Welche Nationalität hast du? |
+| 我是德国人   | wǒ shì...              | Ich bin...                                      |
+| 认识你很高兴  | rènshi nǐ hěn gāoxìng  | Freut mich, dich kennenzulernen                 |
 
 ## Anrede
 

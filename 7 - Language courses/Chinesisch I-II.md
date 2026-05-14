@@ -19,7 +19,8 @@ draft: false
 
 ---
 # TODO
-
+* Lehrbuch bis lesson 3 gekommen
+* 
 ---
 
 # Basics
