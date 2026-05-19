@@ -3,5 +3,6 @@
   "terminal",
   "templater-obsidian",
   "obsidian-local-rest-api",
-  "mermaid-tools"
+  "mermaid-tools",
+  "pdf-plus"
 ]

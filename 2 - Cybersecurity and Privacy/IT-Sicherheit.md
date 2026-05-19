@@ -15,7 +15,7 @@ draft: false
 | ------------ | ------------------------------------------------------------------------- |
 | Dozent       | Donika Mirdita                                                            |
 | Prüfungsform | Klausur + Sec-Lab (Bonus)                                                 |
-
+# Lecture
 ## Notes
 * Sec-Lab-1-Hint: Lecture 2 is relevant
 * Sec-Lab-2-Hint: DNS Zones are relevant
@@ -53,3 +53,25 @@ TODO - Finish lecture
 
 ### DNS Fundamentals
 - [[Domain Name System]]
+
+## Lecture 5 - Routing Security
+
+### Internet Structure and BGP Fundamentals
+- [[Autonomous System]]
+- [[Border Gateway Protocol]]
+
+### BGP Route Selection
+- [[Gao-Rexford Model]]
+
+### Attacks on BGP
+- [[BGP Hijacking]]
+
+### BGP Security Measures
+- [[Internet Routing Registry]]
+- [[Resource Public Key Infrastructure]]
+- [[BGPSec]]
+# Klausurvorbereitung
+## Klausurfragen
+
+## Übungsaufgaben
+<!-- Links zu Altklausuren, Übungsblättern o.ä. -->

@@ -19,3 +19,7 @@ _privat/
 
 # Obsidian Papierkorb
 .trash/
+
+# Agents
+/CLAUDE.md
+.claude/
