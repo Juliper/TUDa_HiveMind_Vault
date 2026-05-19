@@ -22,21 +22,61 @@ draft: false
 
 # Lectures
 
-## [Lecture 1 - In-Memory Storage](https://moodle.informatik.tu-darmstadt.de/pluginfile.php/340432/mod_resource/content/1/01_InMemoryStorage.pdf)
+## Lecture 1 - In-Memory Storage
 
-* [[Memory Hierachy]] - TODO
-* [[Disk-Based DBMS]] - TODO
-* [[Main Memory DBMS]] - TODO
-* [[In-Memory Tables]] - TODO
-* [[Heavyweight Compression ]] - TODO
-* [[Lightweight Compression]] - TODO
-* [[Query Processing on Compressed Data]] - TODO
+### Motivation and Architecture
+- [[Disk-Based DBMS]]
+- [[Main Memory DBMS]]
+- [[Memory Hierarchy]]
 
-## [Lecture 2 - In-Memory Scan](https://moodle.informatik.tu-darmstadt.de/pluginfile.php/341006/mod_resource/content/1/02_InMemoryScan.pdf)
+### Storage Models
+- [[Row Store]]
+- [[Column Store]]
+- [[PAX]]
+- [[Late Materialization]]
 
-* [[Vectorized Execution]] - TODO
-* [[Vectorized Scans ]]- TODO
-* [[Lightweight Compression]] - TODO
+### Data Compression
+- [[Lightweight Compression]]
+- [[Dictionary Encoding]]
+- [[Run-Length Encoding]]
+- [[Bit-Packing Encoding]]
+- [[Frame of Reference Encoding]]
+- [[Delta Encoding]]
+- [[Null Suppression]]
+- [[PFOR Encoding]]
+- [[Query Processing on Compressed Data]]
+
+### Hardware-Conscious Processing
+- [[SIMD Processing]]
+
+## Lecture 2 - In-Memory Scan
+
+### Scan Techniques
+- [[Vectorized Scan]]
+- [[Vectorized Query Execution]]
+- [[Predicate Evaluation]]
+
+### Secondary Index Structures
+- [[Column Imprints]]
+- [[Zone Maps]]
+
+### Compression and Scans
+- [[Lightweight Compression]]
+
+## Lecture 3 - Databases and SSDs (Guest Lecture)
+
+### SSD Fundamentals
+- [[SSD Architecture]]
+- [[Flash Translation Layer]]
+- [[SSD Performance Characteristics]]
+
+### SSD Challenges
+- [[Write Amplification]]
+- [[Wear Leveling]]
+
+### SSD-Optimized Data Structures
+- [[LSM Tree]]
+- [[SSD-Aware Database Design]]
 
 # Klausurvorbereitung
 
