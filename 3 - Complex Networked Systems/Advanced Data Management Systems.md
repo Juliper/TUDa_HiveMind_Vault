@@ -28,13 +28,11 @@ draft: false
 - [[Disk-Based DBMS]]
 - [[Main Memory DBMS]]
 - [[Memory Hierarchy]]
-
 ### Storage Models
 - [[Row Store]]
 - [[Column Store]]
 - [[PAX]]
 - [[Late Materialization]]
-
 ### Data Compression
 - [[Lightweight Compression]]
 - [[Dictionary Encoding]]
@@ -78,6 +76,45 @@ draft: false
 - [[LSM Tree]]
 - [[SSD-Aware Database Design]]
 
-# Klausurvorbereitung
+## Vorlesung 4 - In-Memory Indexes
 
-> [!IMPORTANT] TBD
+### OLAP Indexes
+- [[Zone Maps]]
+- [[Column Imprints]]
+- [[CSS-Tree]]
+- [[CSB+ Tree]]
+
+### OLTP Index Concurrency
+- [[B+ Tree Latch Coupling]]
+
+### Back to SSDs
+- [[Pointer Swizzling]]
+
+## SSD Talk - Databases and SSDs
+
+### SSD Fundamentals
+- [[SSD Architecture]]
+- [[SSD Performance Characteristics]]
+- [[Flash Translation Layer]]
+
+### SSD Internals
+- [[SSD Garbage Collection]]
+- [[Write Amplification]]
+- [[Wear Leveling]]
+
+### SSD-Optimized Database Design
+- [[SSD-Aware Database Design]]
+- [[LeanStore]]
+- [[Database I/O Interfaces]]
+- [[LSM Tree]]
+
+
+## Research Papers
+
+### Adaptive Radix Tree (ART)
+- [[Adaptive Radix Tree]]
+
+### ART vs Hash Tables (Alvarez et al.)
+- [[ART vs Hash Tables]]
+
+

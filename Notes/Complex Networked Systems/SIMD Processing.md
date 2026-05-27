@@ -60,6 +60,25 @@ A SIMD scan over a column:
 - **No branches** - predicate evaluation should produce bitmasks, not if/else
 - **Sufficient data volume** - SIMD setup cost amortized over many values
 
+## Vectorization Approaches
+
+There are three ways to use SIMD in database code:
+
+| Approach | How | Pros | Cons |
+|---|---|---|---|
+| **Automatic** | Compiler auto-vectorizes simple loops | No code changes | Only works for simple patterns |
+| **Compiler hints** | `restrict` keyword, `#pragma ivdep`, `#pragma omp simd` | Portable | Limited control |
+| **Explicit intrinsics** | Use `__m128i`, `__m256i` types and `_mm_*` functions | Full control, best performance | CPU-specific, hard to maintain |
+
+> [!NOTE]
+> Auto-vectorization requires simple loop patterns: no function calls, no complex control flow, no pointer aliasing. The `restrict` keyword tells the compiler that pointers don't alias, enabling vectorization of loops the compiler would otherwise skip.
+
+## When to SIMDify?
+
+- Databases process many rows with the same structure - SIMD potential everywhere
+- However, performance gains are not guaranteed since DBMSs are often **memory-bound**
+- SIMD helps most when the computation is CPU-bound (e.g., decompression, predicate evaluation)
+
 ## Related Concepts
 
 - [[Column Store]]: provides the contiguous data layout SIMD needs
@@ -67,3 +86,4 @@ A SIMD scan over a column:
 - [[Bit-Packing Encoding]]: multiple bit-packed values fit in one SIMD register
 - [[Predicate Evaluation]]: SIMD accelerates predicate checks on columns
 - [[Vectorized Query Execution]]: processes data in vector-sized batches using SIMD
+- [[SIMD-Scan on Bit-Packed Data]]: specialized SIMD algorithm for scanning compressed columns

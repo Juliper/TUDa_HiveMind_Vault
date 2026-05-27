@@ -73,5 +73,10 @@ TODO - Finish lecture
 # Klausurvorbereitung
 ## Klausurfragen
 
-## Übungsaufgaben
-<!-- Links zu Altklausuren, Übungsblättern o.ä. -->
+## Übungsaufgaben / Labs
+
+### 1. Lab
+1. POST-Anfrage auslösen und Apache Version checken
+2. Apache Version auf Bugs prüfen
+
+### 2. Lab

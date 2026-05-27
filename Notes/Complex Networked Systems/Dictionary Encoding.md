@@ -16,7 +16,7 @@ draft: false
 ## How It Works
 
 1. Build a dictionary of all distinct values in the column
-2. Assign each value a fixed-width integer code
+2. Assign each value (or multiple values) a fixed-width integer code
 3. Replace all occurrences with their codes
 4. Store the dictionary separately
 
@@ -30,6 +30,12 @@ draft: false
 
 Column `["Berlin", "Munich", "Berlin", "Hamburg"]` becomes `[0, 1, 0, 2]`
 
+OR
+
+| Original                               | Code |
+| -------------------------------------- | ---- |
+| Berlin", "Munich", "Berlin", "Hamburg" | 0    |
+Column `["Berlin", "Munich", "Berlin", "Hamburg"]` becomes `[0]`
 ## Benefits
 
 - **Fixed-width codes** enable direct array indexing and [[SIMD Processing]]
@@ -39,16 +45,12 @@ Column `["Berlin", "Munich", "Berlin", "Hamburg"]` becomes `[0, 1, 0, 2]`
 
 ## Order-Preserving Dictionary Encoding
 
-If dictionary codes preserve the sort order of original values, comparisons like `<`, `>`, `BETWEEN` can operate directly on codes without decoding:
+If dictionary codes preserve the sort order of original values, comparisons can operate directly on codes without decoding.
 
-$$v_1 < v_2 \iff \text{code}(v_1) < \text{code}(v_2)$$
 
 > [!IMPORTANT]
 > Order-preserving dictionaries enable range queries and sorting to work entirely on compressed data, avoiding decompression overhead. This is critical for efficient [[Query Processing on Compressed Data]].
 
-## Code Width Optimization
-
-With $d$ distinct values, codes need $\lceil \log_2 d \rceil$ bits. For a column with 1000 distinct values, codes need only 10 bits instead of storing full strings.
 
 ## Related Concepts
 

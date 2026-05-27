@@ -20,7 +20,7 @@ draft: false
 ---
 # TODO
 * Lehrbuch bis lesson 3 gekommen
-* 
+* Notiz für Familiennamen erstellen
 ---
 
 # Basics

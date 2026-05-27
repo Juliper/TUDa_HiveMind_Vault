@@ -15,20 +15,7 @@ draft: false
 > The memory hierarchy organizes computer storage in layers ordered by speed and capacity. Faster layers (registers, caches) are small and expensive, while slower layers (DRAM, disk) are large and cheap. Database performance depends heavily on how well data access patterns exploit this hierarchy.
 
 ## Levels
-
-| Level | Typical Size | Latency | Bandwidth |
-|---|---|---|---|
-| Registers | ~1 KB | < 1 ns | - |
-| L1 Cache | 32-64 KB | ~1 ns | ~100 GB/s |
-| L2 Cache | 256 KB - 1 MB | ~3-10 ns | ~50 GB/s |
-| L3 Cache | 4-64 MB | ~10-30 ns | ~30 GB/s |
-| DRAM | 16-512 GB | ~50-100 ns | ~25 GB/s |
-| SSD | 0.5-8 TB | ~10-100 us | ~3 GB/s |
-| HDD | 1-20 TB | ~5-10 ms | ~200 MB/s |
-
-> [!IMPORTANT]
-> Each level is roughly 10x slower than the one above it. The gap between DRAM and disk is especially dramatic - about 1000x for SSDs and 100,000x for HDDs.
-
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20250111112435920586/Memory-Hierarchy-Design.webp">
 ## Cache Lines and Spatial Locality
 
 Data moves between levels in fixed-size blocks called **cache lines** (typically 64 bytes). When the CPU accesses a memory address, the entire cache line containing that address is loaded.

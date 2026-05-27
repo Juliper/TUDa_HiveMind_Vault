@@ -12,25 +12,19 @@ draft: false
 ---
 
 > [!NOTE] Definition
-> Run-Length Encoding (RLE) compresses data by replacing consecutive sequences of the same value (runs) with a pair of (value, run length). It is highly effective on sorted columns where identical values cluster together.
+> Run-Length Encoding (RLE) compresses data by replacing consecutive sequences of the same value (runs) with a pair of (value, start-pos, run length). It is highly effective on sorted columns where identical values cluster together.
 
 ## How It Works
 
 A column `[A, A, A, B, B, C, C, C, C]` is encoded as:
 
-| Value | Run Length |
-|---|---|
-| A | 3 |
-| B | 2 |
-| C | 4 |
+| Value | Stat Pos | Run Length |
+| ----- | -------- | ---------- |
+| A     | 1        | 3          |
+| B     | 4        | 2          |
+| C     | 6        | 4          |
 
 Storage shrinks from 9 values to 3 pairs.
-
-## Compression Ratio
-
-For a column of $n$ values with $r$ runs:
-
-$$\text{Compression ratio} = \frac{n}{2r}$$
 
 RLE is most effective when:
 - The column is **sorted** (maximizes run lengths)

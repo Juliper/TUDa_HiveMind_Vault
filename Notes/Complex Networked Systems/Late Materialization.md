@@ -12,7 +12,7 @@ draft: false
 ---
 
 > [!NOTE] Definition
-> Late materialization is a query execution strategy in [[Column Store]] systems that delays the reconstruction of full tuples as long as possible. Instead of immediately combining columns into rows, it passes **position lists** (arrays of qualifying row positions) between operators.
+> Late materialization is a query execution strategy in [[Column Store]] systems that delays the reconstruction of full tuples as long as possible. Instead of immediately decompressing operations are done on the compressed data
 
 ## Early vs Late Materialization
 
@@ -46,14 +46,6 @@ graph TD
 
 > [!IMPORTANT]
 > Late materialization is one of the key reasons [[Column Store]] systems outperform [[Row Store]] systems for analytical queries. By avoiding premature tuple reconstruction, they minimize the amount of data that flows through the query pipeline.
-
-## Position Lists
-
-A position list is a sorted array of row indices where a predicate is satisfied:
-
-$$P = \{i \mid \text{predicate}(A[i]) = \text{true}\}$$
-
-Multiple predicates produce multiple position lists that are intersected (AND) or unioned (OR) using fast merge operations or [[Bit-Packing Encoding|bit-vector]] operations.
 
 ## Related Concepts
 

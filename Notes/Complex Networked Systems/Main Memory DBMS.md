@@ -13,34 +13,24 @@ draft: false
 ---
 
 > [!NOTE] Definition
-> A main memory DBMS assumes that the entire database (or its working set) fits in DRAM. This eliminates the disk I/O bottleneck that dominates traditional [[Disk-Based DBMS]] systems, but shifts the performance bottleneck to the [[Memory Hierarchy]] - specifically cache misses and CPU efficiency.
+> A main memory DBMS assumes that the entire database (or its working set) fits in DRAM. This eliminates the disk I/O bottleneck that dominates traditional [[Disk-Based DBMS]] systems, but shifts the performance bottleneck to the [[Memory Hierarchy]].
 
 ## Why Main Memory?
 
 DRAM prices have dropped to the point where databases of hundreds of GB fit in a single server's RAM. At the same time, the bottleneck analysis of traditional systems shows that most overhead comes from disk-oriented mechanisms:
-
-```mermaid
-pie title "Traditional DBMS Overhead"
-    "Buffer Pool Management" : 34
-    "Latching" : 14
-    "Locking" : 16
-    "Logging" : 12
-    "B-Tree Key Operations" : 16
-    "Actual Useful Work" : 7
-```
-
-> [!IMPORTANT]
-> In a disk-based system, only about 7% of CPU cycles go to actual query processing. The rest is spent managing the buffer pool, locks, latches, and logging. Main memory systems eliminate or simplify most of this overhead.
-
 ## Design Changes
 
-| Disk-Based Approach | Main Memory Approach |
-|---|---|
-| Buffer pool for page caching | Direct memory pointers |
-| Heavy-weight locking | Lightweight latches or lock-free |
-| Write-ahead logging to disk | Optimistic logging, group commit |
-| B-tree indexes (disk-friendly) | T-trees, ART, hash indexes (cache-friendly) |
-| [[Row Store]] (NSM) pages | [[Column Store]] (DSM) arrays |
+| Disk-Based Approach                                                                                                             | Main Memory Approach                        |
+| ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| Buffer pool for page caching                                                                                                    | Direct memory pointers                      |
+| Heavy-weight locking                                                                                                            | Lightweight latches or lock-free            |
+| Write-ahead logging to disk                                                                                                     | Optimistic logging, group commit            |
+| B-tree indexes (disk-friendly)                                                                                                  | T-trees, ART, hash indexes (cache-friendly) |
+| [[Row Store]] (NSM) pages                                                                                                       | [[Column Store]] (DSM) arrays               |
+|                                                                                                                                 |                                             |
+| Storage Manager: no need for (disk) pages anymore, in-memory layout of<br>tables, compression                                   |                                             |
+| Indexing / Data Access: efficient access of data in memory (e.g., cache<br>awareness), compressed dara …                        |                                             |
+| Query Execution: directly work on compressed data, parallelize execution, use<br>code generation, vectorized query execution, … |                                             |
 
 ## New Bottleneck: Cache Efficiency
 
