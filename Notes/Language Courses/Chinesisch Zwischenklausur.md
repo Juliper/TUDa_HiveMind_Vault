@@ -45,13 +45,14 @@ draft: false
 > 呢 (ne) := Ist kurze Rückfrage am Ende des Satzes. 你呢 (ni ne / und du)，她呢 (ta ne / und er)
 
 
+X = Name, 他，她，你
 
 | Mögliche Fragen                                                               | Mögliche Antworten                                                                                                     |
 | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | **Fragen über Namen**                                                         |                                                                                                                        |
-| 我叫X。你呢？<br>wo jiao X。ni ne？<br>Ich bin X. Und du?<br><br>X = voller Name      | 我叫X。<br>wo jiao X。<br>Ich bin X.                                                                                       |
-| X叫什么名字？<br>X jiao shenme mingzi？<br>Wie heißt X?<br><br>X = 他，她，你             | X叫Y。<br>X jiao Y。<br>X heißt Y.                                                                                        |
-| X姓什么？<br>X xing shenme？<br>Wie ist X Nachname?<br><br>X = 他，她，你               | X姓Y。<br>X xing Y。<br>X heißt Y (Nachname).                                                                             |
+| 我叫X。你呢？<br>wo jiao X。ni ne？<br>Ich bin X. Und du?                             | 我叫X。<br>wo jiao X。<br>Ich bin X (voller Name).                                                                         |
+| X叫什么名字？<br>X jiao shenme mingzi？<br>Wie heißt X?<br>                          | X叫Y。<br>X jiao Y。<br>X heißt Y.                                                                                        |
+| X姓什么？<br>X xing shenme？<br>Wie ist X Nachname?                                | X姓Y。<br>X xing Y。<br>X heißt Y (Nachname).                                                                             |
 | X的中文名字是什么？<br>X de zhongwen mingzi shi shenme？<br>Wie heißt X auf chinesisch? | X的中文名字是Y。<br>X de zhongwen mingzi shi Y。<br>X chinesischer Name ist Y.                                                 |
 |                                                                               |                                                                                                                        |
 | **Fragen über Herkunft**                                                      |                                                                                                                        |
