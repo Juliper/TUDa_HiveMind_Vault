@@ -27,7 +27,7 @@ $$\text{Silbe} = \underbrace{\text{Anlaut (声母)}}_{\text{optional}} + \underb
 | ------- | ------- | -------------------- |
 | 1. Ton  | ā       | hoch, gleichbleibend |
 | 2. Ton  | á       | steigend             |
-| 3. Ton  | ǎ       | fallend-steigend     |
+| 3. Ton  | ǎ       | trief-fallend        |
 | 4. Ton  | à       | scharf fallend       |
 | Neutral | a       | kurz                 |
 

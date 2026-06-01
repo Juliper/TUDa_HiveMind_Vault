@@ -4,5 +4,6 @@
   "templater-obsidian",
   "obsidian-local-rest-api",
   "mermaid-tools",
-  "pdf-plus"
+  "pdf-plus",
+  "obsidian-excalidraw-plugin"
 ]

@@ -118,3 +118,5 @@ draft: false
 - [[ART vs Hash Tables]]
 
 
+# Quizzes
+* [[ADMS - Quiz 1]]

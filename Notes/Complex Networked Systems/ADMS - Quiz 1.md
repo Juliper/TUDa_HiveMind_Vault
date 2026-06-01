@@ -65,43 +65,27 @@ draft: false
 
 > [!question] Question 1
 > Since modern main-memory databases process all data in main memory, they require no mechanisms for persisting data to disk.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 2
 > Compression is used in in-memory DBMSs solely to reduce I/O overhead when reading from disk.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 3
 > A disk-based DBMS with a very large buffer pool is a good in-memory DBMS.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 4
 > In a disk-based DBMS, the query engine accesses data via Record IDs (RIDs) that point to slots in slotted pages.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 5
 > Column stores are particularly well-suited for OLTP workloads because individual tuples can be efficiently updated.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 6
 > Run-Length Encoding (RLE) on a column can be improved by sorting the data.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 7
 > With order-preserving dictionary compression, range queries can be executed directly on the compressed codes without decompressing first.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 8
 > Late materialization reconstructs tuples as early as possible in the query execution plan to minimize memory usage.
-> - [ ] True
-> - [ ] False
 
 > [!success]- Solutions Task 1
 > 1. **False** - In-memory DBMSs still need persistence mechanisms (e.g., logging, checkpointing) since RAM is volatile.
@@ -118,7 +102,7 @@ draft: false
 ## Task 2 - Short Answers
 
 > [!question] Question 2a - Buffer Pool Overhead
-> Name the two main overheads (indirections) that occur when accessing a record through the buffer pool - **even when the page is already in the buffer pool**.
+> Name the two main overheads that occur when accessing a record through the buffer pool - **even when the page is already in the buffer pool**.
 
 > [!success]- Solution 2a
 > 1. **Page Table Lookup**: PageID -> memory pointer to the page (lookup cost in the page table).
@@ -145,7 +129,6 @@ draft: false
 > | **Lightweight** (e.g., Dictionary, RLE) | Moderate | Queries can be executed **directly on compressed data** |
 
 ---
-
 ## Task 3 - Buffer Pool & Data Access
 
 > [!question] Question 3
@@ -158,8 +141,6 @@ draft: false
 > 4. Compute memory pointer to the tuple: `page address + slot offset`.
 > 5. Read the tuple.
 > 6. Release buffer frame latch -> release page table entry latch.
-
----
 
 ## Task 4 - Compression Schemes
 
@@ -296,8 +277,8 @@ draft: false
 
 ## Task 6 - Bit-Packing Calculations
 
-> [!question] Question 6a (1 Point)
-> A column has at most **m = 1000** distinct values. Calculate the minimum number of bits **n** (formula + result).
+> [!question] Question 6a
+>  A column has at most **m = 1000** distinct values. Calculate the minimum number of bits **n** (formula + result).
 
 > [!success]- Solution 6a
 > $$n = \lceil \log_2(m) \rceil = \lceil \log_2(1000) \rceil = \lceil 9{,}97 \rceil = \textbf{10 Bits}$$
@@ -313,7 +294,7 @@ draft: false
 
 ---
 
-## Task 7 - Row Store vs. Column Store (3 Points)
+## Task 7 - Row Store vs. Column Store
 
 > [!question] Question 7a
 > Name **three concrete advantages** of column stores for OLAP workloads.
@@ -387,6 +368,96 @@ GROUP BY ProductID
 
 ---
 
+## Task 10 - In-Memory Storage Concepts (Additional)
+
+> [!question] 10.1
+> Since modern main-memory databases handle all their processing in memory, it requires no mechanisms for persisting data to disk.
+
+> [!question] 10.2
+> List three distinct overheads introduced by a buffer pool in a classical DBMS, even when all relevant data pages are already present in memory.
+
+> [!question] 10.3
+> Briefly explain the "memory wall" problem in the context of database performance and state one implication for designing optimal in-memory data structures.
+
+> [!question] 10.4
+> Describe the primary data layout difference between row-stores and column-stores in memory. For which workload type (OLTP or OLAP) is a column-store generally preferred, and provide one reason why.
+
+> [!question] 10.5
+> In an OLAP workload, a row-store typically achieves higher read efficiency than a column-store when only a few columns are accessed across many rows.
+
+> [!question] 10.6
+> Compression in main-memory DBMS always guarantees a speedup in query processing.
+
+> [!question] 10.7
+> Distinguish between "heavyweight compression" (e.g., ZIP) and "lightweight compression" schemes based on their impact on query processing capabilities.
+
+> [!question] 10.8
+> A database column `CityName` contains entries like "Frankfurt", "Berlin", "Munich", "Frankfurt". Explain how Dictionary Encoding would process an equality predicate like `WHERE CityName = "Frankfurt"` on this compressed column.
+
+> [!question] 10.9
+> A dictionary for a specific column has mapped all its unique values to 150 distinct integer codes. Calculate the minimum number of bits required to represent these codes using Bit-Packing. Show your calculation.
+
+> [!question] 10.10
+> Describe a data characteristic for which Run-Length Encoding (RLE) would be highly effective for compression. Name one SQL operation that can be performed efficiently on RLE-encoded data without full decompression.
+
+> [!question] 10.11
+> How does Frame-of-Reference Encoding manage values that significantly deviate from the established reference frame within a data block?
+
+> [!question] 10.12
+> Bit-Vector Encoding is most effective when a column has a very large number of distinct values.
+
+> [!question] 10.13
+> Briefly describe the main difference between Early Materialization (EM) and Late Materialization (LM) as strategies for query processing on compressed columnar data.
+
+> [!question] 10.14
+> Late Materialization generally performs worse for high-selectivity queries compared to Early Materialization because it delays decompression.
+
+> [!question] 10.15
+> Explain why the recent stagnation of main memory costs (RAM) motivates the reconsideration of more aggressive compression strategies, including heavyweight compression, for future database systems.
+
+> [!question] 10.16
+> When heavyweight compressed data is stored on SSDs and loaded into memory for processing by a CPU, the effective bandwidth often shows only minimal improvement. What is the primary bottleneck preventing significant speedup in this scenario?
+
+> [!question] 10.17
+> How does a GPU-in-Data-Path DBMS (like Golap) overcome the CPU decompression bottleneck for heavyweight compressed data on SSDs? Name two specific GPU-related features or concepts it leverages.
+
+> [!success]- Solutions Task 10
+> **10.1** False - Even in-memory databases need mechanisms for persistence (durability) to prevent data loss upon power failure, typically through logging and writing to disk.
+>
+> **10.2** Three overheads include: Indirections (page table lookups), Latching (synchronization for metadata updates), and Locking (for logical consistency/transactions).
+>
+> **10.3** The "memory wall" is the growing disparity between increasingly fast CPUs and relatively slower memory access speeds, leading to CPUs waiting for data. An implication is that data structures must be designed to be cache-aware (e.g., small B-tree nodes) to maximize CPU utilization.
+>
+> **10.4** A row-store stores all attributes of a single tuple contiguously, while a column-store stores all values of a single attribute contiguously across many rows. A column-store is generally preferred for OLAP workloads because analytical queries often access only a subset of columns, allowing more efficient data loading and processing.
+>
+> **10.5** False - In an OLAP workload accessing few columns, a column-store typically achieves higher read efficiency because it only needs to read the relevant columns, whereas a row-store often loads entire rows into cache.
+>
+> **10.6** False - Compression can speed up scans by reducing data volume, but if the decompression overhead is too high, it might negate any gains or even slow down query processing.
+>
+> **10.7** Heavyweight compression schemes achieve high compression ratios but require full decompression of data before any SQL queries can be executed. Lightweight compression schemes achieve lower compression ratios but allow many SQL queries to operate directly on the compressed data without full decompression.
+>
+> **10.8** The query engine would first look up "Frankfurt" in the dictionary to find its corresponding integer code (e.g., `0`). Then, it would perform the equality filter on the `CityName` column by scanning for entries that have the code `0`.
+>
+> **10.9** $n = \lceil \log_2(150) \rceil$. $\log_2(150) \approx 7.228$. So, $n = \lceil 7.228 \rceil = 8$ bits are minimally required.
+>
+> **10.10** RLE is highly effective for columns with long, consecutive runs of identical values, such as sorted data or categorical attributes with repetitive sequences. SQL operations like `SUM` or `COUNT` (aggregates) and `WHERE` clauses (filters) can be performed efficiently on RLE-encoded data.
+>
+> **10.11** Frame-of-Reference Encoding uses an "escape code" (a specific bit pattern) to mark values that cannot be represented as small offsets from the current reference frame. The actual, uncompressed outlier value is then stored immediately after the escape code.
+>
+> **10.12** False - Bit-Vector Encoding is most effective when a column has a *small* number of distinct values (low cardinality). As the number of unique values increases, the number of bit-vectors (and thus storage) grows, making it less efficient.
+>
+> **10.13** Early Materialization decompresses columns and reconstructs full tuples early in the query processing pipeline. Late Materialization defers decompression and tuple reconstruction as long as possible, attempting to operate directly on the compressed data.
+>
+> **10.14** False - Late Materialization generally performs *better* for high-selectivity queries compared to Early Materialization because it avoids unnecessary decompression and tuple reconstruction for data that is filtered out.
+>
+> **10.15** The stagnation of memory costs means RAM is becoming a relatively more expensive resource compared to the ever-growing volume of data. To manage these costs economically, databases must store more data per unit of memory, necessitating higher compression ratios, even if it means using heavyweight schemes.
+>
+> **10.16** The primary bottleneck is the CPU's decompression overhead. Heavyweight compression schemes are compute-intensive to decompress, and traditional CPUs become the limiting factor during this process, even if data transfer from SSD is faster.
+>
+> **10.17** A GPU-in-Data-Path DBMS leverages GPUs for their massive parallel compute power. It overcomes the CPU bottleneck by: 1) Using GPU Direct I/O to load compressed data directly into GPU memory, bypassing the CPU. 2) Performing the compute-intensive decompression directly on the GPU, which can do it much faster due to its numerous cores.
+
+---
+
 # B - In-Memory Scan
 
 > [!abstract]- Own Notes
@@ -402,51 +473,27 @@ GROUP BY ProductID
 ## Task 1 - True/False
 > [!question] 1.1
 > Since modern in-memory databases process all data in main memory, they require no mechanisms for persisting data to disk.
->
-> - [ ] True
-> - [ ] False
 
 > [!question] 1.2
 > Compression is used in in-memory databases solely to reduce I/O overhead when reading from disk.
->
-> - [ ] True
-> - [ ] False
 
 > [!question] 1.3
 > A SIMD instruction (Single Instruction Multiple Data) processes a single operation on multiple data elements simultaneously.
->
-> - [ ] True
-> - [ ] False
 
 > [!question] 1.4
 > The compiler can automatically vectorize any loop as long as the optimization level is set high enough.
->
-> - [ ] True
-> - [ ] False
 
 > [!question] 1.5
 > The `restrict` keyword in C++ is part of the official C++ standard.
->
-> - [ ] True
-> - [ ] False
 
 > [!question] 1.6
 > AVX-512 enables parallel processing of up to 16 single-precision floats in a single SIMD register.
->
-> - [ ] True
-> - [ ] False
 
 > [!question] 1.7
 > In SIMD-Scan, data must always be fully decompressed before a filter predicate can be applied.
->
-> - [ ] True
-> - [ ] False
 
 > [!question] 1.8
 > Dictionary Encoding assigns each unique value of a column a compact integer code, which is then stored in the column.
->
-> - [ ] True
-> - [ ] False
 
 > [!success]- Solutions Task 1
 >
@@ -609,6 +656,138 @@ GROUP BY ProductID
 
 > [!success]- Solution 6.2
 > Saves full decompression of non-qualifying values -> less work, better cache utilization, higher throughput.
+
+## Task 7 - Vectorized Scan Pipeline (Additional)
+
+> [!question] 7.1
+> Under a column-store layout, list the four sequential steps a database query engine takes to execute a vectorized table scan filter using SIMD instructions.
+
+> [!success]- Solution 7.1
+> 1. **Load:** Load a vector (chunk) of data from the column into a SIMD register.
+> 2. **Compare:** Perform a `SIMD_Compare` operation against the filter predicate (e.g., lower and upper bounds) on all elements in the register, producing an output bitmask.
+> 3. **Store:** Use a masked SIMD store operation to selectively write only the qualifying elements (indicated by '1's in the bitmask) to an output data structure.
+> 4. **Repeat:** Iterate these steps until the entire column has been processed.
+
+---
+
+## Task 8 - True/False (Additional)
+
+> [!question] 8.1
+> Automatic vectorization by modern C++ compilers is guaranteed to identify all potential loop parallelisms in database operators, making manual intrinsics obsolete in high-performance query engines.
+
+> [!question] 8.2
+> Since modern databases are frequently memory-bound, accelerating scan operations using 512-bit SIMD registers does not automatically guarantee a proportional overall query speedup.
+
+> [!question] 8.3
+> Run-length encoding (RLE) is best suited for columns with high cardinality (many unique values) to minimize CPU overhead.
+
+> [!question] 8.4
+> Intel Streaming SIMD Extensions (SSE) were introduced in 1999 with 128-bit wide registers, whereas AVX-512 was introduced in 2017 with 512-bit wide registers.
+
+> [!success]- Solutions Task 8
+> **8.1** False. Compilers are inherently conservative. Due to potential pointer aliasing or complex data dependencies, they often fail to automatically vectorize database operations.
+>
+> **8.2** True. Databases are often memory-bound rather than CPU-bound. If the memory bandwidth is saturated, increasing CPU processing speed via SIMD will not yield a corresponding linear speedup.
+>
+> **8.3** False. RLE is best suited for columns with low cardinality and long sequences of repeating values. High cardinality results in short or non-existent runs, making RLE ineffective.
+>
+> **8.4** True. SSE was introduced in 1999 with 128-bit registers, and AVX-512 was introduced in 2017 with 512-bit registers.
+
+---
+
+## Task 9 - Bit-Packed Decompression Step Analysis (Additional)
+
+> [!question] 9.1
+> Suppose you are dealing with a 128-bit SIMD register holding 9-bit compressed (bit-packed) integers which are misaligned across byte boundaries. Specify the sequence of SIMD operational steps required to decompress these values into aligned, 32-bit SIMD lanes. For each key step (specifically shuffling and shifting), explain its precise role in resolving misalignment.
+
+> [!success]- Solution 9.1
+> 1. **Load:** Load the misaligned 9-bit packed values from memory into a SIMD register.
+> 2. **Shuffle:** Perform byte-level shuffling using a specified mask to copy raw bytes into separate 4-byte lanes, grouping the bits for each individual value.
+> 3. **Shift & Mask:** Apply a variable bitwise shift in each 32-bit SIMD lane (e.g., shifting left by 0, 1, 2, or 3 bits depending on the value's original bit offset) to align the target value's boundaries with the lane boundaries, then apply a bitwise mask (AND) to eliminate adjacent "noise" bits.
+> 4. **Store:** Store the aligned, expanded 32-bit integers back into normal memory.
+
+---
+
+## Task 10 - SIMD-SEARCH on Compressed Data (Additional)
+
+> [!question] 10.1
+> Instead of decompressing data first, a database can execute a direct filter predicate (e.g., `key > min`) on misaligned, bit-packed values. Explain how the comparison constant (`min`) must be prepared and aligned within the SIMD register for this comparison to succeed.
+
+> [!question] 10.2
+> What must be done to the remaining/noise bits in the SIMD lane during this operation?
+
+> [!question] 10.3
+> What is the main performance benefit of obtaining this qualifying bit-mask directly on compressed data?
+
+> [!success]- Solutions Task 10
+> **10.1** The filter constant (`min`) must first be bit-packed using the same number of bits as the column's values. It is then replicated across a SIMD register and *misaligned* in the exact same pattern as the data values being scanned, creating a "comparison vector" where each constant part aligns with its corresponding bit-packed value in the data vector.
+>
+> **10.2** Any unused or remaining bits in the SIMD lane (beyond the packed values and constants) must be zeroed out to ensure consistent bitwise comparison patterns.
+>
+> **10.3** Obtaining the bit-mask directly on compressed data allows the database engine to selectively decompress *only* the qualifying elements from associated columns, avoiding the high computational cost of full decompression.
+
+---
+
+## Task 11 - Branching vs. Branchless Execution (Additional)
+
+> [!question] 11.1
+> Consider the following standard scalar loop designed to filter database records:
+> ```cpp
+> for (int i = 0; i < n; i++) {
+>     if (keys[i] >= min) {
+>         results[res_count++] = keys[i];
+>     }
+> }
+> ```
+> Explain why the execution time of this specific loop peaks significantly when the selectivity of the predicate `keys[i] >= min` is close to 50% on random data.
+
+> [!question] 11.2
+> Rewrite the loop body (or provide equivalent pseudocode) using branchless programming techniques to stabilize execution time across all selectivity rates.
+
+> [!success]- Solutions Task 11
+> **11.1** At 50% selectivity on random data, the CPU's branch predictor is highly likely to make incorrect guesses (~50% error rate). This leads to frequent branch mispredictions, forcing the CPU to repeatedly flush its execution pipeline and re-execute, causing massive latency.
+>
+> **11.2**
+> ```cpp
+> for (int i = 0; i < n; i++) {
+>     results[res_count] = keys[i];
+>     res_count += (keys[i] >= min);
+> }
+> ```
+> This logic always stores the key in the next results slot, but only increments the index if the condition evaluates to true (1), effectively overwriting non-qualifying elements without using a branch instruction.
+
+---
+
+## Task 12 - Vectorizing Other Database Operators (Additional)
+
+> [!question] 12.1
+> Describe how vectorized SIMD execution can be applied to accelerate the following database operations:
+> a) Joins
+> b) Sorting (specifically Quicksort)
+
+> [!success]- Solution 12.1
+> **a) Joins:** Vectorization can accelerate hash joins by performing vectorized hashing (via shift instructions) and vectorized key comparison across multiple elements at once.
+>
+> **b) Sorting:** Vectorization can speed up Quicksort by comparing all elements in a SIMD register against a pivot simultaneously using vectorized comparison instructions.
+
+---
+
+## Task 13 - SIMD Hardware, Portability, and Evaluation (Additional)
+
+> [!question] 13.1
+> Compare the trade-offs of using explicit SIMD intrinsics versus relying on compiler hints (e.g., `#pragma ivdep` or the `restrict` keyword) with respect to execution control and code portability.
+
+> [!question] 13.2
+> Based on the 2023 evaluation paper discussed in class, why does SIMD speedup vary significantly across hardware architectures (e.g., Intel Ice Lake vs. Apple M1)?
+
+> [!success]- Solutions Task 13
+> **13.1**
+> - **Explicit SIMD Intrinsics:** Provide maximum low-level control over CPU registers and instruction scheduling, bypassing compiler conservativeness. However, they completely sacrifice portability because the code is tied directly to a specific instruction set (e.g., AVX-512) and will fail on architectures that lack this support (e.g., ARM NEON).
+> - **Compiler Hints (`#pragma ivdep` / `restrict`):** Maintain high code portability because the code is written in standard C/C++, allowing the compiler to adapt to the underlying architecture. However, they provide less control, as the compiler may still fail to vectorize if the loop's structure is too complex for its internal analysis.
+>
+> **13.2** SIMD speedup is highly instruction- and hardware-dependent. For instance, AVX-512 instructions excel on Intel x86 Ice Lake, but different instruction sets (like ARM NEON) must be targeted on the Apple M1 architecture, which features different register layouts and instruction designs that alter the execution speed of vectorized tasks.
+
+---
 
 # C - In-Memory Indexes
 
@@ -1018,6 +1197,126 @@ GROUP BY ProductID
 
 ---
 
+## Task F1 - True/False (Additional)
+
+> [!question] F1.1
+> Since modern main-memory databases store all data in DRAM, they do not suffer from the CPU-Memory gap (Memory Wall), making pointer-chasing structures like T-Trees highly efficient.
+
+> [!question] F1.2
+> In a CSS-Tree, directory nodes are stored without pointers, and parent-to-child navigation is performed purely via mathematical offset computation.
+
+> [!question] F1.3
+> Under standard Latch Coupling, when a write transaction performs an insertion, a parent node can be safely unlatched if its child node is not full.
+
+> [!question] F1.4
+> Lazy pointer swizzling translates all Page IDs on an index page into raw virtual memory pointers immediately when the page is loaded into the buffer pool.
+
+> [!success]- Solutions F1
+> **F1.1** False. Although T-Trees store data in memory, their high pointer density ("pointer chasing") causes frequent L2/L3 cache misses due to the Memory Wall, resulting in significant CPU stall cycles.
+>
+> **F1.2** True. CSS-Trees are pointer-free; children are stored in a contiguous array and addressed mathematically based on the parent's index position ($b$).
+>
+> **F1.3** True. An insert child node is considered "safe" if it is not full, meaning that any potential split will not propagate upward to modify the parent node.
+>
+> **F1.4** False. Overwriting all references immediately upon page loading is called *eager* swizzling. *Lazy* swizzling translates and overwrites Page IDs with memory pointers only upon the first query lookup traversing that link.
+
+---
+
+## Task F2 - Short Answers (Additional)
+
+> [!question] F2.1
+> Describe the mechanical difference between standard database locks and physical latches, noting their scope, duration, and where they are managed in the DBMS.
+
+> [!question] F2.2
+> Detail why pointer chasing during in-memory index traversals degrades execution speed on modern hardware, and list two design strategies cache-aware indexes use to resolve this.
+
+> [!success]- Solutions F2
+> **F2.1** **Locks** are logical constructs that protect transaction-level isolation (e.g., serializability), are held for the transaction's duration, and are managed by the database's Lock Manager. **Latches** are low-level physical primitives (like mutexes) that protect the internal structural integrity of data structures, are held only for the duration of the physical operation (e.g., a node split), and are managed directly at the thread level.
+>
+> **F2.2** Pointer chasing forces the CPU to jump to unpredictable, non-contiguous DRAM addresses, which breaks next-line/stream hardware prefetching and triggers stalling cache misses. Cache-aware indexes resolve this by: (1) eliminating pointers to use contiguous layouts with mathematical offsets, and (2) aligning node boundaries directly with 64-byte CPU cache lines to maximize key comparison density.
+
+---
+
+## Task F3 - Analytical Tree Problem (Additional)
+
+Given the B+ Tree:
+- **Root Node A:** Stores key `[ 20 ]` (Left child: B, Right child: C)
+- **Internal Node B:** Stores key `[ 10 ]` (Left child: Leaf D, Right child: Leaf E)
+- **Internal Node C:** Stores key `[ 35 ]` (Left child: Leaf F, Right child: Leaf G)
+- **Leaf Node D:** Stores key `[ 6 ]`
+- **Leaf Node E:** Stores key `[ 12 ]`
+- **Leaf Node F:** Stores key `[ 23 ]`
+- **Leaf Node G:** Stores keys `[ 38 | 44 ]` (Max capacity is 2 keys)
+
+*Assume internal nodes have a maximum capacity of 2 keys, and leaf nodes have a maximum capacity of 2 keys.*
+
+> [!question] F3.1 - Lookup(23)
+> Calculate the **total number of latches/locks acquired** on the nodes ($A, B, C, D, E, F, G$) during traversal for:
+> 1. **Standard Latch Coupling**
+> 2. **Optimistic Lock Coupling**
+
+> [!question] F3.2 - Insert(40)
+> Calculate the **total number of latches/locks acquired** for:
+> 1. **Standard Latch Coupling** (W-latches only)
+> 2. **Optimistic Lock Coupling** (assume OLC writer traverses optimistically without locking until the leaf is reached, then locks the leaf. If the leaf is full and requires a split, it also locks the parent node).
+
+> [!success]- Solutions F3
+
+> **F3.1: Lookup(23)**
+>
+> Path: $A \rightarrow C \rightarrow F$
+>
+> **Standard Latch Coupling:**
+>
+> |Step|Action|Node A|Node C|Node F|Active Latch Count|
+> |---|---|---|---|---|---|
+> |1|Inspect Root|**R**|||1|
+> |2|Move to C|*Release*|**R**||1|
+> |3|Move to Leaf F||*Release*|**R**|1|
+> |4|Finish|||*Release*|0|
+>
+> Total unique latches acquired: **3** (A, C, F)
+>
+> **Optimistic Lock Coupling:**
+>
+> |Step|Action|Node A|Node C|Node F|Active Latch Count|
+> |---|---|---|---|---|---|
+> |1|Read & Validate|Version|Version|Version|**0**|
+>
+> Total unique latches acquired: **0**
+>
+> ---
+>
+> **F3.2: Insert(40)**
+>
+> Path: $A \rightarrow C \rightarrow G$
+>
+> Node safety check: Max capacity is 2 keys.
+> - Node C has 1 key (35) -> **Safe** (won't split)
+> - Node G has 2 keys (38, 44) -> **Unsafe** (will split)
+>
+> **Standard Latch Coupling:**
+>
+> |Step|Action|Node A|Node C|Node G|Active Latch Count|
+> |---|---|---|---|---|---|
+> |1|Inspect Root A|**W**|||1|
+> |2|Inspect C (Safe)|*Release*|**W**||1|
+> |3|Inspect G (Unsafe)||**W**|**W**|2|
+>
+> Total unique latches acquired: **3** (A, C, G). Because G is full, C cannot be released. However, A was already safely released at Step 2.
+>
+> **Optimistic Lock Coupling:**
+>
+> |Step|Action|Node A|Node C|Node G|Active Latch Count|
+> |---|---|---|---|---|---|
+> |1|Traverse to Leaf|Version|Version|Version|0|
+> |2|Lock Leaf G|||**W**|1|
+> |3|Split triggers Parent Lock||**W**|**W**|2|
+>
+> Total unique latches acquired: **2** (G, C)
+
+---
+
 # D - ART (Adaptive Radix Tree)
 
 ## Task 1 - True/False 
@@ -1114,7 +1413,6 @@ ART uses a **hybrid** approach with a fixed-size vector of **\_\_\_** bytes. If 
 > - Vector size: **8 bytes**
 
 ---
-
 ## Task 5 - Calculation
 
 ### 5a) Node48 Size
@@ -1268,6 +1566,106 @@ search(node, key, depth)
 
 ---
 
+## Task 9 - ART True/False (Additional)
+
+> [!question] 9.1
+> When Lazy Expansion is enabled, you can safely skip comparing the search key against the leaf node's key during a lookup, as the path taken to reach the leaf guarantees a correct match.
+> - [ ] True
+> - [ ] False
+
+> [!question] 9.2
+> An insertion that triggers a transition from Node16 to Node48 increases the search depth (number of parent-to-child traversals) for all existing keys in that specific subtree.
+> - [ ] True
+> - [ ] False
+
+> [!question] 9.3
+> The worst-case space consumption of an Adaptive Radix Tree is bounded to 52 bytes per key, regardless of how long the keys are.
+> - [ ] True
+> - [ ] False
+
+> [!success]- Solutions Task 9
+> **9.1** False. Lazy expansion truncates the path and avoids creating inner nodes for unique paths. Because the intermediate key bytes are not explicitly represented in the tree's inner nodes, the path taken only matches a prefix. A full key comparison must be performed at the leaf level to ensure the search key matches the stored key.
+>
+> **9.2** False. Node type transitions are local memory optimizations. They change how keys and pointers are stored within a single node to balance space and lookup speed, but they do not alter the logical prefix structure of the radix tree, nor do they increase the search depth.
+>
+> **9.3** True. The worst-case space budget analysis proves that the budget of each node type is at least 52 bytes per key. Because of path compression and lazy expansion, intermediate one-way nodes are collapsed, ensuring that arbitrarily long keys do not inflate the tree height or space consumption indefinitely.
+
+---
+
+## Task 10 - ART Short Answer (Additional)
+
+> [!question] 10.1
+> Why does Node48 use an indirect 256-byte array of indexes rather than directly storing 48 keys and 48 pointers?
+
+> [!question] 10.2
+> How must a 32-bit signed integer be transformed so that it can be stored in an Adaptive Radix Tree while preserving its natural logical order during range scans?
+
+> [!success]- Solutions Task 10
+> **10.1** If Node48 stored 48 keys explicitly, searching the node would require sequentially scanning or performing a binary search, which introduces latency. If it stored 256 direct pointers, it would consume 2048 bytes of memory. The indirection (using a 256-byte index array pointing into a 48-element pointer array) allows $O(1)$ direct array index lookup based on the key byte, while consuming only 640 bytes (256 bytes + 48 pointers $\times$ 8 bytes), saving significant memory.
+>
+> **10.2** Signed two's-complement integers have their negative values stored with the most significant bit (the sign bit) set to 1, making negative numbers lexicographically greater than positive ones. To make them binary-comparable, the sign bit must be flipped using an XOR operation with $2^{31}$ ($x \oplus \text{0x80000000}$). This maps the minimum negative value to the lowest byte sequence and positive values to higher byte sequences, preserving logical order.
+
+---
+
+## Task 11 - SIMD-based Node16 Search (Additional)
+
+> [!question] 11.1
+> Describe step-by-step how a SIMD-based comparison searches for a key byte inside a Node16.
+
+> [!success]- Solution 11.1
+> 1. **Replicate Key Byte**: The searched key byte is replicated 16 times into a single 128-bit SIMD vector (e.g., using `_mm_set1_epi8`).
+> 2. **Parallel Comparison**: A SIMD comparison instruction (e.g., `_mm_cmpeq_epi8`) compares the replicated vector with the 16 key bytes stored in the node's key array in a single clock cycle.
+> 3. **Generate Mask**: The comparison output is converted into a bitmask (e.g., using `_mm_movemask_epi8`) where matching bytes are represented as 1-bits.
+> 4. **Apply Occupancy Mask**: The bitmask is logically ANDed with an occupancy mask (representing active slots) to ignore empty slots in nodes with fewer than 16 elements.
+> 5. **Compute Index**: The matching index is found using a count trailing zeros (`ctz`) instruction on the masked bitfield.
+> 6. **Fetch Pointer**: The index is used to retrieve the child pointer directly from the pointer array.
+
+---
+
+## Task 12 - ART vs. B+-Tree Comparison (Additional)
+
+> [!question] 12.1
+> Compare standard B+-Trees with the Adaptive Radix Tree (ART) across search complexity, cache performance, and branch predictability in main-memory databases.
+
+> [!success]- Solution 12.1
+> - **Search Complexity**: B+-Trees require $O(\log n)$ comparisons, which scales with the number of keys in the database ($n$). ART lookup is $O(k)$ where $k$ is the key length. For large datasets where $n$ is growing faster than $k$, ART's complexity remains independent of $n$.
+> - **Cache Performance**: B+-Trees access multiple keys in nodes to perform binary search, which can lead to cache line misses. ART uses compact nodes (Node4, Node16, Node48) alongside path compression, allowing nodes to fit tightly in CPU caches. In evaluations, dense keys in ART generate half as many L3 cache misses compared to optimized B+-Tree variants.
+> - **Branch Predictability**: B+-Trees suffer from branch mispredictions during comparison-based searches because the outcomes of comparisons are unpredictable, leading to CPU pipeline stalls. ART lookups on dense keys use direct index indexing (Node256) or parallel comparisons (Node16) that require fewer conditional branches, mitigating pipeline stalls.
+
+---
+
+## Task 13 - ART Insertion Scenario (Additional)
+
+> [!question] 13.1
+> Assume an empty Adaptive Radix Tree with lazy expansion and pessimistic path compression enabled. Describe the state of the tree after each of the following sequential insertions:
+> 1. Insert Key `0x01 0x02 0x03` (value = 10)
+> 2. Insert Key `0x01 0x02 0x04` (value = 20)
+> 3. Insert Key `0x01 0x05 0x06` (value = 30)
+
+> [!success]- Solution 13.1
+> **Step 1: After inserting `0x01 0x02 0x03` (value = 10)**
+> The tree contains no inner nodes. Because of lazy expansion, the root is a single Leaf Node storing the complete key `0x01 0x02 0x03` and value `10`.
+>
+> **Step 2: After inserting `0x01 0x02 0x04` (value = 20)**
+> A conflict occurs between the new key and the existing leaf.
+> - A `Node4` is created as the new root to resolve the split.
+> - The shared prefix between the two keys is `0x01 0x02` (length 2). The root `Node4` stores this prefix in its header with a `prefixLen` of 2.
+> - The root `Node4` has 2 children:
+>   - Child under byte `0x03` points to Leaf Node `10`.
+>   - Child under byte `0x04` points to Leaf Node `20`.
+>
+> **Step 3: After inserting `0x01 0x05 0x06` (value = 30)**
+> During traversal, the root `Node4` prefix `0x01 0x02` is compared with the insertion key `0x01 0x05 0x06`. They match on the first byte (`0x01`), but mismatch on the second byte (`0x02` vs `0x05`).
+> - A new `Node4` (New Root) is created.
+> - The New Root stores the shared prefix `0x01` (length 1) in its header.
+> - The old root `Node4` (now a child of the New Root) is updated: its prefix is changed to empty (the remaining part after removing `0x01` and the mismatch byte `0x02`), and its `prefixLen` is decremented.
+> - The New Root has 2 children:
+>   - Child under byte `0x02` points to the old `Node4`.
+>   - Child under byte `0x05` points to a new Leaf Node `30` (storing key `0x01 0x05 0x06` and value `30`).
+> - The old `Node4` retains its two leaf children (`10` and `20`) under bytes `0x03` and `0x04`.
+
+---
+
 # E - SSDs & Databases
 
 > [!abstract]- Own Notes
@@ -1281,43 +1679,27 @@ search(node, key, depth)
 
 > [!question] Question 1.3
 > NVMe SSDs offer roughly **100x** more sequential read bandwidth than HDDs.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 1.4
 > SSDs can **overwrite a single page in-place** without erasing the surrounding block.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 1.5
 > The **Flash Translation Layer (FTL)** maps logical block addresses to physical flash locations.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 1.6
 > A **4 KB page size** yields the highest random-read IOPS throughput on NVMe SSDs.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 1.7
 > Using `O_DIRECT` on a block device **always** eliminates the need for `fdatasync`.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 1.8
 > SPDK (kernel-bypassing I/O) is **strictly necessary** to saturate a modern NVMe array.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 1.9
 > Under a **skewed** (non-uniform) write workload, Greedy GC typically achieves **lower** WAF than under a uniform workload.
-> - [ ] True
-> - [ ] False
 
 > [!question] Question 1.10
 > Increasing the **over-provisioning ratio** on an SSD reduces the Write Amplification Factor (WAF).
-> - [ ] True
-> - [ ] False
 
 > [!success]- Task 1 - Solutions
 >
@@ -1417,20 +1799,20 @@ search(node, key, depth)
 
 ## Task 3 - Short Answers
 
-> [!question] Question 3.1 - NVMe Challenges (2 pts)
-> Name **two** key challenges that NVMe SSDs introduce for database systems compared to HDDs.
+> [!question] Question 3.1 - NVMe Challenges
+>  Name **two** key challenges that NVMe SSDs introduce for database systems compared to HDDs.
 
-> [!question] Question 3.2 - Flash Translation Layer (2 pts)
-> Briefly explain what the **Flash Translation Layer (FTL)** does and why it needs DRAM.
+> [!question] Question 3.2 - Flash Translation Layer
+>  Briefly explain what the **Flash Translation Layer (FTL)** does and why it needs DRAM.
 
-> [!question] Question 3.3 - SSD Garbage Collection (2 pts)
-> Describe the process of **SSD garbage collection** in your own words. What is the role of over-provisioning (OP)?
+> [!question] Question 3.3 - SSD Garbage Collection
+>  Describe the process of **SSD garbage collection** in your own words. What is the role of over-provisioning (OP)?
 
-> [!question] Question 3.4 - Sequential Writing & WAF (2 pts)
-> Why does WAF **not automatically improve** with sequential writing when **multiple** active write zones are used simultaneously?
+> [!question] Question 3.4 - Sequential Writing & WAF
+>  Why does WAF **not automatically improve** with sequential writing when **multiple** active write zones are used simultaneously?
 
-> [!question] Question 3.5 - WAF Calculation (2 pts)
-> Given an SSD with **OP = 0.20** (20% over-provisioning) under a uniform workload.
+> [!question] Question 3.5 - WAF Calculation
+>  Given an SSD with **OP = 0.20** (20% over-provisioning) under a uniform workload.
 > Formula: `WAF = 1 / (2 x OP)`
 >
 > Calculate WAF for OP = 0.20 and OP = 0.10.
@@ -1439,8 +1821,7 @@ search(node, key, depth)
 > - OP = 0.20 -> WAF = 1 / (2 x 0.20) = **2.5**
 > - OP = 0.10 -> WAF = 1 / (2 x 0.10) = **5.0**
 
-> [!question] Question 3.6 - Correct SSD Benchmarking (2 pts)
-> Name **three correct steps** when benchmarking an NVMe SSD to obtain reproducible steady-state results.
+> [!question] Question 3.6 - Correct SSD Benchmarking> Name **three correct steps** when benchmarking an NVMe SSD to obtain reproducible steady-state results.
 
 > [!success]- Question 3.6 - Solution
 > 1. Fully erase the SSD beforehand: `nvme sanitize --sanact=start-block-erase` or `blkdiscard`
@@ -1461,24 +1842,19 @@ search(node, key, depth)
 
 Operations: **Upsert(6, "bar")** and **Lookup(38)**
 
-> [!question] Question 4.1 - Standard Lock Coupling (3 pts)
-> For each operation, provide the sequence of locked nodes and the lock mode (`S` = shared, `X` = exclusive).
+> [!question] Question 4.1 - Standard Lock Coupling> For each operation, provide the sequence of locked nodes and the lock mode (`S` = shared, `X` = exclusive).
 
-> [!question] Question 4.2 - Optimistic Lock Coupling (3 pts)
-> Explain the difference from standard lock coupling. How many locks/validations are needed for the same operations?
+> [!question] Question 4.2 - Optimistic Lock Coupling> Explain the difference from standard lock coupling. How many locks/validations are needed for the same operations?
 
 ---
 
 ## Task 5 - Buffer Pool & I/O Path
 
-> [!question] Question 5.1 - Page Present in Buffer Pool (2 pts)
-> Describe step by step what happens when the query engine accesses a record whose page is **already in the buffer pool**.
+> [!question] Question 5.1 - Page Present in Buffer Pool> Describe step by step what happens when the query engine accesses a record whose page is **already in the buffer pool**.
 
-> [!question] Question 5.2 - Page Not in Buffer Pool / Eviction (2 pts)
-> Describe step by step what happens when the page is **not in the buffer pool** (page fault, eviction required).
+> [!question] Question 5.2 - Page Not in Buffer Pool / Eviction> Describe step by step what happens when the page is **not in the buffer pool** (page fault, eviction required).
 
-> [!question] Question 5.3 - Global Latch as Bottleneck (2 pts)
-> Why did the original LeanStore implementation (2018) with a **global latch** become a bottleneck on NVMe arrays? What was the solution?
+> [!question] Question 5.3 - Global Latch as Bottleneck> Why did the original LeanStore implementation (2018) with a **global latch** become a bottleneck on NVMe arrays? What was the solution?
 
 ---
 
@@ -1505,3 +1881,127 @@ Operations: **Upsert(6, "bar")** and **Lookup(38)**
 > A company runs an OLTP database on **8 x PCIe 5.0 enterprise SSDs** (each ~2700K random-read IOPS). The system achieves only ~3.5M lookups/s, although the theoretical capacity is ~21.6M IOPS.
 >
 > Name and explain **at least three** possible causes of the I/O gap and propose a concrete solution for each.
+
+---
+
+## Task 8 - True/False (Additional)
+
+> [!question] 8.1
+> Since modern NVMe SSDs utilize a standard block device interface similar to traditional hard drives, existing database architectures can fully saturate them without modifying their internal threading or I/O paths.
+> - [ ] True
+> - [ ] False
+
+> [!question] 8.2
+> To achieve full performance, modern NVMe SSDs require a high level of I/O parallelism, typically needing at least 100 outstanding I/O requests per device at all times.
+> - [ ] True
+> - [ ] False
+
+> [!question] 8.3
+> Modern NVMe SSDs generally achieve their highest random read throughput and lowest latency when utilizing a smaller page size, specifically 4KB.
+> - [ ] True
+> - [ ] False
+
+> [!question] 8.4
+> On a system designed for 12 million IOPS utilizing 64 CPU cores, the overall CPU budget per single I/O operation is approximately 130,000 CPU cycles.
+> - [ ] True
+> - [ ] False
+
+> [!question] 8.5
+> NAND flash transistors physically allow in-place overwriting of individual 4KB pages without requiring prior block erasure.
+> - [ ] True
+> - [ ] False
+
+> [!question] 8.6
+> A Greedy Garbage Collection (GC) algorithm always selects the victim flash block that has the least amount of valid data to copy.
+> - [ ] True
+> - [ ] False
+
+> [!success]- Solutions Task 8
+> **8.1** False. While the block device interface is identical, the high parallelism and page size requirements of NVMe SSDs introduce software bottlenecks (e.g., locks, context switches) in traditional architectures, making substantial changes necessary to saturate the device.
+>
+> **8.2** True. To fully saturate the device and overcome the latency of NAND flash, high I/O depth (lots of simultaneous requests) is necessary.
+>
+> **8.3** True. Random reads on 4KB pages achieve nearly full sequential bandwidth, whereas larger default sizes (like 16KB) increase I/O traffic and latency.
+>
+> **8.4** False. The actual cycle budget is extremely tight, sitting at approximately 13,000 CPU cycles per I/O operation (calculated as $\frac{64 \text{ cores} \times \text{Clock Frequency}}{12\text{M IOPS}}$).
+>
+> **8.5** False. NAND flash cells can only be programmed (written) from 1 to 0. Overwriting requires erasing the whole block (resetting cells to 1) first.
+>
+> **8.6** True. Greedy Garbage Collection operates on the simplest cost heuristic, choosing the block containing the lowest count of valid pages to minimize copy overhead.
+
+---
+
+## Task 9 - Async I/O Read Path (Additional)
+
+> [!question] 9.1
+> List the steps a database worker thread running an optimized storage engine (such as LeanStore with SPDK) takes to submit a read request and retrieve a page from an NVMe SSD without blocking the CPU core.
+
+> [!success]- Solution 9.1
+> 1. The worker task initiates a read operation on a logical page that is missing from the buffer pool.
+> 2. Instead of calling a blocking OS function (which would stall the CPU core), the system yields the current user-space execution context (using a lightweight threading framework like Boost Context).
+> 3. The request is submitted asynchronously via the user-space driver directly to the NVMe device's submission queue (Q pair).
+> 4. The core scheduler switches context to another active user-space task to continue processing database transactions.
+> 5. During scheduling loops, the thread polls the completion queue (via SPDK). Once the hardware completes the read and transfers the page to memory, the original context is resumed to complete the transaction.
+
+---
+
+## Task 10 - I/O Interface Comparison (Additional)
+
+> [!question] 10.1
+> Given three different asynchronous I/O libraries on Linux: `libaio`, `io_uring`, and `SPDK`. Specify the differences in how user-kernel boundaries are managed for each of these options, and provide one major performance disadvantage or constraint when choosing `SPDK`.
+
+> [!success]- Solution 10.1
+> - **`libaio`** (POSIX-like asynchronous kernel layer): Requires standard system calls (`io_submit`, `io_getevents`) to submit and complete requests, causing kernel context switches.
+> - **`io_uring`**: Submits and receives requests through a shared ring buffer between user space and kernel space, drastically reducing context switches, but requests still pass through the kernel's stack.
+> - **`SPDK`** (Kernel bypass): Completely runs the NVMe driver in user space, communicating directly with the hardware controller's Q pairs via memory-mapped I/O (MMIO), bypassing the kernel entirely.
+> - **SPDK Disadvantage:** SPDK requires exclusive ownership of the NVMe drive. This prevents standard file systems (like Ext4 or XFS) and other OS processes from directly utilizing the drive.
+
+---
+
+## Task 11 - L2P Table Calculation (Additional)
+
+> [!question] 11.1
+> Given an enterprise NVMe SSD with a physical capacity of 4 TB and a page size of 4KB. Each entry in the Logical-to-Physical (L2P) mapping table requires 4 bytes of space. The table must reside entirely in the SSD's onboard DRAM. Calculate the exact size of the L2P mapping table in Gigabytes (GB) and explain how this DRAM size requirement introduces performance or architecture trade-offs in consumer SSDs compared to enterprise SSDs.
+
+> [!success]- Solution 11.1
+> **Calculation:**
+> - Number of pages: $\frac{4 \text{ TB}}{4 \text{ KB}} = \frac{4 \times 10^{12}}{4 \times 10^3} = 10^9 \text{ pages}$ (or exactly $\frac{4 \times 2^{40}}{4 \times 2^{12}} = 2^{30} = 1{,}073{,}741{,}824$ pages).
+> - Table size: $1{,}073{,}741{,}824 \text{ entries} \times 4 \text{ bytes} = 4{,}294{,}967{,}296 \text{ bytes} = 4 \text{ GB}$ of DRAM.
+>
+> **Trade-offs:** To lower manufacturing costs, consumer SSDs are equipped with very little or no onboard DRAM. This forces the FTL to page portions of the L2P table from flash on demand or utilize Host Memory Buffer (HMB) to borrow host DRAM. This can lead to latency spikes and degraded random read performance compared to enterprise SSDs, which maintain the complete L2P mapping table in dedicated onboard DRAM.
+
+---
+
+## Task 12 - WAF Calculation (Additional)
+
+> [!question] 12.1
+> Given a simplified out-of-place writing scenario: The host issues updates resulting in 10 logical page writes. To execute these writes, the internal garbage collection process must move 5 valid pages to a new empty block in order to erase a full victim block. Calculate the resulting Write Amplification Factor (WAF), show the calculation, and state the theoretical minimum WAF possible under ideal data placement conditions.
+
+> [!success]- Solution 12.1
+> $$WAF = \frac{\text{Physical Writes}}{\text{Host Writes}} = \frac{\text{GC writes} + \text{Host writes}}{\text{Host writes}} = \frac{5 + 10}{10} = 1.5$$
+>
+> The theoretical minimum WAF is $1$, occurring when physical writes match logical host writes exactly (with zero garbage collection copy overhead).
+
+---
+
+## Task 13 - Skewed Workloads & Over-Provisioning (Additional)
+
+> [!question] 13.1
+> Given an SSD operating under a skewed "two-zones" workload (30% of the data receives 70% of updates) and two potential mitigation strategies: Increasing internal over-provisioning (OP) and restructuring the application write pattern to be purely sequential. Explain why WAF typically *increases* on most commercial SSDs under skewed workloads compared to uniform workloads, and explain mathematically how increasing over-provisioning (OP) helps mitigate WAF.
+
+> [!success]- Solution 13.1
+> **Why WAF Increases with Skew:** Most standard SSD controllers utilize simple greedy GC algorithms that do not track page hotness. When hot (frequently updated) and cold (static) data are written concurrently, they end up interleaved on the same physical blocks. During GC, the static "cold" pages on those victim blocks must be repeatedly copied to new locations, which inflates WAF.
+>
+> **Mathematical Mitigation via OP:** WAF is approximately inversely proportional to the over-provisioning (OP) ratio ($WAF \approx \frac{1}{2 \times OP}$) under uniform workloads. Increasing OP gives the garbage collector a larger pool of free blocks, allowing it to select victim blocks with fewer valid pages, thereby minimizing physical copies and mathematically driving WAF down.
+
+---
+
+## Task 14 - Power-Loss Protection (Additional)
+
+> [!question] 14.1
+> Explain how the hardware power-loss protection capacitors present in enterprise SSDs affect the latency of the `fdatasync` (or NVMe flush) command compared to consumer SSDs without capacitors.
+
+> [!success]- Solution 14.1
+> Enterprise SSDs use onboard power-loss protection (PLP) capacitors to guarantee that any data currently residing in volatile DRAM write buffers can be safely flushed to non-volatile NAND flash in a power failure. Because of this guarantee, the SSD can instantly acknowledge flush (`fdatasync`) commands as soon as the data is in DRAM, achieving low latency.
+>
+> Consumer SSDs lack these capacitors. To prevent data loss, they must physically write the buffered data to NAND flash before acknowledging a flush command, which exposes the host to high NAND program/erase latencies (often around 1.7ms).

@@ -20,15 +20,17 @@ draft: false
 ---
 # TODO
 * Lehrbuch bis lesson 3 gekommen
-* Notiz für Familiennamen erstellen
 ---
 
 # Basics
 * [[Chinesische Sprachen]]
 * [[拼音 Pīnyīn (Lautumschrift)]]
 * [[汉字 Hànzì (Zeichensystem)]]
+# Vocabs
 * [[Chinesische Zahlen]]
+* [[Chinesischer Familienbaum]]
+* [[Chinesische Länder]]
+* [[Chinesische Vokabeln]]
 * [[Chinesische Phrasen]]
 
-
-
+# Exam
