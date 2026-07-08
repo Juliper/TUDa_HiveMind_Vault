@@ -29,7 +29,7 @@ $$f(\vec{x}) = A(f(n_1), \ldots, f(n_k))$$
 
 The neighborhood $N_k(\vec{x})$ is defined by the chosen distance metric. When neighborhoods don't overlap, there are at most $\frac{N}{k}$ neighborhoods.
 
-## Selection Function (Auswahlfunktion)
+## Selection Function
 
 The aggregation strategy depends on the task:
 

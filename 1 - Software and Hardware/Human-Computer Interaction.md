@@ -18,125 +18,164 @@ draft: false
 > In this course a bonus of up to 0.3 can be obtained by doing the exercises.
 ## [Lecture 1 - What is HCI](https://moodle.informatik.tu-darmstadt.de/pluginfile.php/341134/mod_resource/content/1/01_History_of_HCI_v1.pdf)
 
-* [[What is HCI?]]
+* [[What is HCI]]
 * [[History of HCI]]
 * [[Future of HCI]]
 
-## [Lecture 2 - Cognitive Bias](https://moodle.informatik.tu-darmstadt.de/pluginfile.php/341136/mod_resource/content/1/02_Cognition_v0.pdf)
+## [Lecture 2 - Cognition](https://moodle.informatik.tu-darmstadt.de/pluginfile.php/341136/mod_resource/content/1/02_Cognition_v0.pdf)
 
-Dark Patterns / Deceptive Design
+### Cognitive Models
+- [[Model Human Processor]]
+- [[Human Memory Systems]]
+- [[Situated Action]]
 
-Nagging: Redirection of expected functionality that persists beyond
-one or more interactions
+### Perception and Grouping
+- [[Gestalt Principles]]
 
-Obstruction: Making a process more difficult than it needs to be, with
-the intent of dissuading certain action(s)
+### Deceptive Design
+- [[Dark Patterns]]
 
-Sneaking: Attempting to hide, disguise, or delay the divulging of
-information that is relevant to the user.
+## [Lecture 3 - Metaphor](https://moodle.informatik.tu-darmstadt.de/pluginfile.php/341134/mod_resource/content/1/03_Metaphor.pdf)
 
-Interface Interference: Manipulation of the user interface that privileges certain
-actions over others.
+### Mental Models and Metaphor
+- [[Mental Models]]
+- [[Metaphors in HCI]]
 
+### Signaling Interaction
+- [[Affordances]]
+- [[Constraints in HCI]]
+- [[Mapping and Analogy in HCI]]
 
+## [Lecture 4 - Design Process](https://moodle.informatik.tu-darmstadt.de/pluginfile.php/341134/mod_resource/content/1/04_Design_Process.pdf)
 
-(A) The Obstruction Design Pattern is used. The Opt Out option for Newsletter is unnecessarly hidden. Also it is opted in by default
-(B) The Interface Interference Pattern is used. There is now exit button and only a big highlighted Reinstall button which nidges the user into reinstalling the App.
-(C) Nagging + Obstruction. The user gets pressured to just accept all or buy. The opt out options are all hidden under dropdowns
+### Design Methodology
+- [[Human-Centered Design Process]]
+- [[User-Centered Design]]
 
+### Research Methods
+- [[Qualitative vs Quantitative Research Methods]]
+- [[Ethnography in HCI]]
+- [[Interview Techniques in HCI]]
+- [[Focus Groups]]
 
-Gestalt Laws
+### Requirements and Prototyping
+- [[Personas]]
+- [[Scenarios in HCI]]
+- [[Prototyping in HCI]]
+- [[Wizard of Oz Prototyping]]
 
-Law of Proximity: The principle of proximity states that
-things that are close together appear
-to be more related than things that are
-spaced farther apart.
-Use in Design
-In UX design we have used this law a lot
-of time, and you can see this law used
-almost everywhere. In below example,
-the labels are always placed near to the
-field text, so that user can perceive it as
-a single element.
+## [Exercise 1 - Recap](https://moodle.informatik.tu-darmstadt.de/pluginfile.php/341134/mod_resource/content/1/ex01_tasks_2026.pdf)
 
-Law of similarity
-The principle of similarity states that
-when things appear to be similar to
-each other, we group them together
-and we also tend to think they have
-the same function.
-Use in Design
-In the below login form, the fields and
-button have the same size, but due to
-the different color of the button, we
-know that its function is different. Also in
-the description text below, we knew that
-the blue texts are links.
+### Perception, Signaling, and Error
+- [[Gestalt Principles]]
+- [[Affordances]]
+- [[Constraints in HCI]]
+- [[Mapping and Analogy in HCI]]
+- [[Metaphors in HCI]]
+- [[Gulf of Execution and Evaluation]]
+- [[Dark Patterns]]
 
-Law of common-region
-The principle of the common region is
-highly related to proximity. It states
-that when objects are located within
-the same closed region, we perceive
-them as being grouped together.
-Use in Design
-In UX this law has dominated with the
-use of cards If you observe cards
-creates a specific region of information,
-even if other information is placed near
-to them.
+## [Lecture 5 - Design Process Part 2](https://moodle.informatik.tu-darmstadt.de/pluginfile.php/341134/mod_resource/content/1/05_Design_Process.pdf)
 
-Law of continuity
-The principle of continuity states that
-elements that are arranged on a line
-or curve are perceived to be more
-related than elements not on the line
-or curve.
-Use in Design
-In navigation, you can differ and
-understand primary and secondary
-navigation, In below, you can relate
-home, profile, shop, contact and help as
-a group of navigation easily because
-they are arranged in one line rather than
-home, profile, men, women.
+### Ideation and Design Thinking
+- [[Ideation Methods in HCI]]
+- [[Design Thinking]]
+- [[Design Process Methodology Comparison]]
 
-Law of closure
-The principle of closure states that
-when we look at a complex
-arrangement of visual elements, we
-tend to look for a single, recognizable
-pattern.
-Use in Design
-In design, this law is highly used to
-create negative spaced logos. Some
-examples are below.
+### Reflection on Human-Centered Design
+- [[Human-Centered Design Process]]
 
-Law of figure-ground
-The figure-ground principle states that
-people instinctively perceive objects as
-either being in the foreground or the
-background. As a human, you can
-focus on either the foreground or the
-background.
-Use in Design
-In UX design this law is used in the
-navigation panel, modals, and dialogs.
+## Exercise 2 - Prototyping Recap and XR
 
-Law of Common Fate
-The law of common fate suggests that
-when multiple visual elements move in
-the same direction or at the same
-speed, we tend to perceive them as a
-cohesive unit or a single entity rather
-than individual components.
-Use in Design
-Animations.
+### Fidelity and Prototyping
+- [[Prototyping in HCI]]
+- [[Wizard of Oz Prototyping]]
+- [[Personas]]
 
-(A) Law of continuity
-(B) Law of common-region
-(C) Law of Closure
+## [Lecture 6 - Evaluation Methods](https://moodle.informatik.tu-darmstadt.de/pluginfile.php/341134/mod_resource/content/1/06_Evaluation.pdf)
+
+### Study Design
+- [[Controlled Experiment]]
+- [[Independent and Dependent Variables]]
+- [[Control, Random, and Confounding Variables]]
+- [[Validity and Reliability]]
+- [[Between-Subjects and Within-Subjects Design]]
+- [[Counterbalancing]]
+- [[Research Question and Hypothesis Formulation]]
+- [[Sample Size and Statistical Power]]
+- [[Hawthorne Effect]]
+
+### Data and Measures
+- [[Data Types in Quantitative Research]]
+- [[Qualitative vs Quantitative Research Methods]]
+- [[Questionnaires in HCI]]
+- [[Thematic Analysis]]
+
+### Data Analysis
+- [[Descriptive Statistics]]
+- [[Statistical Significance Testing]]
+- [[T-Test]]
+- [[ANOVA]]
+- [[Type I and Type II Errors]]
+
+## [Lecture 7 - Fitts's Law](https://moodle.informatik.tu-darmstadt.de/pluginfile.php/341134/mod_resource/content/1/08_Fittss_Law.pdf)
+
+### Model-Based Evaluation
+- [[GOMS and Keystroke Level Model]]
+- [[Heuristic Evaluation]]
+- [[Fitts's Law]]
+
+## Exercise 3 - Controlled Experiments and Fitts's Law
+
+### Applied Study Design
+- [[Controlled Experiment]]
+- [[Independent and Dependent Variables]]
+- [[Research Question and Hypothesis Formulation]]
+- [[Between-Subjects and Within-Subjects Design]]
+- [[Data Types in Quantitative Research]]
+
+### Applied Fitts's Law
+- [[Fitts's Law]]
 
 # Klausurvorbereitung
 
-> [!IMPORTANT] TBD
+[[HCI - Klausurfragensammlung]]
+
+Das habe ich mal geschickt bekommen:
+
+Gedächtnisprotokoll von HCI 2019: - Definition Affordances, Constraints
+- Arten von Constraints mit Anwendung auf Bild
+- Arten von Analogies/Mappings mit Anwendung auf Bild (erkennen und selbst verwenden, 
+Verbesserung eines Produkts - Schieberegler für Saallichter - mit anderen Analogies)
+- GOMS - Vor- und Nachteile und Anwendung des Keystroke Level Model (Aufzählen von einzelnen Operations für gegebene Method, 
+Berechnen der Performance Time mit gegebenen Zeiten für die Operations)
+- Aufzählen der 7 Stages of Actions
+- Erklärung der 2 Gulfs (of Execution und of Evaluation)
+- Usability Goals (aufzählen und erklären)
+:thumbsup:
+Klicken, um zu reagieren
+:skull:
+Klicken, um zu reagieren
+:thumbsdown:
+Klicken, um zu reagieren
+Reaktion hinzufügen
+Antworten
+Weiterleiten
+Mehr
+[12:39]Mittwoch, 21. Juli 2021 um 12:39
+- Definition Conceptual Model
+- Arten von Metaphors (verb-based, noun-based, verb+noun-based) und Vor- und Nachteile von Metaphors
+- 3 Arten von External Cognition aufzählen und Beispiel nennen
+- Gestalt Law erkennen (an einem Bild) und 2 zusätzliche nennen und erklären
+- Unterschiede von High-Fidelity und Low-Fidelity Prototyping, jeweils 3 Vorteile der beiden
+- Unterschied User-Involvement Wasserfallmodell und Design-Implement-Analyze Modell (im Wasserfallmodell garnicht oder nur am Anfang, in DIA immer)
+- Wieso User in Design Prozess involvieren? (Functionality, Expectation Management und Ownership)
+- Nennung und Erklärung von 2 Golden Rules
+- Diskussion über Zusammenhang der 10 Golden Rules mit "guter" Nutzerschnittstelle
+- noch irgendwas zu den 10 Golden Rules (weiß nicht mehr was)
+- Controlled Experiment: Erklärung der unterschiedlichen Variablen (allgemein), Variablen identifizieren im konkreten Experiment, 
+Hypothesen aufstellen für konkretes Experiment...
+- Interfaces & Interactions: 3 Aspekte von AR nach Azuma, Erklärung und Beispiel für Multimodal Interfaces, Erklärung für Erfolg von WIMP 
+im Vergleich zu vorher (nur Command Line Interfaces, jetzt auch Direct Manipulation, Mouse, Windows...), wofür steht REP-Loop? (-> Read-Eval-Print Loop)
+- Data Visualization: Erkennung einer konkreten Data Visualization an einem Bild (in diesem Fall Line Chart), 2 Beispiele wieso gegebenes 
+Bild schlecht oder gut ist und falls schlecht Zeichnung einer besseren Grafik (Tabelle mit Werten war gegeben)

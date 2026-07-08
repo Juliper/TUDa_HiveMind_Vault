@@ -185,138 +185,6 @@ draft: false
 > - 你好 → 你好吗？ (Wie geht es dir?)
 > - 他是老师 → 他是老师吗？ (Ist er Lehrer?)
 
-## Arbeitsbuch Einheit 2 - Lösungen
-
-### Lektion 1
-
-**Aufgabe 1** - Verbinden:
-1. 住在 - e) wohnen in
-2. 哪国 - d) welches Land
-3. 不 - a) nein
-4. 人 - c) Mensch, Person
-5. 吗 - f) Fragepartikel
-6. 哪里 - b) wo, wohin
-
-**Aufgabe 2** - Ländernamen und Fotos:
-1. 英国 (Yīngguó) - g
-2. 澳大利亚 (Àodàlìyà) - e
-3. 美国 (Měiguó) - a
-4. 日本 (Rìběn) - h
-5. 加拿大 (Jiānádà) - d
-6. 中国 (Zhōngguó) - f
-7. 法国 (Fǎguó) - c
-8. 韩国 (Hánguó) - b
-
-**Aufgabe 3** - Konversation vervollständigen:
-1. Shǐdìfū shì **Yīngguó** rén. 史蒂夫是**英国**人。
-2. Mǎkè shì **Àodàlìyà** rén. 马克是**澳大利亚**人。
-3. Mǎkè zhù zài **Běijīng**. 马克住在**北京**。
-
-**Aufgabe 5** - Pinyin schreiben:
-1. 英国 - Yīngguó
-2. 伦敦 - Lúndūn
-3. 中国 - Zhōngguó
-4. 北京 - Běijīng
-5. 德国人 - Déguórén
-6. 澳大利亚人 - Àodàlìyàrén
-
-**Aufgabe 6** - Fragen mit 吗:
-1. Wáng Yù shì Zhōngguórén ma? 王玉是中国人吗？
-2. Nǐ zhù zài Běijīng ma? 你住在北京吗？
-3. Yǒngmín shì Hánguórén ma? 永民是韩国人吗？
-4. Nǐ rènshi Dīng Yuán ma? 你认识丁原吗？
-5. Mǎkè zhù zài Běijīng ma? 马克住在北京吗？
-
-### Lektion 2
-
-wo jiao name
-wo shi nationalität
-zhu zai
-
-**Visitenkarten:**
-- Peter Austin: Měiguórén, zhù zài Àodàlìyà Xīní. 美国人，住在澳大利亚悉尼。
-- Kim Park: Hánguórén, zhù zài Zhōngguó Běijīng. 韩国人，住在中国北京。
-- Jane Lee: Jiānádàrén, zhù zài Rìběn. 加拿大人，住在日本。
-- Emil Walter: Déguórén, zhù zài Ruìshì Sūlíshì. 德国人，住在瑞士苏黎世。
-
-**Aufgabe 1** - Fragen zu den Visitenkarten:
-1. Peter xìng shénme? - Peter xìng Austin. Peter 姓什么？- Peter 姓 Austin。
-2. Peter shì Àodàlìyàrén ma? - Bú shì, tā shì Měiguórén. Peter 是澳大利亚人吗？- 不是，他是美国人。
-3. Park shì Zhōngguórén ma? - Bú shì, tā shì Hánguórén. Park 是中国人吗？- 不是，他是韩国人。
-4. Park zhù zài nǎlǐ? - Tā zhù zài Zhōngguó Běijīng. Park 住在哪里？- 他住在中国北京。
-5. Jane shì nǎ guó rén? - Tā shì Jiānádàrén. Jane 是哪国人？- 她是加拿大人。
-6. Jane zhù zài Rìběn ma? - Shì, tā zhù zài Rìběn. Jane 住在日本吗？- 是，她住在日本。
-7. Emil shì nǎ guó rén? - Tā shì Déguórén. Emil 是哪国人？- 他是德国人。
-8. Emil zhù zài Àodìlì ma? - Bù, tā zhù zài Ruìshì Sūlíshì. Emil 住在奥地利吗？- 不，他住在瑞士苏黎世。
-
-**Aufgabe 2** - Jackie Chan:
-1. Jackie Chan shì míngxīng ma? - Shì, tā shì míngxīng. Jackie Chan 是明星吗？- 是，他是明星。
-2. Tā shì nǎ guó rén? - Tā shì Zhōngguórén. 他是哪国人？- 他是中国人。
-
-**Aufgabe 4** - Fragen mit 哪里 oder 哪国:
-1. Wǒ zhù zài Zhōngguó. → Nǐ zhù zài nǎlǐ? 我住在中国。→ 你住在哪里？
-2. Tā zhù zài Lúndūn. → Tā zhù zài nǎlǐ? 他住在伦敦。→ 他住在哪里？
-3. Shǐdìfū shì Yīngguórén. → Shǐdìfū shì nǎ guó rén? 史蒂夫是英国人。→ 史蒂夫是哪国人？
-4. Tā shì Rìběnrén. → Tā shì nǎ guó rén? 她是日本人。→ 她是哪国人？
-
-**Aufgabe 5** - 不 einsetzen:
-1. Lúndūn **bú** zài Měiguó. 伦敦**不**在美国。
-2. Tā **bú** jiào Mǎ Lì. 她**不**叫马丽。
-3. Wǒ **bú** rènshi Ānnà. 我**不**认识安娜。
-4. Bù, wǒ **bú** zhù zài Běijīng. 不，我**不**住在北京。
-5. Bù, wǒ **bú** shì Yīngguórén. 不，我**不**是英国人。
-
-**Aufgabe 6** - Konversation vervollständigen:
-1. A: Wáng Yù shì **nǎ guó** rén? B: Tā shì **Zhōngguórén**. A: 王玉是**哪国**人？ B: 她是**中国人**。
-2. A: Nǐ rènshi Mǎkè **ma**? B: Wǒ **bù** rènshi Mǎkè. A: 你认识马克**吗**？ B: 我**不**认识马克。
-3. A: Tāmen shì **nǎ guó** rén? B: **Duìbuqǐ**, wǒ bù zhīdào. A: 他们是**哪国**人？ B: **对不起**，我不知道。
-
-### Lektion 3
-
-**Aufgabe 1** - Konversation vervollständigen:
-Dīng Yún: Nǐ hǎo! Wǒ jiào Dīng Yún. Wǒ shì Zhōngguórén, zhù zài (1) **Běijīng**.
-丁云: 你好！我叫丁云。我是中国人，住在(1)**北京**。
-Shǐdìfū: Dīng Yún, (2) **nǐ hǎo**! Wǒ jiào Shǐdìfū.
-史蒂夫: 丁云，(2)**你好**！我叫史蒂夫。
-Dīng Yún: Qǐngwèn, nǐ shì (3) **nǎ guó rén**?
-丁云: 请问，你是(3)**哪国人**？
-Shǐdìfū: Wǒ shì (4) **Yīngguórén**.
-史蒂夫: 我是(4)**英国人**。
-Dīng Yún: Nǐ zhù zài (5) **Lúndūn** ma?
-丁云: 你住在(5)**伦敦**吗？
-Shǐdìfū: Bù, wǒ (6) **zhù zài** Běijīng.
-史蒂夫: 不，我(6)**住在**北京。
-
-**Aufgabe 2** - Radikale verbinden:
-1. 口 - b) Mund
-2. 日 - a) Sonne
-3. 呢 - e) Fragepartikel
-4. 是 - d) sein
-5. 哪 - f) welche
-6. 明 - c) hell
-
-**Aufgabe 3** - Sätze bilden:
-1. 日本人 吗 → Nǐ shì Rìběnrén ma? 你是日本人吗？
-2. 是 哪里 → Nǐ shì nǎlǐ rén? 你是哪里人？
-
-**Aufgabe 4** - Länder nach Kontinent:
-
-| Kontinent | Länder |
-|-----------|--------|
-| Asien | 中国、日本、韩国、新加坡、泰国、印度 |
-| Europa | 英国、法国、德国、瑞士、奥地利 |
-| Amerika | 美国、加拿大、墨西哥 |
-| Afrika | 南非、肯尼亚、埃及 |
-
-hao lai wu
-nan fei = südafrika
-du sheng zi = einzelkind
-du sheng nu = einzeltochter
-xiong di jie mei = geschwister
-zhen bang = thats great
-jingcha = police
-
-他 做 什么 工作
 
 
 
@@ -351,7 +219,326 @@ jingcha = police
 | ----- | ------ | ------- |
 | 呢     | ne     | Frage   |
 |       |        |         |
+|       |        |         |
+### Einheit 1 - Begruessung & Vorstellung
 
+#### Nomen
+
+| Hanzi | Pinyin    | Bedeutung  |
+| ----- | --------- | ---------- |
+| 名字    | míngzi    | Name       |
+| 中文    | Zhōngwén  | Chinesisch |
+| 先生    | xiānsheng | Herr       |
+| 小姐    | xiǎojiě   | Fraeulein  |
+| 女士    | nǚshì     | Frau (formal) |
+| 太太    | tàitai    | Frau (Ehefrau) |
+| 同学    | tóngxué   | Klassenkamerad |
+| 老师    | lǎoshī    | Lehrer (auch Anrede) |
+
+#### Pronomen
+
+| Hanzi | Pinyin | Bedeutung      |
+| ----- | ------ | -------------- |
+| 我     | wǒ     | ich            |
+| 你     | nǐ     | du             |
+| 他     | tā     | er             |
+| 她     | tā     | sie            |
+| 你们    | nǐmen  | ihr (Plural)   |
+| 大家    | dàjiā   | alle/jeder     |
+| 什么    | shénme  | was            |
+
+#### Verben
+
+| Hanzi | Pinyin  | Bedeutung             |
+| ----- | ------- | --------------------- |
+| 请问    | qǐngwèn | darf ich fragen       |
+| 请     | qǐng    | bitte / einladen      |
+| 问     | wèn     | fragen                |
+| 叫     | jiào    | heissen / gerufen werden |
+| 认识    | rènshi  | kennen / kennenlernen |
+| 是     | shì     | sein                  |
+| 姓     | xìng    | Nachname heissen      |
+
+#### Adjektive
+
+| Hanzi | Pinyin  | Bedeutung |
+| ----- | ------- | --------- |
+| 好     | hǎo     | gut / OK  |
+| 高兴    | gāoxìng | erfreut   |
+
+#### Adverbien
+
+| Hanzi | Pinyin | Bedeutung |
+| ----- | ------ | --------- |
+| 很     | hěn    | sehr      |
+
+#### Partikel
+
+| Hanzi | Pinyin | Bedeutung              |
+| ----- | ------ | ---------------------- |
+| 呢     | ne     | Rueckfrage (und du?)   |
+
+#### Ausdruecke
+
+| Hanzi | Pinyin    | Bedeutung                |
+| ----- | --------- | ------------------------ |
+| 你好    | nǐ hǎo   | Hallo                    |
+| 谢谢    | xièxie    | Danke                    |
+| 不客气   | bù kèqi  | Bitte (Antwort auf Danke) |
+| 对不起   | duìbuqǐ   | Entschuldigung           |
+| 没关系   | méiguānxi | Macht nichts             |
+| 再见    | zàijiàn   | Auf Wiedersehen          |
+
+---
+
+### Einheit 2 - Herkunft & Wohnort
+
+#### Nomen / Laender / Staedte
+
+| Hanzi  | Pinyin    | Bedeutung    |
+| ------ | --------- | ------------ |
+| 人      | rén       | Mensch       |
+| 国      | guó       | Land         |
+| 日本     | Rìběn     | Japan        |
+| 中国     | Zhōngguó  | China        |
+| 英国     | Yīngguó   | UK           |
+| 美国     | Měiguó    | USA          |
+| 德国     | Déguó     | Deutschland  |
+| 加拿大    | Jiānádà   | Kanada       |
+| 南非     | Nánfēi    | Suedafrika   |
+| 新西兰    | Xīnxīlán  | Neuseeland   |
+| 澳大利亚   | Àodàlìyà  | Australien   |
+| 韩国     | Hánguó    | Korea        |
+| 法国     | Fǎguó     | Frankreich   |
+| 墨西哥    | Mòxīgē    | Mexiko       |
+| 肯尼亚    | Kěnníyà   | Kenia        |
+| 泰国     | Tàiguó    | Thailand     |
+| 埃及     | Āijí      | Aegypten     |
+| 新加坡    | Xīnjiāpō  | Singapur     |
+| 印度     | Yìndù     | Indien       |
+| 伦敦     | Lúndūn    | London       |
+| 北京     | Běijīng   | Peking       |
+| 悉尼     | Xīní      | Sydney       |
+| 墨尔本    | Mò'ěrběn  | Melbourne    |
+| 好莱坞    | Hǎoláiwū  | Hollywood    |
+
+#### Pronomen
+
+| Hanzi | Pinyin | Bedeutung      |
+| ----- | ------ | -------------- |
+| 他们    | tāmen  | sie (Plural)   |
+| 哪     | nǎ     | welch-         |
+| 哪里    | nǎlǐ   | wo             |
+| 哪国    | nǎ guó | welches Land   |
+
+#### Verben
+
+| Hanzi | Pinyin | Bedeutung |
+| ----- | ------ | --------- |
+| 住     | zhù    | wohnen    |
+
+#### Adverbien / Partikel
+
+| Hanzi | Pinyin | Bedeutung              |
+| ----- | ------ | ---------------------- |
+| 不     | bù     | nicht / nein           |
+| 吗     | ma     | Fragepartikel (Ja/Nein) |
+| 但是    | dànshì | aber                   |
+
+#### Praepositionen
+
+| Hanzi | Pinyin | Bedeutung |
+| ----- | ------ | --------- |
+| 在     | zài    | in / an   |
+
+#### Ausdruecke
+
+| Hanzi | Pinyin       | Bedeutung    |
+| ----- | ------------ | ------------ |
+| 早上好   | zǎoshang hǎo | Guten Morgen |
+| 明星    | míngxīng     | Star / Beruehmtheit |
+
+---
+
+### Einheit 3 - Familie & Berufe
+
+#### Nomen - Familie
+
+| Hanzi | Pinyin | Bedeutung          |
+| ----- | ------ | ------------------ |
+| 家     | jiā    | Familie / Zuhause  |
+| 爸爸    | bàba   | Papa               |
+| 妈妈    | māma   | Mama               |
+| 哥哥    | gēge   | aelterer Bruder    |
+| 弟弟    | dìdi   | juengerer Bruder   |
+| 姐姐    | jiějie  | aeltere Schwester  |
+| 妹妹    | mèimei | juengere Schwester |
+| 照片    | zhàopiàn | Foto             |
+| 学校    | xuéxiào | Schule            |
+
+#### Nomen - Berufe
+
+| Hanzi | Pinyin      | Bedeutung          |
+| ----- | ----------- | ------------------ |
+| 工作    | gōngzuò     | Arbeit / arbeiten  |
+| 学生    | xuésheng    | Student            |
+| 医生    | yīshēng     | Arzt               |
+| 护士    | hùshì       | Krankenschwester   |
+| 记者    | jìzhě       | Journalist         |
+| 导游    | dǎoyóu      | Reisefuehrer       |
+| 律师    | lǜshī       | Anwalt             |
+| 厨师    | chúshī      | Koch               |
+| 秘书    | mìshū       | Sekretaer/in       |
+| 工程师   | gōngchéngshī | Ingenieur         |
+| 服务员   | fúwùyuán    | Kellner/in         |
+| 修理工   | xiūlǐgōng   | Mechaniker         |
+| 理发师   | lǐfàshī     | Friseur            |
+| 医院    | yīyuàn      | Krankenhaus        |
+
+#### Pronomen
+
+| Hanzi | Pinyin | Bedeutung    |
+| ----- | ------ | ------------ |
+| 这     | zhè    | dies/dieser  |
+| 那     | nà     | jene/r/s     |
+
+#### Verben
+
+| Hanzi | Pinyin | Bedeutung |
+| ----- | ------ | --------- |
+| 做     | zuò    | machen/tun |
+
+#### Grammatik-Woerter
+
+| Hanzi | Pinyin | Bedeutung         |
+| ----- | ------ | ----------------- |
+| 的     | de     | Possessivpartikel |
+| 和     | hé     | und               |
+| 也     | yě     | auch              |
+| 都     | dōu    | alle / beide      |
+
+---
+
+### Einheit 4 - Beschreibungen & Alter
+
+#### Nomen
+
+| Hanzi | Pinyin       | Bedeutung      |
+| ----- | ------------ | -------------- |
+| 上海    | Shànghǎi     | Shanghai       |
+| 出生地   | chūshēngdì   | Geburtsort     |
+| 国籍    | guójí        | Staatsangehoerigkeit |
+| 电子邮箱  | diànzǐ yóuxiāng | E-Mail-Adresse |
+| 姓名    | xìngmíng     | voller Name    |
+| 年龄    | niánlíng     | Alter          |
+| 岁     | suì          | Jahre (Alter)  |
+| 动物    | dòngwù       | Tier           |
+| 熊猫    | xióngmāo     | Panda          |
+| 篮球    | lánqiú       | Basketball     |
+| 运动员   | yùndòngyuán  | Sportler       |
+| 演员    | yǎnyuán      | Schauspieler   |
+| 头发    | tóufa        | Haare          |
+| 个子    | gèzi         | Koerpergroesse |
+
+#### Pronomen
+
+| Hanzi | Pinyin | Bedeutung |
+| ----- | ------ | --------- |
+| 谁     | shéi   | wer       |
+
+#### Verben
+
+| Hanzi | Pinyin  | Bedeutung |
+| ----- | ------- | --------- |
+| 知道    | zhīdào  | wissen    |
+| 喜欢    | xǐhuan  | moegen    |
+
+#### Adjektive
+
+| Hanzi | Pinyin    | Bedeutung       |
+| ----- | --------- | --------------- |
+| 高     | gāo       | gross           |
+| 帅     | shuài     | gutaussehend    |
+| 酷     | kù        | cool            |
+| 可爱    | kě'ài     | suess / niedlich |
+| 老     | lǎo       | alt             |
+| 年轻    | niánqīng  | jung            |
+| 漂亮    | piàoliang  | huebsch         |
+| 矮     | ǎi        | klein (Groesse) |
+| 长     | cháng     | lang            |
+| 短     | duǎn      | kurz (Laenge)   |
+
+#### Adverbien
+
+| Hanzi | Pinyin | Bedeutung  |
+| ----- | ------ | ---------- |
+| 现在    | xiànzài | jetzt      |
+| 真     | zhēn   | wirklich   |
+| 最     | zuì    | am meisten |
+| 多大    | duō dà | wie alt    |
+
+# Europa
+
+| Hanzi | Pinyin  | Bedeutung    |
+| ----- | ------- | ------------ |
+| 德国    | déguó   | Deutschland  |
+| 法国    | fǎguó   | Frankreich   |
+| 英国    | yīngguó | England / UK |
+| 意大利   | yìdàlì  | Italien      |
+| 西班牙   | xībānyá | Spanien      |
+| 瑞典    | ruìdiǎn | Schweden     |
+| 瑞士    | ruìshì  | Schweiz      |
+| 奥地利   | àodìlì  | Österreich   |
+| 俄罗斯   | èluósī  | Russland     |
+# Asien
+
+| Hanzi | Pinyin   | Bedeutung |
+| ----- | -------- | --------- |
+| 中国    | zhōngguó | China     |
+| 日本    | rìběn    | Japan     |
+| 韩国    | hánguó   | Südkorea  |
+| 印度    | yìndù    | Indien    |
+| 泰国    | tàiguó   | Thailand  |
+| 新加坡   | xīnjiāpō | Singapur  |
+# Afrika
+
+| Hanzi | Pinyin   | Bedeutung |
+| ----- | -------- | --------- |
+| 埃及    | āijí     | Ägypten   |
+| 南非    | nánfēi   | Südafrika |
+| 肯尼亚   | kěnníyà  | Kenia     |
+
+# Amerika
+
+| Hanzi | Pinyin  | Bedeutung |
+| ----- | ------- | --------- |
+| 美国    | měiguó  | USA       |
+| 加拿大   | jiānádà | Kanada    |
+# Ozeanien
+
+| Hanzi | Pinyin   | Bedeutung  |
+| ----- | -------- | ---------- |
+| 澳大利亚  | àodàlìyà | Australien |
+
+**Teil 1 – Pīnyīn → Hànzì:**
+
+1. 他是英国人，是记者。Tā shì Yīngguórén, shì jìzhě. – Er ist Engländer und Journalist.
+2. 他是我最喜欢的电影演员。Tā shì wǒ zuì xǐhuan de diànyǐng yǎnyuán. – Er ist mein Lieblingsfilmschauspieler.
+3. 我姐姐是学校的老师。Wǒ jiějie shì xuéxiào de lǎoshī. – Meine ältere Schwester ist Lehrerin an der Schule.
+4. 我的出生地是中国上海。Wǒ de chūshēngdì shì Zhōngguó Shànghǎi. – Mein Geburtsort ist Shanghai, China.
+5. 我现在住在北京。Wǒ xiànzài zhù zài Běijīng. – Ich wohne jetzt in Beijing.
+6. 我不知道他是谁。Wǒ bù zhīdào tā shì shéi. – Ich weiß nicht, wer er ist.
+7. 他真高，真帅，也很酷。Tā zhēn gāo, zhēn shuài, yě hěn kù. – Er ist wirklich groß, wirklich gutaussehend und auch sehr cool.
+
+**Teil 2 – richtige Reihenfolge:**
+1. → 他是最酷的中国电影明星。Tā shì zuì kù de Zhōngguó diànyǐng míngxīng. – Er ist der coolste chinesische Filmstar.
+2. → 我姓Pollard，中文名字叫安娜，我是美国人。Wǒ xìng Pollard, Zhōngwén míngzi jiào Ānnà, wǒ shì Měiguórén. – Mein Nachname ist Pollard, mein chinesischer Name ist Anna, ich bin Amerikanerin.
+3. → 他是我最喜欢的运动员。Tā shì wǒ zuì xǐhuan de yùndòngyuán. – Er ist mein Lieblingssportler.
+4. → 我是德国人，现在住在北京。Wǒ shì Déguórén, xiànzài zhù zài Běijīng. – Ich bin Deutscher und wohne jetzt in Beijing.
+5. → 王玉的妹妹真可爱，但是不高。Wáng Yù de mèimei zhēn kě'ài, dànshì bù gāo. – Wang Yus jüngere Schwester ist wirklich niedlich, aber nicht groß.
+6. (zweite Nr. 4) → 我认识他，但是他不是篮球运动员。Wǒ rènshi tā, dànshì tā bù shì lánqiú yùndòngyuán. – Ich kenne ihn, aber er ist kein Basketballspieler.
+7. (zweite Nr. 5) → 她是美国的电影明星。Tā shì Měiguó de diànyǐng míngxīng. – Sie ist ein amerikanischer Filmstar.
+8. → 我弟弟也是学生，21岁。Wǒ dìdi yě shì xuésheng, èrshíyī suì. – Mein jüngerer Bruder ist auch Schüler, 21 Jahre alt.
 ## Related Concepts
 [[Chinesische Zahlen]]
 [[Chinesischer Familienbaum]]

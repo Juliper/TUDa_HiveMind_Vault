@@ -38,10 +38,27 @@ The **throughput** (Index of Performance) is $IP = \frac{ID}{MT}$, measured in b
 
 A 10×10 px button that is 500 px away from the cursor has $ID = \log_2(500/10 + 1) \approx 5.67$ bits. Doubling the button to 20×20 px reduces the ID to $\log_2(500/20 + 1) \approx 4.7$ bits — a meaningful reduction in pointing time.
 
+## Extension to 2D Targets
+
+For a target in a 2D interface (not just a 1D strip), $D$ is measured as the distance to the **center** of the target, and $W$ is measured as the width of the target along a straight line in the direction of movement (not simply the target's on-screen width or height, and not its area). This means the effective width of a target can differ depending on the direction of approach, and for round targets $W$ corresponds to a diameter through the center.
+
+## Model-Based Evaluation Context
+
+Fitts's Law is one of the classic **model-based evaluation** techniques (alongside [[GOMS and Keystroke Level Model|GOMS and the Keystroke Level Model]]) that predicts user performance analytically, without running a study with real users. Measured throughput values for common devices illustrate how the model is used to compare input techniques:
+
+| Input Technique | Throughput (bits/s) |
+|---|---|
+| FaceTouch (VR touch-on-face) | ~2.16 |
+| Mouse | 3.7 - 4.9 |
+| Touchscreen | ~6.95 |
+
 ## Limitations
 
-- Applies to **aimed movements** in 1D and 2D; less directly applicable to 3D or gesture input
-- Assumes a single, unambiguous target — not directly applicable to dense target arrays without extensions
+- Fitts's Law is **only a model** - it neglects many real factors influencing pointing, such as tremor, mood, nervousness, and eyesight
+- The constants $a$ and $b$ must be determined **empirically** for each device and context, not derived theoretically
+- The result is a single predicted number, not direct feedback from real users - it complements but does not replace user testing
+- Applies to **aimed movements** in 1D and 2D; less directly applicable to 3D or gesture input without extension
+- Assumes a single, unambiguous target
 - Does not account for cognitive decision time (see [[Hick's Law]] for that)
 
 ## Related Concepts
@@ -49,3 +66,5 @@ A 10×10 px button that is 500 px away from the cursor has $ID = \log_2(500/10 +
 - [[Hick's Law]]: models the cognitive decision time *before* the motor action Fitts's Law describes
 - [[Direct Manipulation]]: Fitts's Law governs the efficiency of pointing in direct manipulation interfaces
 - [[Signal Detection Theory]]: both model human performance with tradeoffs (speed-accuracy for Fitts)
+- [[GOMS and Keystroke Level Model]]: another model-based evaluation technique, often combined with Fitts's Law to predict pointing operator time within a task
+- [[Heuristic Evaluation]]: a qualitative analytical evaluation method, contrasted with Fitts's Law's quantitative model-based approach

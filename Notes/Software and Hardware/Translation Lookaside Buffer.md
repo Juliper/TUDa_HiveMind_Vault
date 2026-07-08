@@ -32,3 +32,4 @@ Without a TLB, every memory access requires at least one additional memory acces
 - [[Paging und Swapping]]: the page table the TLB caches
 - [[Multilevel Page Tables]]: multi-level lookups that make the TLB even more critical
 - [[Context Switch]]: invalidates TLB entries
+- [[Radix Partitioning]]: a database technique explicitly designed to limit concurrently written pages to the TLB's size

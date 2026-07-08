@@ -118,5 +118,55 @@ draft: false
 - [[ART vs Hash Tables]]
 
 
+## Vorlesung 5&6 - Parallelism
+
+### Parallel Execution Models & Scheduling
+- [[Query Parallelism]]
+- [[DBMS Execution Architecture]]
+- [[DBMS Task Scheduling]]
+
+### Memory Models & Data Placement
+- [[NUMA Architecture]]
+- [[Data Partitioning and Placement]]
+- [[Translation Lookaside Buffer]]
+
+### Parallel Join Algorithms
+- [[Partition-Based Hash Join]]
+- [[Radix Partitioning]]
+- [[Parallel Hash Table Construction]]
+- [[Bloom Filter]]
+- [[Parallel Sort-Merge Join]]
+
+## Lecture 6 - Accelerators in the Cloud
+
+### Motivation and Specialized Hardware
+- [[Hardware Specialization Spectrum]]
+- [[Von Neumann Architecture]]
+- [[Instruction-Level Parallelism]]
+
+### Accelerator Architectures
+- [[Systolic Array]]
+- [[Tensor Processing Unit]]
+- [[Application-Specific Integrated Circuit]]
+- [[Field-Programmable Gate Array]]
+
+### Case Study: FPGA-Accelerated Data Decoding
+- [[FPGA-Accelerated Parquet Parsing]]
+
+## Lecture 7 - Accelerators for DBMSs: GPU
+
+### GPU Architecture and Programming
+- [[GPU Architecture]]
+- [[CUDA Programming Model]]
+
+### In-Memory OLAP on GPUs
+- [[Parallel Reduction and Prefix Sum]]
+
+### Beyond-Memory OLAP on GPUs
+- [[GPU Query Execution Models]]
+- [[Operator and Data Placement]]
+- [[GPU-Direct Storage]]
+- [[GOLAP]]
+
 # Quizzes
 * [[ADMS - Quiz 1]]
