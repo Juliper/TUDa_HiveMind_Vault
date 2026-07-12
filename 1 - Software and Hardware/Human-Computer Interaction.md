@@ -140,42 +140,4 @@ draft: false
 # Klausurvorbereitung
 
 [[HCI - Klausurfragensammlung]]
-
-Das habe ich mal geschickt bekommen:
-
-Gedächtnisprotokoll von HCI 2019: - Definition Affordances, Constraints
-- Arten von Constraints mit Anwendung auf Bild
-- Arten von Analogies/Mappings mit Anwendung auf Bild (erkennen und selbst verwenden, 
-Verbesserung eines Produkts - Schieberegler für Saallichter - mit anderen Analogies)
-- GOMS - Vor- und Nachteile und Anwendung des Keystroke Level Model (Aufzählen von einzelnen Operations für gegebene Method, 
-Berechnen der Performance Time mit gegebenen Zeiten für die Operations)
-- Aufzählen der 7 Stages of Actions
-- Erklärung der 2 Gulfs (of Execution und of Evaluation)
-- Usability Goals (aufzählen und erklären)
-:thumbsup:
-Klicken, um zu reagieren
-:skull:
-Klicken, um zu reagieren
-:thumbsdown:
-Klicken, um zu reagieren
-Reaktion hinzufügen
-Antworten
-Weiterleiten
-Mehr
-[12:39]Mittwoch, 21. Juli 2021 um 12:39
-- Definition Conceptual Model
-- Arten von Metaphors (verb-based, noun-based, verb+noun-based) und Vor- und Nachteile von Metaphors
-- 3 Arten von External Cognition aufzählen und Beispiel nennen
-- Gestalt Law erkennen (an einem Bild) und 2 zusätzliche nennen und erklären
-- Unterschiede von High-Fidelity und Low-Fidelity Prototyping, jeweils 3 Vorteile der beiden
-- Unterschied User-Involvement Wasserfallmodell und Design-Implement-Analyze Modell (im Wasserfallmodell garnicht oder nur am Anfang, in DIA immer)
-- Wieso User in Design Prozess involvieren? (Functionality, Expectation Management und Ownership)
-- Nennung und Erklärung von 2 Golden Rules
-- Diskussion über Zusammenhang der 10 Golden Rules mit "guter" Nutzerschnittstelle
-- noch irgendwas zu den 10 Golden Rules (weiß nicht mehr was)
-- Controlled Experiment: Erklärung der unterschiedlichen Variablen (allgemein), Variablen identifizieren im konkreten Experiment, 
-Hypothesen aufstellen für konkretes Experiment...
-- Interfaces & Interactions: 3 Aspekte von AR nach Azuma, Erklärung und Beispiel für Multimodal Interfaces, Erklärung für Erfolg von WIMP 
-im Vergleich zu vorher (nur Command Line Interfaces, jetzt auch Direct Manipulation, Mouse, Windows...), wofür steht REP-Loop? (-> Read-Eval-Print Loop)
-- Data Visualization: Erkennung einer konkreten Data Visualization an einem Bild (in diesem Fall Line Chart), 2 Beispiele wieso gegebenes 
-Bild schlecht oder gut ist und falls schlecht Zeichnung einer besseren Grafik (Tabelle mit Werten war gegeben)
+[[HCI - Gedächtnisprotokolle]]
