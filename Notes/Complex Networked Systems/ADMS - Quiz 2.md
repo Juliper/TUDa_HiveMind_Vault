@@ -18,7 +18,6 @@ draft: false
 
 # A - Parallel Execution & Scheduling
 
-
 ## Task 1 - True/False
 
 > [!question]- 1.1 Inter-query parallelism runs a single query on multiple cores to reduce its response time and is therefore most important for OLAP.
@@ -54,7 +53,7 @@ draft: false
 > - **Inter-query**: run multiple queries in parallel -> goal: increase **throughput** -> important for **OLTP**.
 > - **Intra-query**: run a single query in parallel (intra-operator + inter-operator) -> goal: decrease **response time** -> important for **OLAP**.
 
-> [!question]- 2.2 - Push vs. Pull: Describe the **push** and **pull** task-assignment approaches. Which one is better suited for **very small tasks** and why?
+> [!question]- 2.2 - Push vs. Pull: Describe the **push** and **pull** task-assignment (scheduling) approaches. Which one is better suited for **very small tasks** and why?
 >
 > - **Push**: a centralized dispatcher assigns tasks to workers and monitors progress (global control).
 > - **Pull**: workers pull tasks from a queue (filled by the dispatcher), process, then fetch the next (decentralized).
@@ -91,6 +90,12 @@ draft: false
 > - Higher **programming effort**.
 > - More (nasty) **bugs**.
 > -> Parallelism is **not always** useful; only parallelize where the overhead pays off.
+
+> [!question]- 2.8 - Scheduler Decisions: Which questions must the scheduler answer when parallelizing a query?
+>
+> - **How many tasks** to use, i.e. how to split the query plan into tasks.
+> - **Which CPU cores** the tasks execute on (multi-core and NUMA!).
+> - **Which memory region** a task should store its output to.
 
 ---
 
@@ -188,6 +193,20 @@ draft: false
 > - **MPSM (Massively Parallel Sort-Merge)**: partition one input; sort one input globally and the other only per-partition (locally); join each locally sorted partition against the globally sorted input.
 > - **Key benefit of MPSM**: it **avoids the global merge phase for one input**, which is usually the scalability bottleneck of a parallel sort-merge join.
 
+> [!question]- 2.5 - TLB: What is the **TLB** and why does it limit the partitioning fan-out?
+>
+> The **Translation Lookaside Buffer** is a cache for **virtual-to-physical address translation** (addresses point to 4 KB memory pages). If a translation is in the TLB, it is fast; a TLB miss is expensive. The TLB is hierarchical (L1 TLB ≈ 64-128 entries, shared TLB up to ~thousands). Because each partition being written needs its own page translation, the partitioning **fan-out per pass is limited by the number of TLB entries** (T ≈ 64-128) - beyond that, TLB misses dominate.
+
+> [!question]- 2.6 - Single-pass vs. Multi-pass Partitioning: Distinguish single-pass and multi-pass (radix) partitioning.
+>
+> - **Single-pass**: partition the input to the desired fan-out `p` in one pass. Problem: `p` can be large -> exceeds the TLB entries -> many TLB misses.
+> - **Multi-pass (radix hash join)**: use several passes with a smaller fan-out per pass (limited by T TLB entries), needing `i = log_T p` passes. The better TLB efficiency compensates for the extra read/write passes.
+
+> [!question]- 2.7 - Sort-Merge Phases: Which two phases make up a sort-merge join?
+>
+> 1. **Sort**: sort the tuples of R and S based on the join key.
+> 2. **Merge**: scan the sorted relations and compare tuples; the outer relation R only needs to be **scanned once**.
+
 ---
 
 # D - Accelerators: FPGAs & TPUs
@@ -249,6 +268,28 @@ draft: false
 > - **Page-level parallelism**: a pipeline (Fetch -> Frontend -> Decompress -> RLE -> Decoder -> Writeback), each stage a streaming HLS kernel.
 > - **FPGA over GPU**: Parquet parsing has an "iterative" memory-access pattern, potentially complex control flow, and encoding complexity - a poor fit for GPUs. An FPGA offers a custom hardware architecture matching exactly the required computation. Result: throughput comparable/better than CPU and superior energy efficiency (up to ~3.4x).
 
+> [!question]- 2.6 - Data/Compute Gap: What is the **Data/Compute Gap** and what two responses does it motivate?
+>
+> Data volume grows exponentially (exabytes), while single-core CPU performance (frequency) has **stagnated** (roughly since ~2005) - the number of logical cores rises only slowly. This opens a growing gap between the data to process and the available compute. Two responses:
+> - **More parallel compute** (distribution, many-cores).
+> - **More efficient compute** (specialization -> GPUs, TPUs, FPGAs, ASICs).
+
+> [!question]- 2.7 - Subscalar vs. Superscalar: What is a **subscalar** and what is a **superscalar** CPU?
+>
+> - **Subscalar CPU**: executes **one instruction at a time** (no implicit parallelism), needing several cycles to complete even a few instructions.
+> - **Superscalar CPU**: **issues multiple instructions per clock cycle** (instruction-level parallelism). Modern hyper-threading builds on this technique.
+
+> [!question]- 2.8 - TPU Programming Workflow: How is a TPU programmed?
+>
+> A TPU is programmed through the **TensorFlow** library; the whole management stack (StreamExecutor API, user-space driver, kernel driver) is **hidden from the user**. Key point: specialized hardware does not exist in a vacuum - it must be **integrated with the rest of the software stack** (the Achilles heel of many research projects).
+
+> [!question]- 2.9 - Parquet vs. Arrow: Contrast the **Parquet** and **Arrow** formats.
+>
+> Both are **columnar**.
+> - **Parquet** = **storage** format, focuses on **compression** (pages are compressed, organized as column chunks, small footprint; **nulls are not encoded**).
+> - **Arrow** = **in-memory** format, focuses on **access speed** (O(1) access within chunked arrays; **nulls occupy physical space** / are materialized as zeros).
+> Converting Parquet -> Arrow requires decoding the RLE-encoded validity values and **padding** the data so nulls take physical space (plus decompression + decoding).
+
 ---
 
 # E - GPU Acceleration
@@ -309,9 +350,20 @@ draft: false
 >
 > Column chunks are stored **heavy-weight compressed** on SSD once. At query time, the (smaller) compressed chunks are loaded directly into GPU memory (GPU-Direct Storage), then **decompressed and materialized on the GPU**, overlapping I/O and decompression. The **CPU lacks the compute** to decompress at the optimal bandwidth (= SSD BW × compression ratio); the GPU's massive parallelism can decompress *and* execute the query at that bandwidth, pushing effective bandwidth past the raw flash read bandwidth. Key steps: opportunistic pruning, direct I/O, on-the-fly decompression, GPU-CPU co-execution.
 
+> [!question]- 2.6 - Where to Store the Data? GPU memory is small - where can the data (tables + intermediates) live?
+>
+> - **Alternative 1 - CPU RAM (host memory)**: store all data in CPU RAM and copy to the GPU as needed (via run-to-finish or batch processing). **Problem**: the PCIe bus (~tens of GB/s) is the bottleneck vs. HBM (~TB/s).
+> - **Alternative 2 - SSDs**: store all data on SSDs and copy to the GPU as needed - via the naive path (SSD -> CPU -> GPU) or, better, **GPU-Direct Storage** (SSD -> GPU directly).
+
+> [!question]- 2.7 - Query Execution Models: Distinguish the **run-to-finish** and **batch-processing** GPU query execution models.
+>
+> - **Run-to-finish**: copy the complete input to the GPU from CPU memory, execute all kernels, then copy the output back. Still limited by the GPU's global memory, but it helps run multiple queries and does not require the whole DB in GPU memory.
+> - **Batch processing**: execute the kernel on blocks/batches of data. **Problem**: what if intermediates (e.g. hash tables) don't fit? **Alternatives**: Nvidia unified memory (seamless shared memory between CPU & GPU) or paging data in/out (= a buffer manager on the GPU).
+
 ---
 
 # F - Secure Cloud DBMSs (TEE / Intel SGX)
+
 
 ## Task 1 - True/False
 
@@ -343,20 +395,32 @@ draft: false
 
 ## Task 2 - Short Answers
 
-> [!question]- 2.1 - TEE Properties: Name and briefly describe the **three** properties of a Trusted Execution Environment.
+> [!question]- 2.1 - What can go wrong in the cloud? Also name the attack surfaces.
+>
+> When operations are outsourced to the cloud, the **provider is untrusted**. The attack surface is huge: the **App**, **OS** and **Hypervisor** (millions of lines of privileged code) can all be attacked. Two things can go wrong:
+> 1. **Confidentiality**: data breaches (secrets are read).
+> 2. **Data Integrity**: data manipulation (values are tampered with).
+
+> [!question]- 2.2 - What is Intel SGX? Give the process-level and system-level view.
+>
+> **SGX = Software Guard eXtensions** - an instruction-set extension of the Intel CPU.
+> - **Process level**: allows processes to create **enclaves**; an enclave ≈ a **secure shared library** in an isolated memory region. It has **no direct access** to HW DMA, system calls, storage or network; access happens via **Enclave Transitions**, communication via shared memory.
+> - **System level**: an **isolated and encrypted RAM region**; the **EPC (Enclave Page Cache)** is limited in size and therefore needs **swapping** (with a context switch + integrity check on each swap).
+
+> [!question]- 2.3 - TEE Properties: Name and briefly describe the **three** properties of a Trusted Execution Environment.
 >
 > 1. **Isolation**: code and data are isolated from (untrusted) software outside the enclave.
 > 2. **Confidentiality**: enclave memory is transparently encrypted.
 > 3. **Attestation**: the code and data inside the enclave can be authenticated.
 
-> [!question]- 2.2 - Secure Application Flow: Describe the four steps to build a secure TEE application (attestation-based key provisioning).
+> [!question]- 2.4 - Secure Application Flow: Describe the four steps to build a secure TEE application (attestation-based key provisioning).
 >
 > 1. **Attestation**: the enclave contacts a Key Management Service (KMS) over an encrypted (TLS) channel and attests itself.
 > 2. **Check**: the KMS verifies the attestation - is it a real enclave? does it have the expected hash?
 > 3. **Key deployment**: if successful, the KMS sends the data key.
 > 4. **Work**: the enclave uses the key to decrypt inputs and encrypt outputs.
 
-> [!question]- 2.3 - Enclave Transitions: Contrast **Normal Mode** and **Enclave Mode** regarding access to enclave data and OS services.
+> [!question]- 2.5 - Enclave Transitions: Contrast **Normal Mode** and **Enclave Mode** regarding access to enclave data and OS services.
 >
 > | | Normal Mode | Enclave Mode |
 > |--|-------------|--------------|
@@ -366,20 +430,26 @@ draft: false
 >
 > Switching between the modes uses special CPU instructions ("Enclave Transition").
 
-> [!question]- 2.4 - Performance Factors: List the four main performance factors of Intel SGX for databases.
+> [!question]- 2.6 - Performance Factors: List the four main performance factors of Intel SGX for databases.
 >
 > 1. **Enclave creation time** (correlated with enclave memory size, ~3 s for 1 GB; amortizes over runtime).
 > 2. **Enclave transitions** (context switches, ~7,000-14,000 cycles).
 > 3. **Memory access overheads** (LLC misses, EPC paging ~40,000 cycles page-in/out, TLB misses).
 > 4. **Side-channel mitigation overheads** (e.g. data-dependent write positions up to 5x slower).
 
-> [!question]- 2.5 - SGXv2 Root Causes & Fix: In SGXv2, hash-based joins still slow down significantly. Name the **two root causes** and the fix used to restore DB performance.
+> [!question]- 2.7 - What did SGXv2 add? Name the main improvements over SGXv1.
+>
+> - **Bigger enclaves**: EPC increased from ~128 MB (v1) to **up to 512 GB** per socket (×4000).
+> - **Multi-socket support**: up to **1 TB** total EPC capacity across sockets.
+> This removes SGXv1's severe paging bottleneck at larger data sizes (though remote-NUMA and paging effects are still visible).
+
+> [!question]- 2.8 - SGXv2 Root Causes & Fix: In SGXv2, hash-based joins still slow down significantly. Name the **two root causes** and the fix used to restore DB performance.
 >
 > - **Root cause 1 - Random main-memory access**: random reads/writes to large arrays are up to ~3x slower than without SGX.
 > - **Root cause 2 - Side-channel mitigation**: read-dependent write positions + microcode mitigation against Spectre v4.
 > - **Fix**: manual **loop unrolling + instruction reordering** restores most of the throughput.
 
-> [!question]- 2.6 - SGX Usage Models: Distinguish the **two** usage models for running a DBMS in Intel SGX.
+> [!question]- 2.9 - SGX Usage Models: Distinguish the **two** usage models for running a DBMS in Intel SGX.
 >
 > 1. **Enclave-native DBMS**: the DBMS is written for the enclave and calls the host application via ECalls/OCalls.
 > 2. **Enclave DBMS using Gramine (LibOS)**: an unmodified DBMS runs on a Library OS inside the enclave (syscalls handled by the LibOS via a platform adaptation layer). Measured overhead for a full DBMS (Hyrise, TPC-H): ~-33% throughput from side-channel mitigation and ~-15% from SGX + Gramine.
