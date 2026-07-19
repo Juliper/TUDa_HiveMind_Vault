@@ -4,324 +4,313 @@ aliases:
   - TK2 - Gedächtnisprotokolle
 tags:
   - fb20
-description: "Von Studierenden gesammelte Klausurfragen der HCI/TK2-Klausuren, gruppiert nach Semester."
+description: "Von Studierenden gesammelte Klausurfragen der HCI/TK2-Klausuren, gruppiert nach Semester, mit ausgearbeiteten Lösungen."
 draft: false
 ---
+## A - Cognition
 
-Gedächtnisprotokolle vergangener HCI-Klausuren (ehemals TK2), gesammelt und weitergegeben von Studierenden. Siehe [[HCI - Klausurfragensammlung]] für aufbereitete Frage-Antwort-Karten zu den wiederkehrenden Themen.
-
-## SoSe 2024 (HCI, ehemals TK2)
-
-### Cognition
-
-- Wie viele Chunks passen ins Arbeitsgedächtnis? Wie kann man das auf Interaktionsdesign anwenden? → 7±2
-- Was sagt Extended Mind Theory aus? Nenne Beispiel.
-- Was beinhaltet Human Information Processing nicht? Nenne zwei Aspekte.
-- Kritik an Human Centered Design von Norman. Nenne Beispiel für gut und weniger gut geeignete Anwendung.
-- Erkläre die 2 Richtungen der Wahrnehmungsarten [Bottom-Up und Top-Down]. Erkläre sie ausführlich am Beispiel des Bilds [die 13 aus der Vorlesung].
-- Was sagt Helmholtz's theory of unconscious inference aus? Zeichne ein Beispiel.
-- Nenne 4 Gestalt Laws. Erkläre zwei und zeige Beispielanwendungen im Design.
-- Welche 2 Gestalt Laws verletzt dieses Bild? ["Keep Red Off Line" aus der Vorlesung]
-- Was sind Affordances? Nenne zwei und erkläre sie anhand eines Bildes [2 weiße Tassen und eine Tee-Kanne].
-- Gib ein Beispiel für False Affordance.
-- Was sind Constraints? Nenne 2 Arten. Wie stehen sie in Zusammenhang mit Affordances?
-- Nenne 3 Dark Patterns und erkläre 2.
-- Benenne jeweils ein Dark Pattern, welches bei den folgenden Bildern genutzt wurde [einmal "Nagging" aus der Vorlesung, einmal "Obstruction" aus der Vorlesung].
-
-### Design
-
-- Welche 2 Arten von Fehlern gibt es und was unterscheidet sie?
-- Was ist Transparenz?
-- Was sind die 7 Stages of Action, zeichne den Graph aus der Vorlesung? Was sind die beiden Gulfs ("Schranken")? Setze die Gulfs in Beziehung zu den 7 Stages.
-- Was sind die 4 Bestandteile von User Centered Design? Nenne das Ziel von jedem. Nenne eine praktische Methode zu jedem Bestandteil und erkläre diese.
-- Was sind Horizontal und Vertical Prototypes?
-- Erkläre den Unterschied zwischen "Getting the design right" und "Getting the right design".
-
-### Evaluation
-
-- Die Ergebnisse zeigen, dass die verschiedenen Level der unabhängigen Variable keinen nennenswerten Einfluss auf Fingerbeschwerden haben ... Kann daraus auf das Gegenteil geschlossen werden? Begründe. (evtl. auch Frage zur Beziehung zwischen den Levels)
-- Erkläre Within-Subject- und Between-Subject-Design. Nenne je einen Nachteil.
-- Erkläre den Unterschied zwischen Labor- und Feldstudie.
-- Sind mit einer Likert-Skala ermittelte Daten quantitativ oder qualitativ? Begründe.
-- Ein neues Keyboard-Layout wurde entwickelt, das die am häufigsten getippten Tasten nebeneinander hat. Das Entwicklungsteam behauptet, man könne damit schneller schreiben und die Ermüdung der Finger ist geringer. Dies soll nun überprüft werden.
-  - Benenne die unabhängige Variable und nenne 3 mögliche Werte, welche sie annehmen kann.
-  - Wie kann man die abhängigen Variablen messen?
-  - Wie kann die Aufgabe im Experiment aussehen, um die abhängige Variable zu messen?
-  - Stelle zwei Hypothesen auf.
-  - Nenne jeweils eine Kontroll-, Zufalls- und Störvariable.
-  - Sollte man Within-Subject- oder Between-Subject-Design verwenden? Begründe.
-
-### Fitts's Law
-
-- Wie sollte ein häufig geklicktes UI-Element in einer PC-Anwendung nach Fitts's Law platziert werden? Begründe.
-- Ändert sich dies bei Touch- statt Mausinput? Begründe.
-
-### Anmerkungen
-
-- Insgesamt waren 90 Punkte erreichbar.
-- Wenn Nennen und Erklären gefordert war, gab es für jeweils beides Punkte.
-- Man sollte sich in der Klausur sehr beeilen und eventuell erstmal nur Stichpunkte schreiben, um alles in der Zeit zu schaffen, anstatt Bilder von Katzen zu malen.
-- Die Themen waren auf 7 Aufgaben aufgeteilt, ungefähr so sortiert, wie sie in der Vorlesung behandelt wurden.
-
-## TK2 SoSe 2022
-
-### Aufgabe 1
-
-- Unterschied zwischen Usability und User Experience
-- Unterschied zwischen Visibility und Feedback
-- Drei Arten von Metaphern nennen und für eine davon ein Beispiel geben
-- Was ist Affordance? Zwei Arten davon nennen und kurz erklären
-- Zwei Arten von Constraints nennen - wie werden sie in dem Bild (ein Briefkasten) verwendet?
-- Beziehung zwischen Affordance und Constraint erklären
-
-### Aufgabe 2
-
-- Zwei Gulfs nennen und kurz erklären
-- External Cognition erklären und 3 Arten nennen, jeweils ein Beispiel geben
-
-### Aufgabe 8: GOMS (10 Punkte)
-
-- Wo kann GOMS eingesetzt werden? (1 Punkt)
-- 2 Vorteile von GOMS, 2 Nachteile (4 Punkte)
-- Eine Methode war gegeben, und mehrere Operatoren. Es sollte die Reihenfolge der Operatoren, eine Beschreibung dazu und die gesamte Zeit angegeben werden (5 Punkte)
-
-### Aufgabe 9 (6 Punkte)
-
-- Was sind Tangible User Interfaces? Nenne einen Vorteil und einen Nachteil (3 Punkte)
-- Was ist eine Multimodale UI? Nenne auch ein Beispiel (2 Punkte)
-- Unterschied zwischen VR und AR (1 Punkt)
-
-### Aufgabe 10: Daten visualisieren (5 Punkte)
-
-- Es waren Daten gegeben (4 Gemüse, und wie viel an 3 Zeitpunkten). Hier sollte gesagt werden, was das für ein Datentyp ist (1 Punkt).
-- Die gegebenen Daten visualisieren, benennen, wie die Data Visualization heißt, und begründen, warum diese ausgewählt wurde (4 Punkte).
-
-### Weitere Themen (Aufgabe nicht mehr bekannt)
-
-- Storyboard zu einem Getränkeautomat (7 Punkte)
-- 4 von 6 Usability Goals nennen und kurz erklären
-- 2 von 10 Golden Rules nennen und kurz erklären - in welcher Design-Phase sollen sie benutzt werden? Beziehung zu gutem User Interface.
-- Gestalt-Gesetze (nennen, kurz erklären und Beispiel zeigen)
-- High- und Low-Fidelity-Prototypen erklären, Beispiel geben, Vor- und Nachteile
-- Fitts's Law (auch leichte Rechnung, Vor- und Nachteile, wann wird es verwendet)
-- Studie:
-  - Was sind abhängige und unabhängige Variablen?
-  - Was sind Störvariablen?
-  - Was ist ein Lerneffekt? Wie kann dagegen vorgegangen werden?
-  - Von einem gegebenen Experiment: Was sind dort die abhängigen und die unabhängigen Variablen (und welche Werte können letztere annehmen)?
-  - 200 Personen nehmen an dem Experiment teil. Soll Within-Subjects oder Between-Subjects verwendet werden? Gibt es ein Problem dabei? Was muss man ggf. im Nachhinein tun?
-  - Was ist der Hawthorne-Effekt?
-
-## TK2 2019
-
-> [!note]- Definitionen
-> **Affordance** - Affordances are the actions that the design of an object suggests to the user ("is for"). Examples: knobs are for turning, slots are for inserting, chairs are for sitting.
-> - **Real affordances**: physical objects, affording e.g. grasping - perceptually obvious
-> - **Perceived affordances**: screen-based interfaces, "learned conventions"
+> [!question]- 1.1 Wie viele Chunks passen ins Arbeitsgedächtnis? Wie kann man das auf Interaktionsdesign anwenden?
 >
-> **Constraints** - restrict the possible actions that can be performed; "inverse" of affordances, possibly augmenting them.
-> - Goals: avoid usage errors, minimize the information to be remembered
-> - Types: physical, semantic, logical, cultural
+> **7 ± 2 Chunks** (Miller). Anwendung: Menüs, Auswahllisten, Navigationspunkte oder gleichzeitig sichtbare Optionen auf ~7 Elemente begrenzen; Information in sinnvolle Chunks gruppieren (z.B. Telefonnummern in Blöcke), damit sie ins Arbeitsgedächtnis passt.
 
-> [!note]- Arten von Constraints mit Anwendung auf Bild
-> Aufgabe: Find out which constraints are used in the picture.
-> - **Physical Constraints** - Where do you plug in the mouse and the keyboard? Does the coloring help? How can this be improved?
-> - **Logical Constraints** - use logical conclusions to exclude certain solutions, e.g. all parts of a jigsaw puzzle are to be used; natural mappings often use logical constraints.
-> - **Semantic Constraints** - use common knowledge about the world and the meaning of the current situation, e.g. a driver figurine in a model plane kit has to sit facing forward; powerful but only valid rules across the whole user population.
-> - **Cultural Constraints** - rely on generally accepted cultural conventions, e.g. red = stop/attention; applies only to a specific cultural group (hand gestures, writing direction differ).
-
-> [!note]- Arten von Analogies/Mappings mit Anwendung auf Bild
-> Aufgabe: erkennen und selbst verwenden, Verbesserung eines Produkts (Schieberegler für Saallichter) mit anderen Analogies. Interdependente Faktoren wie kulturelle Unterschiede, Nutzergruppen oder Kontext beachten.
-> - **Spatial Analogy** - controls wie ihre realweltlichen Pendants angeordnet (Raumlampen, Lenkrad, Autoradio-Balanceregler)
-> - **Physical Analogy** - Mapping folgt physikalischem Verhalten, z.B. steigender Pegel = mehr, fallender Pegel = weniger; natürlich für additive Dimensionen (Menge, Wärme, Volumen, Liniendicke, Helligkeit, Gewicht)
-> - **Cultural Analogy** - Mapping folgt kulturellen Konventionen, z.B. westliche Schreibrichtung links-nach-rechts für lineare Ordnung
-> - **Perceptual Analogy** - Ein-/Ausgabegerät sieht aus wie das eigentliche Ding selbst, z.B. Mercedes-Sitzverstellung [Norman, DOET]
-
-> [!note]- GOMS - Vor-/Nachteile und Keystroke Level Model
-> Aufgabe: Aufzählen von einzelnen Operations für eine gegebene Method, Berechnen der Performance Time mit gegebenen Zeiten für die Operations.
+> [!question]- 1.2 Was sagt die Extended Mind Theory aus? Nenne ein Beispiel.
 >
-> **Model-Based Evaluation**: Modelle sagen User Performance voraus, z.B. GOMS, Keystroke Level Model, Fitts's Law.
+> Technologie (z.B. das Smartphone) übernimmt und **ersetzt Teile des eigenen Verstandes/Gedächtnisses**. Statt Nummern und Wege zu erinnern, nutzen wir Funktionen des Geräts - das Denken erstreckt sich also über die Grenzen des Gehirns hinaus in die Umwelt. Das erhöht die Bedeutung guter Interfaces. Beispiel: Navigation per Karten-App statt sich Routen zu merken.
+
+> [!question]- 1.3 Was beinhaltet Human Information Processing *nicht*? Nenne zwei Aspekte.
 >
-> **GOMS** = Goals, Operators, Methods, Selection rules - testet ein Interface ohne Nutzer, auch bevor das System gebaut wurde. Für Expertennutzer bei Routineaufgaben - nicht geeignet für kreative Aufgaben/Problemlösung.
-> - **Goals**: das ultimative Ziel des Nutzers
-> - **Operators**: elementare Nutzeraktionen (mental oder extern), jede mit kontextunabhängiger Dauer (ms)
-> - **Methods**: erlernte Prozeduren, um ein Goal zu erreichen
-> - **Selection rules**: entscheiden, welche Methode gewählt wird, wenn es mehrere gibt
+> Das Modell klammert **soziale**, **emotionale** und **motivationale** Faktoren des Nutzers aus - es behandelt den Menschen wie einen reinen Informationsverarbeiter (Eingabe → Verarbeitung → Ausgabe) ohne Gefühle, Motivation oder sozialen Kontext.
+
+> [!question]- 1.4 Kritik an Human Centered Design (Norman). Nenne je ein Beispiel für gute und weniger gute Eignung.
 >
-> Beispiel: Ziel "ein Wort löschen" - Methode über Delete-Taste vs. Methode über Cut-Menü, jeweils mit eigener Schrittfolge.
+> Norman selbst ("Human-Centered Design Considered Harmful"): die starke Fokussierung auf **einzelne Nutzer und deren geäußerte Bedürfnisse** kann zu überladenen, inkohärenten Designs führen und den Blick auf die eigentliche **Aktivität** verstellen; Activity-Centered Design ist oft robuster.
+> - **Gut geeignet**: gut verstandene Alltagsprodukte mit klaren, bekannten Nutzerbedürfnissen (z.B. Türklinke, Thermostat).
+> - **Weniger geeignet**: komplexe Expert:innen-Werkzeuge oder echte Innovationen, bei denen Nutzer ihre Bedürfnisse (noch) nicht benennen können.
+
+> [!question]- 1.5 Erkläre die 2 Richtungen der Wahrnehmung (Bottom-Up und Top-Down) ausführlich am Beispiel des Bilds (die "13").
 >
-> **Keystroke Level Model**: Verfeinerung von GOMS mit quantitativem Modell der Ausführungszeiten - jedem Operator eine empirisch ermittelte durchschnittliche Dauer zugeordnet, erlaubt Vorhersage der Bearbeitungszeit eines Experten.
+> - **Bottom-Up (data-driven)**: Wahrnehmung wird direkt aus dem Sinnesreiz aufgebaut - von einfachen Merkmalen (Kanten, Farben, Kontraste) hin zu komplexen Strukturen, ohne Vorwissen.
+> - **Top-Down (knowledge-driven)**: Vorwissen, Erwartung und Kontext prägen die Interpretation; mehrdeutige/unvollständige Reize werden mit Erfahrung ergänzt.
+> - **Beispiel "13"**: dasselbe mehrdeutige Zeichen wird als **B** oder als **13** gelesen, je nachdem ob es in der Reihe A-B-C (Buchstaben-Kontext) oder 12-13-14 (Zahlen-Kontext) steht - der Top-Down-Kontext entscheidet über die Deutung derselben Bottom-Up-Sinnesdaten.
+
+> [!question]- 1.6 Was sagt Helmholtz's theory of unconscious inference aus? Zeichne ein Beispiel.
 >
-> **Ergebnisse**:
-> - \+ günstig und schnell durchzuführen
-> - \+ liefert Ergebnisse noch bevor das System läuft
-> - \+ erleichtert vergleichende Evaluationen
-> - − nur sinnvoll bei Systemen mit vorhersehbaren Aufgaben (nicht für neue UI-Techniken!)
-> - − basiert auf fehlerfreiem Expertenverhalten (nicht für Gelegenheitsnutzer!)
-> - − Operatorzeiten sind nicht eindeutig definiert
+> Wahrnehmung ist das Ergebnis **unbewusster, automatischer Schlüsse**, die das Gehirn aus mehrdeutigen Sinnesdaten auf Basis von Erfahrung zieht - es landet bei der wahrscheinlichsten Interpretation der Welt. (Zugschienen mit zwei horizontalen)
 
-- Aufzählen der 7 Stages of Actions
-
-> [!note]- Erklärung der 2 Gulfs (of Execution und of Evaluation)
-> **Gulf of Execution** - bietet das System Aktionen, die den Absichten des Nutzers entsprechen? Öffnet sich durch Unterschiede zwischen:
-> - den Zielen des Nutzers und den verfügbaren/sichtbaren Möglichkeiten, sie zu erreichen
-> - den vom Nutzer beabsichtigten Aktionen und den vom System angebotenen Aktionen
-> - den vom System nahegelegten (afforded) Aktionen und den tatsächlich möglichen Aktionen
+> [!question]- 1.7 Was sind die Gestalt Laws.
 >
-> Idealerweise lässt das System den Nutzer die beabsichtigten Aktionen direkt ausführen, ohne Mehraufwand. Nach der Ausführung muss der Nutzer wissen, ob das Ziel erreicht wurde - dafür ist Feedback nötig. Fehlendes/nicht interpretierbares Feedback → Usability-Breakdown.
+>  Gestalt Principles are principles/laws of human perception that describe how humans group similar elements, recognize patterns and simplify complex images when we perceive objects.
+> - Closure: The principle of closure states that when we look at a complex arrangement of visual elements, we tend to look for a single, recognizable pattern.
+> - figure-ground: The figure-ground principle states that people instinctively perceive objects as either being in the foreground or the background. As a human, you can focus on either the foreground or the background
+> - Common Fate: The law of common fate suggests that when multiple visual elements move in the same direction or at the same speed, we tend to perceive them as a cohesive unit or a single entity rather than individual components.
+> - proximity: The principle of proximity states that things that are close together appear to be more related than things that are spaced farther apart.
+> - similarity: The principle of similarity states that when things appear to be similar to each other, we group them together and we also tend to think they have the same function.
+> - common-region: The principle of the common region is highly related to proximity. It states that when objects are located within the same closed region, we perceive them as being grouped together
+> - continuity: The principle of continuity states that elements that are arranged on a line or curve are perceived to be more related than elements not on the line or curve.
+
+> [!question]- 1.9 Was sind Affordances? Nenne zwei und erkläre sie (Bild: 2 Tassen + Teekanne).
 >
-> **Gulf of Evaluation** - bietet das System sichtbares Feedback, das direkt im Sinne der Absichten/Erwartungen des Nutzers interpretierbar ist? Ideal: Systemzustand ist leicht wahrzunehmen, zu interpretieren und passt zum mentalen Modell des Nutzers. Öffnet sich durch:
-> - tatsächliches Fehlen von Feedback
-> - nicht-interpretierbares Feedback
-> - Feedback, das nicht zur Absicht/zum Ziel passt
+> Affordances sind Eigenschaften eines Artefakts, die einen bestimmten Gebrauch **nahelegen** ("ist für"), oft in Physiologie/Körper verankert. Sind sie gut, braucht es keine Labels.
+> 
+> - Perceptible: Perceptible eigenschaften deuten auf nutzung hin (tür)
+> - Hidden: keine obvious affordance und nutzer muss auf erfahrung und trial and error setzen (hover/click in dropdown menus)
+> - False: objekt deutet auf nutzung hin, die es nicht gibt (unterstrichener text aber kein hyperlink)
 
-> [!note]- Usability Goals (aufzählen und erklären)
-> Usability = the extent to which a product can be used by specified users to achieve specific goals with effectiveness, efficiency and satisfaction in a specified context of use.
-> - **Effectiveness** - erlaubt das Produkt akkurate und vollständige Aufgabenerfüllung?
-> - **Efficiency** - kann nach dem Erlernen ein hohes Produktivitätsniveau gehalten werden?
-> - **Safety** - welches Fehlerspektrum ist möglich, und wie leicht kann man sich erholen?
-> - **Utility** - bietet das Produkt die passenden Funktionen, um alle Aufgaben wie gewünscht zu erledigen?
-> - **Learnability** - kann der Nutzer durch Explorieren/Ausprobieren herausfinden, wie man das Produkt benutzt?
-> - **Memorability** - welche Interface-Unterstützung hilft dem Nutzer, sich an Aufgaben zu erinnern?
-
-> [!note]- Definition Conceptual Model
-> A conceptual model is a high-level description of a product - ein mentales Modell, das erlaubt, Effekte eigener Handlungen vorherzusagen, mit Problemen umzugehen, geformt durch Erfahrung, Übung, Instruktion.
-> Gutes Conceptual Model: Operationen und Ergebnisse werden konsistent präsentiert, der Nutzer erhält ein kohärentes Bild des Systems.
-
-> [!note]- Arten von Metaphors (verb-based, noun-based, verb+noun-based)
-> Das Interface (oder ein Teil davon) wird ähnlich zu einer physischen Entität gestaltet, z.B. Desktop-Metapher (Monitor als Schreibtisch, Objekte/Ordner, Papierkorb, Drucker).
+> [!question]- 1.10 Gib ein Beispiel für eine False Affordance.
 >
-> **Vorteile**: erleichtert das Verständnis des zugrundeliegenden Conceptual Models, erleichtert das Erlernen neuer Systeme.
-> **Nachteile**: zwingt Nutzer, das System nur im Rahmen der Metapher zu verstehen; Designer können unbeabsichtigt schlechte Designs übertragen; Metaphern können von jedem Nutzer unterschiedlich verstanden werden (Ambiguität).
+> Eine False Affordance legt eine Handlung nahe, die es nicht gibt oder die nicht funktioniert - z.B. eine **Türklinke, die zum Ziehen einlädt, obwohl gedrückt werden muss** ("Norman Door"), oder unterstrichener, farbiger Text, der wie ein Link aussieht, aber keiner ist.
+
+> [!question]- 1.11 Was sind Constraints? Wie hängen sie mit Affordances zusammen?
 >
-> - **Verb-based** - established und neue Aktivitäten teilen konzeptuelle Ähnlichkeiten (cut and paste, drag and drop)
-> - **Noun-based** - konzeptuelle Ähnlichkeiten zwischen bekannten und neuen Objekten (Ordner haben Erstelldatum/Besitzer, Posteingang enthält neue/ungelesene Info, Warnzeichen)
-> - **Noun+verb-based** - Aktivitäten eines bekannten Objekts werden auf ein neues übertragen (Papierkorb, Buttons, Checkboxes)
+> Constraints **schränken die möglichen Handlungen ein** - das "Inverse" von Affordances (und ergänzen sie oft). Ziele: Bedienfehler vermeiden, zu merkende Information minimieren. Arten:
+> - **Physical** - Stecker passt nur in einer Ausrichtung.
+> - **Logical** - logische Schlüsse schließen Lösungen aus (z.B. nur gültige Kalendertage wählbar).
+> - (weitere: **Semantic** - Weltwissen; **Cultural** - Konventionen wie rot = Stopp.)
+> - **Zusammenhang**: Affordances zeigen, was *getan werden kann*, Constraints beschränken, was *nicht getan werden kann* - zusammen engen sie den Möglichkeitsraum auf die intendierten Aktionen ein.
 
-> [!note]- 3 Arten von External Cognition
-> - **Externalizing to reduce memory load** - Wissen in externe Repräsentationen umwandeln, um Gedächtnislast zu reduzieren (Geburtstage → Kalender, Telefonnummern → Adressbuch, To-Dos → Post-its/Listen); Ort kann wichtig sein.
-> - **Computational offloading** - kognitiven Aufwand reduzieren, indem eine externe Repräsentation genutzt wird, z.B. Stift und Papier für Kopfrechnen; unterschiedliche Repräsentationen (arabische vs. römische Ziffern) machen eine Aufgabe leichter/schwerer, obwohl das Problem äquivalent ist.
-> - **Annotating and cognitive tracing** - z.B. Markieren/Abhaken eines erledigten Eintrags in einer To-Do-Liste.
-
-> [!note]- Gestalt Law erkennen und 2 zusätzliche
-> Law 1: Good Shape · Law 2: Proximity · Law 3: Closure · Law 4: Similarity · Law 5: Continuity · Law 6: Experience · Law 7: Common Fate · Law 8: Symmetry · Law of Common Region
-
-> [!note]- High- vs. Low-Fidelity Prototyping
-> **Low Fidelity** - nutzt ein Medium unähnlich dem finalen Medium (Papier, Karton); schnell, billig, leicht änderbar; maximiert die Anzahl der Design-Iterationen vor dem Coden. Beispiele: Paper Prototypes, Post-its, Wizard of Oz.
+> [!question]- 1.12 Nenne die Dark Patterns.
 >
-> **High Fidelity** - sieht mehr wie das finale System aus; mehr Detail, präziser, interaktiv; Mock-up einiger (nicht aller) Aspekte der finalen UI; erst nach einfacheren Papier-Prototypen erstellen! Wichtig: UI, nicht Funktionalität ist der Schlüssel. Beispiel: Flash-Animation, Screenshot-Serie.
-> - \+ engagierender für Nutzer zum Ausprobieren
-> - \+ Nutzer kann ohne Designer interagieren
-> - − Gefahr, dass Nutzer ein vollständiges System vermuten
-> - − Nutzer fokussieren Design-Details und übersehen größere Probleme
-> - − Nutzer trauen sich nicht, das "fertig aussehende" UI-Design zu kritisieren
-> - − sieht nach viel Arbeit aus, Management könnte es für fertig halten
+> Nagging · Obstruction · Sneaking · Interface Interference · Forced Action
+> - **Nagging** - redirection of expected functionality that persists across interactions (e.g. repeated pop-ups asking to enable notifications after being dismissed)
+> - **Obstruction** - making a process more difficult than necessary to dissuade an action (e.g. burying "cancel subscription" behind multiple confirmation screens)
+> - Sneaking - Attempting to hide, disguise, or delay the divulging of information that is relevant to the user (hide ads in reviews)
+> - Interface Interference - Manipulation of the user interface that privileges certain actions over others (highlight buttons etc)
+> - Forced Action - ?
 
-- Unterschied User-Involvement Wasserfallmodell und Design-Implement-Analyze-Modell (im Wasserfallmodell gar nicht oder nur am Anfang, in DIA immer)
-
-> [!note]- Wieso User in Design-Prozess involvieren?
-> - **Functionality** - Entwickler verstehen die Ziele der Nutzer besser → passenderes, nutzbareres Produkt
-> - **Expectation Management** - Sicherstellen, dass die Erwartungen der Nutzer realistisch sind, um Überraschungen/Enttäuschungen zu vermeiden
-> - **Ownership** - Nutzer, die zur Entwicklung beigetragen haben, sind aufgeschlossener und verzeihen/akzeptieren Probleme eher
-
-> [!note]- 10 Golden Rules
-> **Können leisten**:
-> - bieten Designern Sicherheit, dass alle wesentlichen Punkte beachtet wurden
-> - bieten Orientierung auch für unerfahrene Designer
-> - erlauben früh zu erkennen, was gutes/schlechtes Design ist
-> - sparen Kosten, da Probleme früh erkannt werden
-> - können in der heuristischen Evaluation verwendet werden
+> [!question]- Erkläre Affordance, markiere zwei Dinge im Bild. Wie stehen Constraints und Affordances zueinander? Reale vs. perceived Affordances?
 >
-> **Können nicht leisten**:
-> - keine detaillierte Kenntnis darüber, was Nutzer wirklich mit einem Interface machen
-> - kein Verständnis der Verwendung in einer konkreten Anwendungsdomäne
-> - gehen von einem Durchschnittsnutzer aus - keine Hilfe für spezielle Nutzergruppen
-> - decken nur einen kleinen Teil aller möglichen Design-Probleme auf
-> - unterstützen keine echte Innovation
-> - geben keine Einblicke in konkrete Fehler
-> - enge Fokussierung führt zu einem Interface, das die gravierendsten Probleme vermeidet, aber allein nicht ausreicht für ein sehr gutes Interface
+> Affordance = nahegelegte Handlung. Im Bild z.B. **Knöpfe (drücken)** und **Dreh-Regler (drehen)** markieren.
+> - **Real affordance**: physisch offensichtliche Handlung (Griff → greifen).
+> - **Perceived affordance**: wahrgenommene/gelernte Möglichkeit (Screen-Button sieht drückbar aus).
+> - **Beziehung**: Constraints sind das Inverse von Affordances - zusammen engen sie den Handlungsraum auf das Intendierte ein.
 
-> [!note]- Controlled Experiment
-> Quantitative, empirische Methode - testet Hypothesen zur Beziehung zwischen zwei oder mehr Variablen, fokussiert auf eine kleine Anzahl an Beziehungen, in kontrollierter Umgebung (meist Labor).
-> - **Independent Variables**: unter eigener Kontrolle variiert, z.B. Anzahl Menüeinträge
-> - **Dependent Variables**: gemessen, z.B. Ausführungszeit, Fehlerraten, subjektive Präferenzen
-> - **Confounding Variables**: unkontrollierte Faktoren, die (un-)abhängige Variablen beeinflussen, z.B. Motivation
+> [!question]- Was für Mappings gibt es?
 >
-> **Hypothesis**: Behauptung, die den Ausgang des Experiments vorhersagt; Ziel: Hypothese bestätigen; Ansatz: Nullhypothese verwerfen.
->
-> **Schritte**: 1. Hypothese formulieren 2. Experiment designen, Variablen/feste Parameter wählen 3. Teilnehmer auswählen 4. Pilotexperiment durchführen 5. Design verbessern 6. Experiment durchführen 7. Ergebnisse interpretieren
->
-> \+ hohe Reliabilität, präzise Untersuchung in kontrollierter Umgebung
-> − Ergebnisse schwer zu generalisieren
+> Connect functionality to (UI) elements/to the real world.
+> 
+> - **Spatial Analogy** - arrange controls the same way as their real-world counterparts (room lamps, driving wheel, car stereo audio fader)
+> - **Physical Analogy** - mapping follows physical real-world behavior (e.g. rising level = more, falling level = less); natural for additive dimensions like amount, heat, volume, thickness, brightness, weight
+> - **Cultural Analogy** - mapping follows cultural conventions (e.g. Western left-to-right writing conveys linear ordering)
+> - **Perceptual Analogy** - the input/output device looks like the actual thing it controls or monitors (e.g. Mercedes car seat controls)
 
-> [!note]- Interfaces & Interactions
-> **AR nach Azuma** - kombiniert real und virtuell, interaktiv in Echtzeit, 3D-registriert. AR ist multimodal (auditory, haptic, taste, visual), z.B. Microsoft HoloLens.
+> [!question]- Was ist ein Conceptual Model?
 >
-> **WIMP Paradigm** - Windows, Icons, Menu, Pointing Device; drag-n-drop, contextual menu, system-wide clipboard.
+> Eine **High-Level-Beschreibung eines Produkts** - ein mentales Modell, das erlaubt, Effekte eigener Handlungen vorherzusagen und mit Problemen umzugehen; geformt durch Erfahrung, Übung, Instruktion. Gutes Conceptual Model: Operationen/Ergebnisse werden konsistent präsentiert, der Nutzer erhält ein kohärentes Bild des Systems.
+
+> [!question]- Nenne das im Bild (Fernbedienung) angewandte Gestalt Law + zwei weitere erklären.
 >
-> **REPL** = Read-Eval-Print Loop
+> Im Fernbedienungs-Beispiel meist **Proximity** (räumlich nahe Tasten werden als Gruppe wahrgenommen). Zwei weitere:
+> - **Similarity**: gleich aussehende Tasten (Form/Farbe) werden gruppiert.
+> - **Common Region**: Tasten in einem gemeinsamen umrandeten Bereich gehören zusammen.
 
-> [!note]- Data Visualization
-> **Häufige Fehler**: zu viel Information, inkonsistente Datenrepräsentation, unpassende Visualisierung für den Datentyp, schlechtes visuelles Design, überdesignte Visualisierung, ungenau kodierte quantitative Daten.
+> [!question]- Zwei Gulfs nennen und kurz erklären.
 >
-> **Datentypen**:
-> - Qualitative/Categorical: Nominal (ungeordnet, z.B. Farbe), Ordinal (geordnet, z.B. Größe klein/mittel/groß)
-> - Quantitative: Discrete (z.B. Anzahl Studierender), Continuous (z.B. Temperatur)
+> - **Gulf of Execution**: Lücke zwischen den Absichten des Nutzers und den vom System angebotenen Aktionen - kann ich meine Absicht direkt umsetzen?
+> - **Gulf of Evaluation**: Lücke zwischen dem Systemzustand/Feedback und dessen Interpretation - erkenne ich, ob mein Ziel erreicht wurde?
+
+> [!question]- Unterschied zwischen Visibility und Feedback.
 >
-> **Classical Charts**: Scatter Plot (einzelne Datenpunkte, 2D-Achsen), Line/Area Chart (Trends bei kontinuierlichen Skalen - nie für diskrete/kategoriale Achsen), Pie Chart (numerische Proportionen, summiert auf 100%), Bar Chart (Werte vergleichen, diskrete Bereiche, stapelbar).
+> - **Visibility**: die relevanten Funktionen/Möglichkeiten und der aktuelle Zustand sind **sichtbar**, sodass der Nutzer sieht, was er tun kann (verringert den Gulf of Execution).
+> - **Feedback**: das System gibt **Rückmeldung über das Ergebnis** einer Handlung, sodass der Nutzer erkennt, was passiert ist (verringert den Gulf of Evaluation). Visibility betrifft *vor* der Aktion, Feedback *nach* der Aktion.
 
-### Beispielfragen aus den Folien (nicht direkt Klausurfragen, aber illustrativ)
-
-> [!note]- Beispiel I: Responsiveness
-> - Responsiveness ist die Zeit, die das System benötigt, um auf Benutzereingaben mit Feedback zu reagieren - nicht identisch mit Performance (Ausführungsgeschwindigkeit).
-> - Beispiel: ein PDF-Betrachter mit geringer Responsiveness passt beim Verschieben des Scrollbalkens die Ansicht erst nach Loslassen an, kann aber dennoch hohe Performance haben (schnelles Rendern großer Dokumente).
-> - Wichtige Zeiten: ~0,1s für reine Wahrnehmung, ~1s Reaktionszeit für unerwartete Momente, ~10s übliche Konzentrationsspanne.
-
-> [!note]- Beispiel II: GUIs
-> GUIs sind historisch die dritte wesentliche Klasse von Benutzerschnittstellen - nach Mainframes mit Batch-Processing und Kommandozeilen-Oberflächen. Entstanden in den 1960ern, kommerzialisiert Anfang der 1980er (Xerox Alto, Apple Lisa).
+> [!question]- External Cognition erklären und 3 Arten nennen, je ein Beispiel.
 >
-> Drei Kernkonzepte:
-> - **Direkte Manipulation** - grafische Objekte werden direkt auf dem Bildschirm manipuliert statt über losgelöste Kommandos (Sutherlands Sketchpad, später Shneiderman)
-> - **Maus** - von Engelbart entwickelt, erlaubt direkte Manipulation
-> - **Fenster** - Anwendungen in frei anordenbaren Fenstern, reservieren einen Bildschirmbereich für eine Aufgabe
+> **External Cognition** = kognitive Last in die Umwelt auslagern.
+> - **Externalizing to reduce memory load**: Wissen nach außen verlagern (Geburtstage → Kalender, To-Dos → Post-its).
+> - **Computational offloading**: externe Repräsentation reduziert Aufwand (Stift & Papier statt Kopfrechnen; arabische vs. römische Zahlen).
+> - **Annotating & cognitive tracing**: Markieren/Abhaken (erledigte To-Do-Einträge abstreichen).
 
-> [!note]- Usability vs. User Experience
-> **Usability** - the extent to which a product can be used by specified users to achieve specific goals with effectiveness, efficiency and satisfaction in a specified context of use.
-> **User Experience** - Verhalten des Produkts, wie es genutzt wird, wie Menschen sich dabei fühlen (satisfying, aesthetically pleasing, enjoyable) - Design für eine Experience, nicht die UX selbst. UX umfasst alle Aspekte der Interaktion; Usability ist nur ein Teil davon. Distributed Cognition ist ebenfalls relevant.
+> [!question]- What is distributed Cognition? Name examples.
+> Forms of reducing internal memory/computation load by using the external world:
+> - **External memory** - navigating with a map or writing down notes.
+> - **External Process** -  speed display in your car or calculator
+## B - Metaphor
+
+> [!question]- Drei Arten von Metaphern nennen und eine mit Beispiel erklären.
 >
-> **4 Activities in Interaction Design**: 1. Analyze I (Needs/Requirements) 2. Design (Alternativen entwickeln) 3. Implement (Interaktive Versionen bauen) 4. Analyze II (Designs evaluieren)
+> **Verb-based**, **Noun-based**, **Noun+verb-based**.
+> - **Verb-based**: bekannte/neue Aktivitäten teilen konzeptuelle Ähnlichkeit - z.B. *cut and paste*, *drag and drop*.
+> - (Noun-based: Ordner mit Erstelldatum/Besitzer; Noun+verb-based: Papierkorb, in den man löscht und aus dem man wiederherstellt.)
+## C - Design Process
 
-> [!note]- Fitts's Law (Rechenbeispiel, 4 Punkte)
-> Gegeben: Cursorposition, Zielbutton "Mehr", initiale Reaktionszeit a = 1,35s, Distanz zum Buttonzentrum D = 4, Buttonbreite/-höhe 3 bzw. 1, b = 1.
+> [!question]- 2.1 Welche 2 Arten von Fehlern gibt es und was unterscheidet sie?
 >
-> T = a + b · log₂(2D/W)
+> - **Slips (Ausführungsfehler)**: die Absicht ist richtig, aber die Ausführung geht daneben (z.B. richtige Absicht, falscher Knopf) - meist bei Routine/automatisierten Handlungen.
+> - **Mistakes (Planungsfehler)**: bereits die Absicht/das Ziel ist falsch (falsches mentales Modell), die Handlung wird dann "korrekt" zum falschen Ziel ausgeführt.
+
+> [!question]- 2.2 Was ist Transparenz?
 >
-> Streitpunkt bei der Wahl von W: bewegt man sich von oben nach unten auf den Button zu, ist die relevante Dimension die **Höhe**, nicht die Breite → W = 1 → **T = 4,35s** (nicht 2,77s mit W = 3).
+> Interne Änderungen der Implementierung versuchen das interface beizubehalten um den User nicht zu verwirren (schlechtes Beispiel FTP (eigneer CLient sieht anders aus), gutes Beispiel NFS (sieht im explorer einfach wie ein ordner aus))
 
-> [!note]- Arten von In-Lab-Evaluation
-> **Usability Testing** - Produkte verbessern, wenige Teilnehmer, Ergebnisse fließen ins Design ein, meist nicht vollständig replizierbar, Bedingungen so weit wie möglich kontrolliert, geplanter Ablauf, Ergebnisse an Entwickler berichtet.
-> **Controlled Experiment** - Wissen entdecken, viele Teilnehmer, statistisch validierte Ergebnisse, muss replizierbar sein, stark kontrollierte Bedingungen, formales Experimentaldesign, Ergebnisse an wissenschaftliche Community berichtet.
+> [!question]- 2.3 Was sind die 7 Stages of Action? Zeichne den Graph. Was sind die beiden Gulfs? Setze sie in Beziehung zu den 7 Stages.
+>
+> **7 Stages**: Goal → Intention → Action Sequence → Execution → (Welt) → Perception → Interpretation → Comparison/Evaluation.
+> - **Gulf of Execution**: bietet das System Aktionen passend zu den Absichten des Nutzers? Deckt die "absteigende" Hälfte ab (Goal → Intention → Action Sequence → Execution).
+> - **Gulf of Evaluation**: bietet das System sichtbares, im Sinne der Absicht interpretierbares Feedback? Deckt die "aufsteigende" Hälfte ab (Perception → Interpretation → Comparison).
+> Beide Gulfs sind die Lücken, die überbrückt werden müssen, damit Absicht und Systemreaktion zusammenpassen.
 
-## TK2 2021
+> [!question]- 2.4 Was sind die 4 Bestandteile von User Centered Design? Nenne Ziel + je eine Methode und erkläre sie.
+>
+> Die 4 Aktivitäten des Interaction Design:
+> 1. **Analyze I (Needs/Requirements)** - Ziel: Nutzer und Anforderungen verstehen. Methode: **Interviews/Ethnografie**.
+> 2. **Design** - Ziel: Alternativen entwickeln. Methode: **Storyboards/Sketching**.
+> 3. **Implement (Prototyping)** - Ziel: interaktive Versionen bauen. Methode: **Low-/High-Fidelity-Prototyp** (z.B. Paper Prototype).
+> 4. **Analyze II (Evaluation)** - Ziel: Designs bewerten. Methode: **Usability Testing / heuristische Evaluation**.
 
-- Was sind Constraints? Diskutieren Sie alle und sagen Sie auch, was hier rechts im Bild (Briefkasten) passt und angewendet wird.
-- Erklären Sie Affordance und markieren Sie im Bild zwei Sachen (zur Auswahl: Knöpfe, Dreh-Regler-Knöpfe, ...). Wie stehen Constraints und Affordances zueinander? Was sind reale und perceived Affordances (und der Unterschied)?
-- Was für Mappings gibt es?
-- Was ist ein Conceptual Model? (Definition wie oben unter TK2 2019)
-- Aufzählen der 7 Stages of Actions.
-- Was sind die 2 wesentlichen Gulfs, und Erklärung der 2 Gulfs (of Execution und of Evaluation) - siehe TK2 2019 für die ausführliche Erklärung.
-- Zeichnen Sie ein Storyboard für einen Getränkeautomaten (Zeichenkünste werden nicht bewertet, nur ob die Funktionsweise eines Storyboards verstanden wurde).
-- Nennen Sie das Gestalt Law, welches in einem gegebenen Bild angewendet wird [Fernbedienung aus einer Übung]. Nennen Sie zwei weitere Gestalt Laws und erklären Sie diese.
-- Nennen und erklären Sie zwei der 10 Golden Rules inkl. Beispiel-Sketch. Was ist der Zusammenhang zwischen den Golden Rules und gutem Design?
-- Was ist High- und Low-Fidelity Prototyping? Wann und wie kann es eingesetzt werden? 3 Vorteile jeweils zu High- und Low-Fidelity.
-- Fitts's Law (Formel gegeben): gegeben runder Button (Kreis) mit Radius r = 1cm und Entfernung 16cm zur Maus. Berechnen Sie die Komplexität ID = log₂(2D/W). Fitts's Law allgemein erklären. Manche Orte auf dem Desktop sind laut Fitts's Law sehr leicht zu erreichen - welche und warum (anhand der Formel)?
-- GOMS: Ein Wort soll über folgende Methode gelöscht werden: mit der Maus vor das Wort klicken, Shift drücken und hinter das Wort klicken, dann mit Tastenkombination Shift+Ctrl+K löschen. Gegebene Zeiten: Fitts's Law-Operator 1,00s, Shift/Ctrl je 0,08s, mentale Vorbereitung 1,35s (Ergebnis ca. 5,35s).
-- Unabhängige und abhängige Variablen allgemein erklären. Gegeben: Studie, die einen neuen Klappspaten mit einem Standardmodell aus dem Supermarkt vergleicht (Hubkraft und Ergonomie, letzteres über 9-Punkte-Skala gemessen). Was sind die unabhängigen Variablen (mit Werten, z.B. bei Eissorte {Zitrone, Muskatnuss})? Was sind die abhängigen Variablen? Jeweils begründen. Wegen der Hitze gibt es nur 20 Teilnehmer - Within- oder Between-Subjects-Studie, und warum?
-- Nennen Sie 4 der 6 Usability Goals aus der Vorlesung und erklären Sie diese kurz.
-- Why is user involvement important?
-- Nennen Sie die 3 Arten von Cognition aus der Vorlesung (und geben Sie ein Beispiel).
-- 3 Aspekte von AR nach Azuma.
-- Was sind Tangibles? Erklären und je einen Vor-/Nachteil nennen.
-- Was sind Multimodals? Erklären und ein Beispiel nennen.
-- Wofür steht REPL? → Read-Eval-Print Loop
-- Data Visualization: gegeben eine Datentabelle - welcher Datentyp ist das (z.B. quantitativ, diskret)? Zeichnen Sie ein Diagramm für die Daten, benennen Sie den Diagrammtyp und begründen Sie die Wahl.
+> [!question]- 2.5 Was sind Horizontal und Vertical Prototypes?
+>
+> - **Horizontal Prototype**: bildet **viele Funktionen breit, aber flach** ab (Oberfläche/Navigation über den ganzen Funktionsumfang, ohne Tiefe) - gut, um Gesamtstruktur und Umfang zu prüfen.
+> - **Vertical Prototype**: bildet **wenige Funktionen in voller Tiefe** ab (eine Funktion end-to-end lauffähig) - gut, um einen kritischen Ablauf realistisch zu testen.
+
+> [!question]- 2.6 Unterschied "Getting the design right" vs. "Getting the right design"?
+>
+> - **Getting the right design**: das *richtige Konzept* finden - breit Alternativen erkunden und die passende Design-Idee auswählen (formativ, früh im Prozess).
+> - **Getting the design right**: das *gewählte Design* korrekt ausarbeiten und verfeinern/polieren (summativ, später im Prozess).
+
+> [!question]- High- und Low-Fidelity-Prototypen erklären, Beispiel, Vor-/Nachteile.
+>
+> - **Low Fidelity**: unähnliches Medium (Papier, Karton); schnell, billig, leicht änderbar, maximiert Iterationen vor dem Coden. Beispiel: Paper Prototype, Wizard of Oz. **+** billig/schnell, leicht änderbar, ermutigt Kritik (sieht unfertig aus).
+> - **High Fidelity**: nah am finalen System, detailliert, interaktiv. Beispiel: klickbares Mock-up. **+** realistisches Erleben, ohne Designer testbar, deckt Detail-/Interaktionsprobleme auf. **−** wirkt "fertig" (Nutzer kritisieren weniger, Management hält es für fertig), Fokus auf Details statt großer Probleme.
+
+> [!question]- Storyboard zu einem Getränkeautomaten (7 P).
+>
+> Ein **Storyboard** ist eine Sequenz von Skizzen, die einen Nutzungsablauf im Kontext zeigt (Nutzer, Aktion, Systemreaktion). Für den Automaten z.B.: (1) Nutzer tritt heran, (2) wählt Getränk, (3) wirft Geld ein / bezahlt, (4) Automat gibt Getränk + Wechselgeld aus, (5) Nutzer entnimmt. Bewertet wird das **Verständnis der Funktionsweise**, nicht die Zeichenkunst.
+
+> [!question]- Why is user involvement important?
+>
+> - **Functionality**: Entwickler verstehen die Ziele besser → passenderes, nutzbareres Produkt.
+> - **Expectation Management**: realistische Nutzererwartungen, weniger Enttäuschung.
+> - **Ownership**: beteiligte Nutzer akzeptieren/verzeihen Probleme eher.
+
+## D - Evaluation
+
+> [!question]- 3.1 Ein nicht nennenswerter Einfluss der IV auf Fingerbeschwerden - kann daraus auf das Gegenteil geschlossen werden?
+>
+> **Nein.** Ein nicht signifikantes Ergebnis heißt nur, dass **kein Effekt nachgewiesen** wurde - "absence of evidence is not evidence of absence". Es könnte trotzdem ein Effekt existieren, der z.B. wegen zu kleiner Stichprobe, zu großer Streuung oder zu geringer Teststärke nicht entdeckt wurde. Die Nullhypothese wird nicht *bewiesen*, sondern nur *nicht verworfen*.
+
+> [!question]- 3.2 Erkläre Within-Subject- und Between-Subject-Design. Nenne je einen Nachteil.
+>
+> - **Within-Subject**: jede:r Teilnehmer:in durchläuft **alle** Bedingungen. Nachteil: **Reihenfolge-/Lern-/Ermüdungseffekte** (carry-over), die per Counterbalancing ausgeglichen werden müssen.
+> - **Between-Subject**: jede:r durchläuft **nur eine** Bedingung. Nachteil: **individuelle Unterschiede** zwischen den Gruppen, daher mehr Teilnehmer für gleiche Aussagekraft nötig.
+
+> [!question]- 3.3 Unterschied zwischen Labor- und Feldstudie.
+>
+> - **Laborstudie**: kontrollierte Umgebung, hohe **interne Validität/Reliabilität**, Störvariablen minimiert - aber geringe **ökologische Validität** (unrealistisch).
+> - **Feldstudie**: reale Umgebung, hohe ökologische Validität - aber wenig Kontrolle über Störvariablen, schlechter replizierbar.
+
+> [!question]- 3.4 Sind mit einer Likert-Skala ermittelte Daten quantitativ oder qualitativ? Begründe.
+>
+> Likert-Daten sind **ordinal**: die Stufen sind geordnet (z.B. "stimme gar nicht zu" … "stimme voll zu"), aber die Abstände sind **nicht garantiert gleich**. Streng genommen also **qualitativ (kategorial-geordnet)**, auch wenn sie mit Zahlen kodiert und in der Praxis oft quantitativ ausgewertet werden.
+
+> [!question]- 3.5 Keyboard-Layout-Studie: Ein Layout mit den häufigsten Tasten nebeneinander soll schnelleres Tippen und geringere Ermüdung ermöglichen. Überprüfe das.
+>
+> - **Unabhängige Variable**: Tastatur-Layout, z.B. Werte {QWERTZ, neues Layout, Dvorak}.
+> - **Abhängige Variablen messen**: Tippgeschwindigkeit (Wörter/Anschläge pro Minute, Zeit), Fehlerrate; Fingerermüdung über subjektiven Fragebogen (z.B. Likert) oder physiologisch.
+> - **Aufgabe**: einen vorgegebenen Standardtext abtippen (gleich für alle).
+> - **Hypothesen**: (H1) Das neue Layout erhöht die Tippgeschwindigkeit ggü. QWERTZ. (H2) Das neue Layout reduziert die berichtete Fingerermüdung.
+> - **Variablen**: Kontrollvariable = gleicher Text/gleiche Hardware; Zufallsvariable = Zuweisung der Teilnehmer zu Gruppen; Störvariable = Vorerfahrung/Tippkönnen der Teilnehmer.
+> - **Design**: **Between-Subject**, um starke **Lerneffekte** zu vermeiden (wer QWERTZ kennt, ist beim ersten Layout im Vorteil); alternativ within mit Counterbalancing, aber Transfereffekte drohen.
+
+> [!question]- Studie: abhängige/unabhängige/Störvariablen, Lerneffekt, konkretes Experiment, 200 Personen within/between?
+>
+> - **Unabhängige Variable**: vom Versuchsleiter variiert (z.B. Menüanzahl). **Abhängige Variable**: gemessen (Zeit, Fehler, Präferenz). **Störvariable**: unkontrollierter Einflussfaktor (Motivation).
+> - **Lerneffekt**: Teilnehmer werden über die Bedingungen hinweg besser; Gegenmaßnahme: **Counterbalancing** (Reihenfolge ausbalancieren) oder Between-Subject-Design.
+> - **200 Personen**: genug für **Between-Subject** (individuelle Unterschiede mitteln sich heraus, kein Lern-/Transfereffekt).
+
+> [!question]- Klappspaten vs. Standardmodell (Hubkraft + Ergonomie per 9-Punkte-Skala): IVs (mit Werten), DVs (begründen). Bei 20 Teilnehmern within oder between?
+>
+> - **Unabhängige Variable**: Spatenmodell, Werte {Klappspaten, Standardmodell}.
+> - **Abhängige Variablen**: **Hubkraft** (objektiv gemessen, quantitativ) und **Ergonomie** (subjektiv per 9-Punkte-Skala, ordinal) - beide messen die postulierte Überlegenheit.
+> - **20 Teilnehmer** → **Within-Subject** (jede:r testet beide Spaten), weil die kleine Stichprobe sonst zu große individuelle Unterschiede zwischen zwei Gruppen hätte; Reihenfolge counterbalancen.
+
+> [!question]- Was ist der Hawthorne-Effekt?
+>
+> Teilnehmer ändern ihr Verhalten allein deshalb, weil sie **wissen, dass sie beobachtet werden** - nicht wegen der eigentlichen Manipulation. Bedroht die Validität von Studien.
+
+## E - Fittss Law
+
+> [!question]- 4.1 Wie sollte ein häufig geklicktes UI-Element nach Fitts's Law platziert werden? Begründe.
+>
+> An den **Bildschirmrändern oder in den Ecken**. Nach $T = a + b\cdot\log_2(2D/W)$ sinkt die Zeit mit größerer effektiver Zielbreite $W$: am Rand "stoppt" der Cursor an der Bildschirmkante, die Zielgröße wird also **effektiv unendlich** (man kann nicht drüber hinaus). Ecken sind am besten (in zwei Richtungen begrenzt). Alternativ nah an der aktuellen Cursorposition (kleines $D$).
+
+> [!question]- 4.2 Ändert sich das bei Touch- statt Mausinput? Begründe.
+>
+> **Ja.** Beim Touch gibt es den "unendlichen Rand"-Vorteil nicht - der Finger wird nicht von der Bildschirmkante gestoppt, Ränder/Ecken sind sogar schlechter erreichbar (Rahmen, Griff). Zudem verdeckt der Finger das Ziel ("fat finger"), sodass eine **ausreichend große Zielfläche $W$** wichtiger wird als eine randnahe Platzierung.
+
+> [!question]- Fitts's Law (Rechnung, Vor-/Nachteile, wann verwendet).
+>
+> $T = a + b\cdot\log_2(2D/W)$ - sagt die Zeigezeit aus **Distanz $D$** und **Zielbreite $W$** voraus. Verwendet zur **modellbasierten Vorhersage** von Zeigeaufgaben (Buttons, Menüs). **+** schnell, ohne Nutzer, gut für Vergleiche. **−** nur für einfache Zeigebewegungen, ignoriert Fehler/Kognition.
+
+> [!question]- Fitts's Law: runder Button r = 1 cm, Distanz 16 cm. Berechne ID. Allgemein erklären. Welche Desktop-Orte sind leicht erreichbar und warum?
+>
+> $ID = \log_2(2D/W)$ mit $D = 16$ cm und $W = 2r = 2$ cm → $ID = \log_2(2\cdot16/2) = \log_2(16) = \mathbf{4\ bit}$.
+> Fitts's Law: Zeigezeit wächst mit Distanz und sinkt mit Zielgröße. **Ränder und Ecken** sind sehr leicht erreichbar, weil der Cursor dort stoppt → effektiv **unendliche Zielbreite $W$** → kleiner Term $\log_2(2D/W)$.
+
+## F - GOMS
+
+> [!question]- Wo kann GOMS eingesetzt werden? (1 P)
+>
+> Zur **modellbasierten Evaluation eines Interfaces ohne Nutzer** - sogar bevor das System gebaut ist. Für **Expertennutzer bei Routineaufgaben** mit vorhersehbarem Ablauf (nicht für kreative Aufgaben/Problemlösung).
+
+> [!question]- 2 Vorteile und 2 Nachteile von GOMS. (4 P)
+>
+> **Vorteile**: günstig und schnell durchführbar; liefert Ergebnisse schon vor Systemfertigstellung; erleichtert vergleichende Evaluationen.
+> **Nachteile**: nur bei vorhersehbaren Aufgaben sinnvoll (nicht für neue UI-Techniken); setzt fehlerfreies Expertenverhalten voraus (nicht für Gelegenheitsnutzer); Operatorzeiten nicht eindeutig definiert.
+
+> [!question]- Methode + Operatoren gegeben: Reihenfolge, Beschreibung und Gesamtzeit angeben. (5 P)
+>
+> **Keystroke Level Model**: die Operatoren der Methode in Ausführungsreihenfolge auflisten, jedem seine gegebene Dauer zuordnen (z.B. K = Tastendruck, P = Pointing/Fitts, M = mentale Vorbereitung, H = Homing), kurz beschreiben und die Zeiten **aufsummieren** = vorhergesagte Ausführungszeit eines Experten. (Konkrete Zahl je nach gegebenen Werten.)
+
+## G - Interfaces
+
+> [!question]- Was sind Tangible User Interfaces? Nenne Vor- und Nachteil. (3 P)
+>
+> **TUIs** verknüpfen digitale Information mit **physischen, greifbaren Objekten**, die man direkt manipuliert.
+> - **Vorteil**: intuitive, direkte Manipulation; nutzt Körper/Motorik und reale Affordances.
+> - **Nachteil**: eingeschränkte Flexibilität/Skalierbarkeit; physische Objekte sind teuer, statisch und schlecht rekonfigurierbar.
+
+> [!question]- Was ist eine Multimodale UI? Nenne ein Beispiel. (2 P)
+>
+> Eine UI, die **mehrere Ein-/Ausgabemodalitäten** kombiniert (Sprache, Gestik, Touch, Blick, Haptik). Beispiel: Sprachassistent mit gleichzeitiger Touch-/Displaybedienung, oder AR-Brille mit Sprach- + Gesteneingabe.
+
+> [!question]- Unterschied zwischen VR und AR. (1 P)
+>
+> **VR** ersetzt die reale Umgebung vollständig durch eine virtuelle. **AR** **ergänzt** die reale Umgebung um virtuelle Elemente (nach Azuma: kombiniert real + virtuell, interaktiv in Echtzeit, 3D-registriert).
+
+> [!question]- 3 Aspekte von AR nach Azuma.
+>
+> AR (1) **kombiniert real und virtuell**, (2) ist **interaktiv in Echtzeit**, (3) ist **3D-registriert** (virtuelle Objekte räumlich korrekt in der Realwelt verankert).
+
+> [!question]- Wofür steht REPL?
+>
+> **Read-Eval-Print Loop.**
+
+## H - Datenvisualisierung
+
+> [!question]- 4 Gemüse mit Werten zu 3 Zeitpunkten - welcher Datentyp? (1 P)
+>
+> **Quantitativ** (Mengen/Werte) über der Zeit, mit einer **kategorialen/nominalen** Dimension (die 4 Gemüsesorten) und einer geordneten Zeitachse - also quantitative Daten je Kategorie über einen (diskreten) Zeitverlauf.
+
+> [!question]- Daten visualisieren, Diagrammtyp benennen und begründen. (4 P)
+>
+> **Grouped/Multiple Bar Chart** oder - wenn der zeitliche Trend betont werden soll - **Line Chart** (eine Linie je Gemüsesorte). Begründung: Balken eignen sich zum **Vergleich diskreter Werte** über Kategorien/Zeitpunkte; Linien zeigen **Trends** über die Zeit. Kein Pie Chart (die Werte summieren sich nicht sinnvoll zu 100 %). Weitere Diagrammtypen zur Einordnung: **Scatter Plot** für Zusammenhänge zweier quantitativer Variablen, **Pie Chart** nur für Anteile, die zu 100 % summieren.
+
+## I - Usability & Design-Prinzipien
+
+> [!question]- Unterschied zwischen Usability und User Experience.
+>
+> - **Usability**: Ausmaß, in dem ein Produkt von bestimmten Nutzern genutzt werden kann, um bestimmte Ziele mit **Effectiveness, Efficiency und Satisfaction** in einem bestimmten Kontext zu erreichen.
+> - **User Experience**: das gesamte **Erleben** der Interaktion - wie sich das Produkt anfühlt und wie es genutzt wird (befriedigend, ästhetisch, angenehm). UX umfasst *alle* Aspekte; Usability ist nur ein Teil davon. Man designt *für* eine Experience, nicht die UX selbst.
+
+> [!question]- 4 von 6 Usability Goals nennen und kurz erklären.
+>
+> - **Effectiveness** - akkurate, vollständige Aufgabenerfüllung möglich?
+> - **Efficiency** - hohe Produktivität nach dem Erlernen haltbar?
+> - **Safety** - Fehlerspektrum begrenzt, Erholung leicht?
+> - **Learnability** - lässt sich die Bedienung durch Ausprobieren erschließen?
+> - (weitere: **Utility** - passende Funktionen vorhanden? **Memorability** - erinnert man sich an die Bedienung?)
+
+> [!question]- 2 von 10 Golden Rules nennen und erklären - in welcher Design-Phase, Bezug zu gutem UI?
+>
+> Beispiele (Shneiderman): **"Strive for consistency"** (einheitliche Aktionen/Begriffe/Layouts - z.B. "Speichern" immer gleich platziert), **"Offer informative feedback"** (auf jede Aktion sichtbare Rückmeldung) und **"Prevent errors"** (Bedienung so gestalten, dass Fehler kaum möglich sind - z.B. ungültige Optionen ausgrauen). Einsatz v.a. in der **Design- und Evaluationsphase** (auch heuristische Evaluation). Bezug: Sie geben Orientierung und stellen sicher, dass die gravierendsten Usability-Probleme vermieden werden - notwendige, aber nicht hinreichende Bedingung für exzellentes UI.
+
