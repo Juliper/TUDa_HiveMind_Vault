@@ -140,4 +140,4 @@ draft: false
 # Klausurvorbereitung
 
 [[HCI - Klausurfragensammlung]]
-[[HCI - Gedächtnisprotokolle]]
+[[HCI - Fragensammlung]]
